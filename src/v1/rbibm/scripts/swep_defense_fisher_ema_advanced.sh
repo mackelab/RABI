@@ -1,0 +1,3 @@
+#!/bin/bash
+
+rbibm -m name=main_sweeps defense=fisher_trace task=$1 model=maf_pyro model/embedding_net=mlp sweeper=tpe_mo sweeper.objective=[metric_approx_tilde,test_loss] sweeper.direction=[minimize,minimize] defense.params.algorithm=ema "defense.params.beta=interval(0.00001,10.)" "defense.params.ema_decay=interval(0.1,1.)" "defense.params.ema_mc_samples=range(1,5)" hydra.sweeper.n_trials=500 eval_rob.eps=$2 eval_approx/metric=coverage

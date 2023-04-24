@@ -1,0 +1,10 @@
+name: conv2d
+output_dim: 20
+in_channels: 1
+kernel_size: 3
+strides: [1,2,2]
+hidden_channels: [16,32,64]
+group_norm: true
+num_groups: [4,32,32]
+nonlinearity: nn.ReLU
+max_pool: false

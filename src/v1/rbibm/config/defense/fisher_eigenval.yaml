@@ -1,0 +1,8 @@
+defense_module: rbi.defenses
+defense: FIMLargestEigenvalueRegularizer
+params: 
+  scale_eps_beta_by_std: true
+  beta: 0.1
+  mc_samples: 50
+  algorithm: jac_exact
+  max_iters: 50

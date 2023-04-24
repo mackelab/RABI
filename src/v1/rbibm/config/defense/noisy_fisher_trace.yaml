@@ -1,0 +1,10 @@
+defense_module: rbi.defenses
+defense: NoisyFIMTraceRegularization
+params: 
+  eps: 0.2
+  beta: 0.05
+  mc_samples: 50
+  ema_mc_samples: 5
+  algorithm: ema
+  ema_decay: 0.85
+  reduce: mean

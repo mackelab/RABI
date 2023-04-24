@@ -1,0 +1,16 @@
+name: gaussian
+module_path: rbi.models
+class_name: IndependentGaussianNet
+
+
+params:
+  hidden_dims:
+    - 100
+    - 100
+  nonlinearity: ReLU
+  prediction_fn: "mean"
+  output_transform: biject_to
+
+defaults:
+  - embedding_net: identity
+

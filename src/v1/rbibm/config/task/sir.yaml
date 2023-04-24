@@ -1,0 +1,6 @@
+
+name: sir
+params:
+  t_max: 50
+  time_points_observed: 50
+  observation_noise: 0.2

@@ -1,0 +1,8 @@
+
+ppl1d:
+  metric_module: rbibm.metric
+  metric_class: MedianL1DistanceToObsMetric
+  params:
+    mc_samples: 10
+    batch_size: 500
+    reduction: mean_summary

@@ -1,0 +1,4 @@
+defense_module: rbi.defenses
+defense: L1UniformNoiseTraining
+params: 
+  eps: 0.5

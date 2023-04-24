@@ -1,0 +1,8 @@
+
+totalvar:
+  metric_module: rbibm.metric.approximation_metric
+  metric_class: RelativeTotalVariance
+  params:
+    mc_samples: 1000
+    batch_size: 100
+    reduction: mean_summary

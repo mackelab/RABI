@@ -1,0 +1,5 @@
+
+name: hudgkin_huxley
+params:
+  observation_noise: 0.5
+

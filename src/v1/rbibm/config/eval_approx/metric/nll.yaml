@@ -1,0 +1,6 @@
+
+nll:
+  metric_module: rbibm.metric
+  metric_class: NegativeLogLikelihoodMetric
+  params: 
+    reduction: mean_summary

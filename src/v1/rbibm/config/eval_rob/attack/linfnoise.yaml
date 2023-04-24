@@ -1,0 +1,15 @@
+
+attack_module: rbi.attacks
+loss_module: rbi.loss
+attack_class: LinfUniformNoiseAttack
+attack_loss_fn: null
+attack_mc_budget: 5
+params:
+  clip_min: -1000
+  clip_max: 1000
+
+
+
+
+
+

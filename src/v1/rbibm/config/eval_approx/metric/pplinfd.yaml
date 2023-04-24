@@ -1,0 +1,8 @@
+
+pplinfd:
+  metric_module: rbibm.metric
+  metric_class: MedianLinfDistanceToObsMetric
+  params:
+    mc_samples: 10
+    batch_size: 500
+    reduction: mean_summary

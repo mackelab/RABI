@@ -1,0 +1,4 @@
+defense_module: rbi.defenses
+defense: LinfUniformNoiseTraining
+params: 
+  eps: 0.5

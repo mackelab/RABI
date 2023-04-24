@@ -1,0 +1,5 @@
+name: square
+params:
+  prior_scale: 2.
+  prior_mean: 0.
+  likelihood_scale: 1.

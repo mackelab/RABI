@@ -1,0 +1,12 @@
+defense_module: rbi.defenses
+defense: FIMTraceRegularizer
+params: 
+  scale_eps_beta_by_std: true
+  beta: 0.05
+  mc_samples: 50
+  ema_mc_samples: 5
+  algorithm: ema
+  ema_decay: 0.85
+  reduce: mean
+  clamp_val: null 
+  grad_clamp_val: null

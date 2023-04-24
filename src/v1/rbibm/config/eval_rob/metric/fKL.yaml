@@ -1,0 +1,8 @@
+metric_module: rbibm.metric.robustness_metric
+metric_class: ForwardKLRobMetric
+eval_mc_budget: 256
+num_adversarial_examples: 10000
+params:
+  empirical_approx: false 
+  empirical_mc_samples: 100
+  mask: null

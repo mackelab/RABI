@@ -1,0 +1,4 @@
+defense_module: rbi.defenses
+defense: SIRPostHocAdjustment
+params: 
+  K: 100

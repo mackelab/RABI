@@ -1,0 +1,3 @@
+#!/bin/bash
+
+rbibm -m name=main_sweeps defense=fisher_trace task=gaussian_linear eval_rob.eps=2. model=maf_pyro train.N_train=10000 train.N_test=1000 sweeper=tpe_mo sweeper.objective=[rob_value,test_loss] sweeper.direction=[minimize,minimize] defense.params.algorithm=ema "defense.params.beta=interval(0.0001,10.)" hydra.sweeper.n_trials=300 hydra.sweeper.n_jobs=32 hydra.sweeper.sampler.n_startup_trials=32 device=cuda partition=cuda run_eval_approx=false

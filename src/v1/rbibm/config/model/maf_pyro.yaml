@@ -1,0 +1,16 @@
+name: maf
+module_path: rbi.models
+class_name: InverseAffineAutoregressiveModel
+params:
+  shuffle: false
+  num_transforms: 3
+  log_scale_min_clip: -7
+  log_scale_max_clip: 5
+  stable: False
+  hidden_dims:
+    - 100
+    - 100
+  output_transform: biject_to
+
+defaults:
+  - embedding_net: identity

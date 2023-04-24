@@ -1,0 +1,8 @@
+
+c2st:
+  metric_module: rbibm.metric
+  metric_class: C2STBayesOptimal2GroundTruthMetric
+  params: 
+    reduction: mean_summary
+    mc_samples: 100
+    batch_size: 1000

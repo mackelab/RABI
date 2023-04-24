@@ -1,0 +1,14 @@
+name: multivariate_gaussian
+module_path: rbi.models
+class_name: MultivariateGaussianNet
+params:
+  hidden_dims:
+    - 200
+    - 200
+  nonlinearity: ReLU
+  min_scale: 1e-5
+  prediction_fn: "mean"
+  output_transform: biject_to
+
+defaults:
+  - embedding_net: identity

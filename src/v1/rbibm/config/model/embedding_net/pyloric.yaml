@@ -1,0 +1,2 @@
+name: pyloric
+cnn_output_dim: 100

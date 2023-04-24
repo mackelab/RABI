@@ -1,0 +1,19 @@
+
+attack_module: rbi.attacks
+loss_module: rbi.loss
+attack_class: IterativeRandomSearchAttack
+attack_loss_fn: ForwardKLLoss
+attack_mc_budget: 10
+params: 
+  ord: 1.
+  mc_samples: 5
+  nb_iter: 120
+  clip_min: -1000
+  clip_max: 1000
+  contraction_factor: 1.5
+  precision_factor: 0.01
+
+
+
+
+

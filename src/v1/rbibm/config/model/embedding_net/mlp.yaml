@@ -1,0 +1,6 @@
+name: mlp
+output_dim: 50
+hidden_dims: [400,200,100]
+nonlinearity: nn.ReLU
+output_nonlinearity: nn.Identity()
+batch_norm: false

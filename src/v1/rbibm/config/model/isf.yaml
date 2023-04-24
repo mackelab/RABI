@@ -1,0 +1,15 @@
+name: isf
+module_path: rbi.models
+class_name: SplineAutoregressiveModel
+params:
+  shuffle: true
+  num_transforms: 3
+  count_bins: 8
+  bound: 15
+  hidden_dims:
+    - 100
+    - 100
+  output_transform: biject_to
+
+defaults:
+  - embedding_net: identity

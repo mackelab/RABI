@@ -1,0 +1,16 @@
+# @package _global_
+name: super_final_benchmark_modified
+
+
+hydra:
+  mode: MULTIRUN
+  sweeper:
+    params:
+      run_train: false 
+      idx: 1037,1040,1050,1080,1088,1092,1099,1101,1102,1367,1385,1397,1402,1419,1422,1465,1467,1482
+      eval_rob/metric: rKL
+      eval_rob/attack: l2pgd
+      eval_rob.eps: [0.1,0.2,0.3,0.5,1.0,2.0]
+      eval_rob.metric.num_adversarial_examples: 10000
+      partition: cuda
+      device: cuda

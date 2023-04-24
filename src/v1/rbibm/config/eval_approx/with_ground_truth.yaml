@@ -1,0 +1,11 @@
+adversarial_idx: null
+num_top_adv: 10
+
+defaults:
+  - metric:
+    - c2st
+    - rKL
+    - fKL
+    - ppl2d
+    - nll
+    - coverage

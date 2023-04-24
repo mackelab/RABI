@@ -1,0 +1,15 @@
+name: iaf
+module_path: rbi.models
+class_name: AffineAutoregressiveModel
+params:
+  shuffle: true
+  num_transforms: 5
+  log_scale_min_clip: -3
+  stable: False
+  hidden_dims:
+    - 50
+    - 50
+  output_transform: biject_to
+
+defaults:
+  - embedding_net: identity

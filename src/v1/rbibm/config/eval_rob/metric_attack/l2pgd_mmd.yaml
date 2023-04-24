@@ -1,0 +1,4 @@
+# @package _global_
+eval_rob:
+  attack:
+    attack_loss_fn: MMDsquared

@@ -1,0 +1,5 @@
+
+name: spatial_sir
+params:
+  N_grid: 30
+  T: 10

@@ -1,0 +1,12 @@
+# @package _global_
+
+device: cpu
+
+hydra:
+  mode: MULTIRUN
+  launcher:
+    timeout_min: 1000
+    partition: cpu-long
+    gres: null
+    cpus_per_task: 64
+    mem_gb: 64

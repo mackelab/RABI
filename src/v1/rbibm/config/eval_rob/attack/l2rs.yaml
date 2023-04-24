@@ -1,0 +1,17 @@
+
+attack_module: rbi.attacks
+loss_module: rbi.loss
+attack_class: RandomSearchAttack
+attack_loss_fn: ForwardKLLoss
+attack_mc_budget: 50
+params: 
+  ord: 2.
+  mc_samples: 50
+  clip_min: -1000
+  clip_max: 1000
+
+
+
+
+
+

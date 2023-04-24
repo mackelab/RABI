@@ -1,0 +1,6 @@
+defense_module: rbi.defenses
+defense: L1PGDTrades
+params: 
+  eps: 0.5
+  nb_iter: 10
+  beta: 0.1

@@ -1,0 +1,12 @@
+
+
+name: rbf_regression
+params:
+  sigma: 2
+  l: 3.
+  inducing_points: 5
+  x_bound: 8.
+  N: 10
+  likelihood_scale: 0.2
+  prior_mean: 0.
+  prior_scale: 1.

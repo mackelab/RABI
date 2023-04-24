@@ -1,0 +1,19 @@
+# @package _global_
+name: super_final_benchmark
+
+
+hydra:
+  mode: MULTIRUN
+  sweeper:
+    params:
+      run_train: false 
+      idx: 1261,1262,1271,1272,1274
+      eval_rob/metric: rKL
+      eval_rob/attack: l2pgd,l2noise
+      eval_rob.eps: [0.1,0.2,0.3,0.5,1.,2.]
+      eval_approx/metric: coverage
+      eval_approx.metric.coverage.params.mc_samples: 5000 
+      eval_approx.metric.coverage.params.batch_size: 50 
+      device: cuda
+      partition: cuda
+      launcher: slurm

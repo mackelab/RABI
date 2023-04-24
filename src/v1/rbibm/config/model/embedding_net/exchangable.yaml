@@ -1,0 +1,7 @@
+name: exchangable
+output_dim: 10
+output_dim_phi: 100
+aggregation_dim: 1
+aggregation_fn: torch.sum
+hidden_dims: [300,300]
+nonlinearity: nn.ReLU

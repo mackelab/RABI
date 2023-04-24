@@ -1,0 +1,5 @@
+defense_module: rbi.defenses
+defense: L1PGDAdversarialTraining
+params: 
+  eps: 0.5
+  nb_iter: 10

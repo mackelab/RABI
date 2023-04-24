@@ -1,0 +1,7 @@
+defense_module: rbi.defenses
+defense: L2NoiseTrades
+params: 
+  scale_eps_beta_by_std: true
+  eps: 0.2
+  mc_samples: 1
+  beta: 0.1

@@ -1,0 +1,6 @@
+defense_module: rbi.defenses
+defense: L1NoiseTrades
+params: 
+  eps: 0.5
+  mc_samples_delta: 1
+  beta: 0.1

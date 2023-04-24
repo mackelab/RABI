@@ -1,0 +1,18 @@
+
+attack_module: rbi.attacks
+loss_module: rbi.loss
+attack_class: LinfPGDAdamAttack
+attack_loss_fn: ForwardKLLoss
+attack_mc_budget: 4
+params:
+  eps_iter: "auto"
+  nb_iter: 120
+  clip_min: -1000
+  clip_max: 1000
+
+
+
+
+
+
+

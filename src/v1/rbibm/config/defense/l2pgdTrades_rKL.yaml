@@ -1,0 +1,8 @@
+defense_module: rbi.defenses.trades_regularizers
+defense: L2PGDrKLTrades
+params: 
+  scale_eps_beta_by_std: true
+  eps: 0.5
+  eps_iter: 0.1
+  nb_iter: 20
+  beta: 0.1 

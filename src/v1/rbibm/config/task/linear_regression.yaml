@@ -1,0 +1,10 @@
+
+name: linear_regression
+params:
+  max_N: 50
+  min_N: 1
+  likelihood_scale: 0.5
+  prior_mean: 0.
+  prior_scale: 1.
+
+

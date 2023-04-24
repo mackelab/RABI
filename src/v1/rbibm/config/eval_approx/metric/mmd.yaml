@@ -1,0 +1,10 @@
+
+mmd:
+  metric_module: rbibm.metric
+  metric_class: MMDsquared2GroundTruthMetric
+  params: 
+    reduction: mean_summary
+    mc_samples: 100
+    batch_size: 1000
+    kernel:
+      kernel_name: preselected_rbf_multidim_family

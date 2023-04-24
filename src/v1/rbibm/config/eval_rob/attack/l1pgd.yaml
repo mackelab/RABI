@@ -1,0 +1,18 @@
+
+attack_module: rbi.attacks.advertorch_attack
+loss_module: rbi.loss
+attack_class: L1PGDAttack
+attack_loss_fn: ForwardKLLoss
+attack_mc_budget: 1
+params:
+  eps_iter: "auto"
+  nb_iter: 40
+  clip_min: -1000
+  clip_max: 1000
+
+
+
+
+
+
+

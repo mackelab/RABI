@@ -1,0 +1,5 @@
+defense_module: rbi.defenses
+defense: JacobiRegularizer
+params: 
+  beta: 0.1
+  mc_samples: 10

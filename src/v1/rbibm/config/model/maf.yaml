@@ -1,0 +1,13 @@
+name: maf
+module_path: rbi.models
+class_name: MaskedAutoregressiveFlow
+params:
+  randperm: true
+  num_transforms: 3
+  hidden_dims:
+    - 100
+    - 100
+  output_transform: biject_to
+
+defaults:
+  - embedding_net: identity

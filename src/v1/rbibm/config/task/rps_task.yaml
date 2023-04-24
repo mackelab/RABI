@@ -1,0 +1,5 @@
+
+name: rps_task
+params:
+  N_grid: 50
+  T: 30

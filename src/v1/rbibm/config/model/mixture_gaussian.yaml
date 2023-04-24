@@ -1,0 +1,14 @@
+name: mixture_gaussian
+module_path: rbi.models
+class_name: MixtureDiagGaussianModel
+params:
+  num_components: 10
+  hidden_dims:
+    - 200
+    - 200
+  nonlinearity: ReLU
+  prediction_fn: "mean"
+  output_transform: biject_to
+
+defaults:
+  - embedding_net: identity

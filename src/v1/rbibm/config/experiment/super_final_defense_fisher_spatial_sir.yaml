@@ -1,0 +1,18 @@
+# @package _global_
+name: super_final_benchmark
+
+
+hydra:
+  mode: MULTIRUN
+  sweeper:
+    params:
+      model: gaussian,mixture_gaussian,multivariate_gaussian,maf_pyro,nsf_pyro
+      model/embedding_net: mlp
+      task: spatial_sir
+      defense: fisher_trace
+      defense.params.beta:  10.,1.,0.1,0.01
+      train.N_train: 1000,10000,100000
+      train: fKL
+      run_eval_rob: false
+      partition: cuda
+      device: cuda

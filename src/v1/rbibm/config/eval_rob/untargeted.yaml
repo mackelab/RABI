@@ -1,0 +1,14 @@
+
+eps: 0.5
+attack_attemps: 1
+targeted: False
+target_strategy: null
+eps_relative_to_std: true
+clip_min_max_automatic: true
+batch_size: 1000
+
+defaults:
+  - attack: l2pgd
+  - metric: rKL
+  - optional metric_attack: ${eval_rob/attack}_${eval_rob/metric}
+

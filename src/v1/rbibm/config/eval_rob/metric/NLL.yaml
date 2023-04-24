@@ -1,0 +1,6 @@
+metric_module: rbibm.metric.robustness_metric
+metric_class: NLLRobMetric
+eval_mc_budget: 256
+num_adversarial_examples: 10000
+params: 
+  mask: null

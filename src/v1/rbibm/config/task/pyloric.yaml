@@ -1,0 +1,12 @@
+# @package _global_
+
+task:
+  name: pyloric
+  params:
+    sim_type: parallel
+    seed: 0
+    use_pre_computed_dataset: True
+
+
+
+store_simulations: False

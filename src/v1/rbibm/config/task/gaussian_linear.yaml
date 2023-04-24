@@ -1,0 +1,7 @@
+
+name: gaussian_linear
+params:
+  likelihood_scale: 0.1
+  prior_mean: 0.
+  prior_scale: 1.
+
