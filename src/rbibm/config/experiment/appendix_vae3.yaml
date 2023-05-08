@@ -1,0 +1,20 @@
+# @package _global_
+name: vae
+
+defaults:
+  - override /partition: cuda
+
+hydra:
+  mode: MULTIRUN
+  sweeper:
+    params:
+      model: gaussian
+      model/embedding_net: mlp
+      task: vae_task
+      defense: fisher_trace
+      defense.params.algorithm: ema
+      defense.params.beta: 0.0001,0.001,0.01,0.1
+      defense.params.ema_mc_samples: 1
+      train.N_train: 100000
+      train: fKL
+      run_eval_rob: false

@@ -1,0 +1,16 @@
+# @package _global_
+name: benchmark
+
+defaults:
+  - override /partition: v100
+
+
+hydra:
+  mode: MULTIRUN
+  sweeper:
+    params:
+      run_train: false 
+      run_eval: false
+      eval_true: mcmc
+      eval_rob/metric: rKL
+      eval_rob/attack: l2pgd

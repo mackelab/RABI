@@ -1,0 +1,18 @@
+# @package _global_
+name: benchmark
+
+defaults:
+  - override /partition: cuda
+
+hydra:
+  mode: MULTIRUN
+  sweeper:
+    params:
+      model: maf_pyro,nsf_pyro
+      model/embedding_net: mlp
+      task: vae_task
+      defense: fisher_trace
+      defense.params.beta: 0.0001,0.001,0.01,0.1
+      train.N_train: 1000,10000,100000
+      train: fKL
+      run_eval_rob: false

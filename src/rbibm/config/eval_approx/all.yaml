@@ -1,0 +1,13 @@
+adversarial_idx: null
+num_top_adv: 10
+true_posterior_samples: false
+
+defaults:
+  - metric:
+    - c2st
+    - rKL
+    - fKL
+    #- ppl2d
+    - nll
+    - coverage
+    #- r2potential

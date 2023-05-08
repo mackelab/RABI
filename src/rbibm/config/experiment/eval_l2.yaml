@@ -1,0 +1,18 @@
+# @package _global_
+name: benchmark
+
+defaults:
+  - override /partition: cuda
+
+
+hydra:
+  mode: MULTIRUN
+  sweeper:
+    params:
+      run_train: false 
+      idx: range(0,32)
+      eval_rob/metric: rKL,fKL
+      eval_rob/attack: l2pgd,l2noise
+      eval_rob.eps: [0.1,0.2,0.3,0.5,1.0,2.0]
+      partition: cuda
+      device: cuda

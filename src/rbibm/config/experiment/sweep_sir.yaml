@@ -1,0 +1,21 @@
+# @package _global_
+name: main_sweeps
+
+hydra:
+  mode: MULTIRUN
+  sweeper:
+    params:
+      defense: fisher_trace 
+      task: sir
+      eval_rob.eps: 2.
+      model: maf_pyro
+      train.N_train: 100000 
+      train.N_test: 10000 
+      defense.params.beta: interval(0.0000001,20.)
+      run_eval_approx: false
+      sweeper.objective: [rob_value,test_loss] 
+    direction: [minimize,minimize]
+
+defaults:
+  - override /partition: cuda
+  - override /sweeper: tpe_mo

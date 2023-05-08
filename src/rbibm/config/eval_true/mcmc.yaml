@@ -1,0 +1,5 @@
+name: mcmc
+num_samples_top: 10000
+num_samples_rand: 1000
+top_xs: 10
+rand_xs: 100

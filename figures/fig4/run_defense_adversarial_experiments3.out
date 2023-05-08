@@ -1,0 +1,588 @@
+          
+                      
+  _____  ____ _____ ____  __  __ 
+ |  __ \|  _ \_   _|  _ \|  \/  |       --..,_                     _,.--.       
+ | |__) | |_) || | | |_) | \  / |          `'.'.                .'`__ o  `;__.  
+ |  _  /|  _ < | | |  _ <| |\/| |             '.'.            .'.'`  '---'`  ` 
+ | | \ \| |_) || |_| |_) | |  | |              '.`'--....--'`.'            
+ |_|  \_\____/_____|____/|_|  |_|                `'--....--'`         
+
+ 
+                                           
+
+['/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/bin/rbibm', '+experiment=train_small_flows_trades']
+[2023-05-07 14:15:57,690][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-07/14-15-39
+[2023-05-07 14:15:57,696][HYDRA] 	#0 : model=maf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:57,702][HYDRA] 	#1 : model=maf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:57,709][HYDRA] 	#2 : model=maf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:57,715][HYDRA] 	#3 : model=maf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:57,722][HYDRA] 	#4 : model=maf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:57,728][HYDRA] 	#5 : model=maf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:57,734][HYDRA] 	#6 : model=maf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:57,741][HYDRA] 	#7 : model=maf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:57,747][HYDRA] 	#8 : model=maf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:57,753][HYDRA] 	#9 : model=maf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:57,759][HYDRA] 	#10 : model=maf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:57,766][HYDRA] 	#11 : model=maf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:57,772][HYDRA] 	#12 : model=maf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:57,778][HYDRA] 	#13 : model=maf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:57,784][HYDRA] 	#14 : model=maf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:57,791][HYDRA] 	#15 : model=maf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:57,797][HYDRA] 	#16 : model=maf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:57,803][HYDRA] 	#17 : model=maf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,015][HYDRA] 	#18 : model=maf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,021][HYDRA] 	#19 : model=maf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,028][HYDRA] 	#20 : model=maf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,034][HYDRA] 	#21 : model=maf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,040][HYDRA] 	#22 : model=maf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,047][HYDRA] 	#23 : model=maf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,053][HYDRA] 	#24 : model=maf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,059][HYDRA] 	#25 : model=maf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,066][HYDRA] 	#26 : model=maf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,072][HYDRA] 	#27 : model=nsf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,078][HYDRA] 	#28 : model=nsf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,084][HYDRA] 	#29 : model=nsf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,091][HYDRA] 	#30 : model=nsf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,097][HYDRA] 	#31 : model=nsf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,104][HYDRA] 	#32 : model=nsf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,110][HYDRA] 	#33 : model=nsf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,116][HYDRA] 	#34 : model=nsf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,122][HYDRA] 	#35 : model=nsf_pyro task=gaussian_linear defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,129][HYDRA] 	#36 : model=nsf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,135][HYDRA] 	#37 : model=nsf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,141][HYDRA] 	#38 : model=nsf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,148][HYDRA] 	#39 : model=nsf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,154][HYDRA] 	#40 : model=nsf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,160][HYDRA] 	#41 : model=nsf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,166][HYDRA] 	#42 : model=nsf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,173][HYDRA] 	#43 : model=nsf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,179][HYDRA] 	#44 : model=nsf_pyro task=lotka_volterra defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,185][HYDRA] 	#45 : model=nsf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,192][HYDRA] 	#46 : model=nsf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,198][HYDRA] 	#47 : model=nsf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,204][HYDRA] 	#48 : model=nsf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,210][HYDRA] 	#49 : model=nsf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,217][HYDRA] 	#50 : model=nsf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,224][HYDRA] 	#51 : model=nsf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,230][HYDRA] 	#52 : model=nsf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
+[2023-05-07 14:15:58,236][HYDRA] 	#53 : model=nsf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
+Error executing job with overrides: ['model=maf_pyro', 'task=lotka_volterra', 'defense=l2pgdTrades_rKL', 'defense.params.eps=0.5', 'train.N_train=1000', 'train=fKL', 'run_eval=False', '+experiment=train_small_flows_trades']
+Traceback (most recent call last):
+  File "/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/lib/python3.9/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
+    return func()
+  File "/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/lib/python3.9/site-packages/hydra/_internal/utils.py", line 466, in <lambda>
+    lambda: hydra.multirun(
+  File "/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/lib/python3.9/site-packages/hydra/_internal/hydra.py", line 162, in multirun
+    ret = sweeper.sweep(arguments=task_overrides)
+  File "/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/lib/python3.9/site-packages/hydra/_internal/core_plugins/basic_sweeper.py", line 181, in sweep
+    _ = r.return_value
+  File "/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/lib/python3.9/site-packages/hydra/core/utils.py", line 260, in return_value
+    raise self._return_value
+RuntimeError: CUDA error: out of memory
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+          
+                      
+  _____  ____ _____ ____  __  __ 
+ |  __ \|  _ \_   _|  _ \|  \/  |       --..,_                     _,.--.       
+ | |__) | |_) || | | |_) | \  / |          `'.'.                .'`__ o  `;__.  
+ |  _  /|  _ < | | |  _ <| |\/| |             '.'.            .'.'`  '---'`  ` 
+ | | \ \| |_) || |_| |_) | |  | |              '.`'--....--'`.'            
+ |_|  \_\____/_____|____/|_|  |_|                `'--....--'`         
+
+ 
+                                           
+
+['/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/bin/rbibm', '+experiment=train_large_flows_trades']
+[2023-05-07 21:36:20,361][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-07/21-36-02
+[2023-05-07 21:36:20,366][HYDRA] 	#0 : model=maf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,372][HYDRA] 	#1 : model=maf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,378][HYDRA] 	#2 : model=maf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,383][HYDRA] 	#3 : model=maf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,390][HYDRA] 	#4 : model=maf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,396][HYDRA] 	#5 : model=maf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,402][HYDRA] 	#6 : model=maf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,408][HYDRA] 	#7 : model=maf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,413][HYDRA] 	#8 : model=maf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,419][HYDRA] 	#9 : model=maf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,425][HYDRA] 	#10 : model=maf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,431][HYDRA] 	#11 : model=maf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,612][HYDRA] 	#12 : model=maf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,618][HYDRA] 	#13 : model=maf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,623][HYDRA] 	#14 : model=maf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,629][HYDRA] 	#15 : model=maf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,635][HYDRA] 	#16 : model=maf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,641][HYDRA] 	#17 : model=maf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,647][HYDRA] 	#18 : model=maf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,652][HYDRA] 	#19 : model=maf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,658][HYDRA] 	#20 : model=maf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,663][HYDRA] 	#21 : model=maf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,669][HYDRA] 	#22 : model=maf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,675][HYDRA] 	#23 : model=maf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,681][HYDRA] 	#24 : model=maf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,687][HYDRA] 	#25 : model=maf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,692][HYDRA] 	#26 : model=maf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,698][HYDRA] 	#27 : model=nsf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,704][HYDRA] 	#28 : model=nsf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,709][HYDRA] 	#29 : model=nsf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,715][HYDRA] 	#30 : model=nsf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,721][HYDRA] 	#31 : model=nsf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,727][HYDRA] 	#32 : model=nsf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,733][HYDRA] 	#33 : model=nsf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,739][HYDRA] 	#34 : model=nsf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,744][HYDRA] 	#35 : model=nsf_pyro model/embedding_net=mlp task=hudgkin_huxley defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,750][HYDRA] 	#36 : model=nsf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,756][HYDRA] 	#37 : model=nsf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,762][HYDRA] 	#38 : model=nsf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,768][HYDRA] 	#39 : model=nsf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,773][HYDRA] 	#40 : model=nsf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,779][HYDRA] 	#41 : model=nsf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,785][HYDRA] 	#42 : model=nsf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,790][HYDRA] 	#43 : model=nsf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,796][HYDRA] 	#44 : model=nsf_pyro model/embedding_net=mlp task=spatial_sir defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,802][HYDRA] 	#45 : model=nsf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,808][HYDRA] 	#46 : model=nsf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,814][HYDRA] 	#47 : model=nsf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=0.1 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,819][HYDRA] 	#48 : model=nsf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,825][HYDRA] 	#49 : model=nsf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,831][HYDRA] 	#50 : model=nsf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=0.5 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,836][HYDRA] 	#51 : model=nsf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=1000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,843][HYDRA] 	#52 : model=nsf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=10000 train=fKL run_eval=False +experiment=train_large_flows_trades
+[2023-05-07 21:36:20,848][HYDRA] 	#53 : model=nsf_pyro model/embedding_net=mlp task=vae_task defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=100000 train=fKL run_eval=False +experiment=train_large_flows_trades
+/mnt/qb/home/macke/mgloeckler90/robustness_ai/src/rbibm/config/experiment/train_large_flows_trades.yaml
+{'name': 'benchmark', 'defaults': [{'override /partition': 'cuda'}], 'hydra': {'mode': 'MULTIRUN', 'sweeper': {'params': {'model': 'maf_pyro,nsf_pyro', 'model/embedding_net': 'mlp', 'task': 'hudgkin_huxley,spatial_sir,vae_task', 'defense': 'l2pgdTrades_rKL', 'defense.params.eps': '0.1,0.5,1.0', 'train.N_train': '1000,10000,100000', 'train': 'fKL', 'run_eval': False}}}}
+141,143,150,152,153,154,155,157,158,159,160,161,162,163,167,168,169,172,173,174,175,177,179,180,183,184,186,187,188,190,192,193,194,195,196,197,198,199,200,239,268,269,274,275,284,308,310,311,312,313,314,335,336,338,339,341,342,343,344,345,346,347,349,350,351,352,353,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392
+          
+                      
+  _____  ____ _____ ____  __  __ 
+ |  __ \|  _ \_   _|  _ \|  \/  |       --..,_                     _,.--.       
+ | |__) | |_) || | | |_) | \  / |          `'.'.                .'`__ o  `;__.  
+ |  _  /|  _ < | | |  _ <| |\/| |             '.'.            .'.'`  '---'`  ` 
+ | | \ \| |_) || |_| |_) | |  | |              '.`'--....--'`.'            
+ |_|  \_\____/_____|____/|_|  |_|                `'--....--'`         
+
+ 
+                                           
+
+['/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/bin/rbibm', '+experiment=eval_l2', 'idx=141,143,150,152,153,154,155,157,158,159,160,161,162,163,167,168,169,172,173,174,175,177,179,180,183,184,186,187,188,190,192,193,194,195,196,197,198,199,200,239,268,269,274,275,284,308,310,311,312,313,314,335,336,338,339,341,342,343,344,345,346,347,349,350,351,352,353,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384,385,386,387,388,389,390,391,392']
+[2023-05-08 04:26:48,144][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-08/04-24-25
+[2023-05-08 04:26:48,150][HYDRA] 	#0 : run_train=False idx=141 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,157][HYDRA] 	#1 : run_train=False idx=141 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,163][HYDRA] 	#2 : run_train=False idx=141 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,169][HYDRA] 	#3 : run_train=False idx=141 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,176][HYDRA] 	#4 : run_train=False idx=143 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,181][HYDRA] 	#5 : run_train=False idx=143 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,187][HYDRA] 	#6 : run_train=False idx=143 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,193][HYDRA] 	#7 : run_train=False idx=143 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,199][HYDRA] 	#8 : run_train=False idx=150 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,205][HYDRA] 	#9 : run_train=False idx=150 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,211][HYDRA] 	#10 : run_train=False idx=150 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,417][HYDRA] 	#11 : run_train=False idx=150 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,423][HYDRA] 	#12 : run_train=False idx=152 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,429][HYDRA] 	#13 : run_train=False idx=152 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,434][HYDRA] 	#14 : run_train=False idx=152 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,439][HYDRA] 	#15 : run_train=False idx=152 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,446][HYDRA] 	#16 : run_train=False idx=153 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,451][HYDRA] 	#17 : run_train=False idx=153 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,458][HYDRA] 	#18 : run_train=False idx=153 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,464][HYDRA] 	#19 : run_train=False idx=153 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,470][HYDRA] 	#20 : run_train=False idx=154 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,476][HYDRA] 	#21 : run_train=False idx=154 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,482][HYDRA] 	#22 : run_train=False idx=154 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,488][HYDRA] 	#23 : run_train=False idx=154 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,494][HYDRA] 	#24 : run_train=False idx=155 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,500][HYDRA] 	#25 : run_train=False idx=155 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,505][HYDRA] 	#26 : run_train=False idx=155 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,511][HYDRA] 	#27 : run_train=False idx=155 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,517][HYDRA] 	#28 : run_train=False idx=157 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,522][HYDRA] 	#29 : run_train=False idx=157 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,529][HYDRA] 	#30 : run_train=False idx=157 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,535][HYDRA] 	#31 : run_train=False idx=157 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,540][HYDRA] 	#32 : run_train=False idx=158 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,546][HYDRA] 	#33 : run_train=False idx=158 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,552][HYDRA] 	#34 : run_train=False idx=158 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,558][HYDRA] 	#35 : run_train=False idx=158 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,564][HYDRA] 	#36 : run_train=False idx=159 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,571][HYDRA] 	#37 : run_train=False idx=159 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,576][HYDRA] 	#38 : run_train=False idx=159 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,583][HYDRA] 	#39 : run_train=False idx=159 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,589][HYDRA] 	#40 : run_train=False idx=160 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,595][HYDRA] 	#41 : run_train=False idx=160 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,601][HYDRA] 	#42 : run_train=False idx=160 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,607][HYDRA] 	#43 : run_train=False idx=160 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,613][HYDRA] 	#44 : run_train=False idx=161 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,619][HYDRA] 	#45 : run_train=False idx=161 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,625][HYDRA] 	#46 : run_train=False idx=161 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,631][HYDRA] 	#47 : run_train=False idx=161 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,636][HYDRA] 	#48 : run_train=False idx=162 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,642][HYDRA] 	#49 : run_train=False idx=162 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,648][HYDRA] 	#50 : run_train=False idx=162 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,654][HYDRA] 	#51 : run_train=False idx=162 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,660][HYDRA] 	#52 : run_train=False idx=163 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,666][HYDRA] 	#53 : run_train=False idx=163 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,671][HYDRA] 	#54 : run_train=False idx=163 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,677][HYDRA] 	#55 : run_train=False idx=163 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,683][HYDRA] 	#56 : run_train=False idx=167 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,689][HYDRA] 	#57 : run_train=False idx=167 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,695][HYDRA] 	#58 : run_train=False idx=167 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,701][HYDRA] 	#59 : run_train=False idx=167 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,707][HYDRA] 	#60 : run_train=False idx=168 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,712][HYDRA] 	#61 : run_train=False idx=168 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,718][HYDRA] 	#62 : run_train=False idx=168 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,724][HYDRA] 	#63 : run_train=False idx=168 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,730][HYDRA] 	#64 : run_train=False idx=169 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,736][HYDRA] 	#65 : run_train=False idx=169 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,742][HYDRA] 	#66 : run_train=False idx=169 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,748][HYDRA] 	#67 : run_train=False idx=169 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,754][HYDRA] 	#68 : run_train=False idx=172 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,760][HYDRA] 	#69 : run_train=False idx=172 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,766][HYDRA] 	#70 : run_train=False idx=172 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,772][HYDRA] 	#71 : run_train=False idx=172 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,779][HYDRA] 	#72 : run_train=False idx=173 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,785][HYDRA] 	#73 : run_train=False idx=173 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,790][HYDRA] 	#74 : run_train=False idx=173 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,796][HYDRA] 	#75 : run_train=False idx=173 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,802][HYDRA] 	#76 : run_train=False idx=174 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,808][HYDRA] 	#77 : run_train=False idx=174 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,814][HYDRA] 	#78 : run_train=False idx=174 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,820][HYDRA] 	#79 : run_train=False idx=174 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,826][HYDRA] 	#80 : run_train=False idx=175 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,832][HYDRA] 	#81 : run_train=False idx=175 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,838][HYDRA] 	#82 : run_train=False idx=175 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,844][HYDRA] 	#83 : run_train=False idx=175 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,850][HYDRA] 	#84 : run_train=False idx=177 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,855][HYDRA] 	#85 : run_train=False idx=177 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,862][HYDRA] 	#86 : run_train=False idx=177 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,868][HYDRA] 	#87 : run_train=False idx=177 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,873][HYDRA] 	#88 : run_train=False idx=179 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,879][HYDRA] 	#89 : run_train=False idx=179 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,885][HYDRA] 	#90 : run_train=False idx=179 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,890][HYDRA] 	#91 : run_train=False idx=179 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,896][HYDRA] 	#92 : run_train=False idx=180 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:48,903][HYDRA] 	#93 : run_train=False idx=180 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,114][HYDRA] 	#94 : run_train=False idx=180 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,120][HYDRA] 	#95 : run_train=False idx=180 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,126][HYDRA] 	#96 : run_train=False idx=183 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,132][HYDRA] 	#97 : run_train=False idx=183 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,138][HYDRA] 	#98 : run_train=False idx=183 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,145][HYDRA] 	#99 : run_train=False idx=183 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,151][HYDRA] 	#100 : run_train=False idx=184 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,157][HYDRA] 	#101 : run_train=False idx=184 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,163][HYDRA] 	#102 : run_train=False idx=184 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,168][HYDRA] 	#103 : run_train=False idx=184 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,174][HYDRA] 	#104 : run_train=False idx=186 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,180][HYDRA] 	#105 : run_train=False idx=186 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,187][HYDRA] 	#106 : run_train=False idx=186 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,193][HYDRA] 	#107 : run_train=False idx=186 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,199][HYDRA] 	#108 : run_train=False idx=187 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,205][HYDRA] 	#109 : run_train=False idx=187 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,211][HYDRA] 	#110 : run_train=False idx=187 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,217][HYDRA] 	#111 : run_train=False idx=187 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,223][HYDRA] 	#112 : run_train=False idx=188 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,229][HYDRA] 	#113 : run_train=False idx=188 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,235][HYDRA] 	#114 : run_train=False idx=188 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,241][HYDRA] 	#115 : run_train=False idx=188 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,247][HYDRA] 	#116 : run_train=False idx=190 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,252][HYDRA] 	#117 : run_train=False idx=190 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,259][HYDRA] 	#118 : run_train=False idx=190 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,265][HYDRA] 	#119 : run_train=False idx=190 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,271][HYDRA] 	#120 : run_train=False idx=192 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,277][HYDRA] 	#121 : run_train=False idx=192 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,282][HYDRA] 	#122 : run_train=False idx=192 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,289][HYDRA] 	#123 : run_train=False idx=192 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,294][HYDRA] 	#124 : run_train=False idx=193 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,300][HYDRA] 	#125 : run_train=False idx=193 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,306][HYDRA] 	#126 : run_train=False idx=193 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,312][HYDRA] 	#127 : run_train=False idx=193 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,318][HYDRA] 	#128 : run_train=False idx=194 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,324][HYDRA] 	#129 : run_train=False idx=194 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,329][HYDRA] 	#130 : run_train=False idx=194 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,336][HYDRA] 	#131 : run_train=False idx=194 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,341][HYDRA] 	#132 : run_train=False idx=195 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,347][HYDRA] 	#133 : run_train=False idx=195 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,354][HYDRA] 	#134 : run_train=False idx=195 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,359][HYDRA] 	#135 : run_train=False idx=195 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,365][HYDRA] 	#136 : run_train=False idx=196 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,371][HYDRA] 	#137 : run_train=False idx=196 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,376][HYDRA] 	#138 : run_train=False idx=196 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,382][HYDRA] 	#139 : run_train=False idx=196 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,388][HYDRA] 	#140 : run_train=False idx=197 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,394][HYDRA] 	#141 : run_train=False idx=197 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,401][HYDRA] 	#142 : run_train=False idx=197 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,407][HYDRA] 	#143 : run_train=False idx=197 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,413][HYDRA] 	#144 : run_train=False idx=198 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,419][HYDRA] 	#145 : run_train=False idx=198 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,425][HYDRA] 	#146 : run_train=False idx=198 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,431][HYDRA] 	#147 : run_train=False idx=198 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,437][HYDRA] 	#148 : run_train=False idx=199 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,443][HYDRA] 	#149 : run_train=False idx=199 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,449][HYDRA] 	#150 : run_train=False idx=199 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,455][HYDRA] 	#151 : run_train=False idx=199 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,461][HYDRA] 	#152 : run_train=False idx=200 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,467][HYDRA] 	#153 : run_train=False idx=200 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,473][HYDRA] 	#154 : run_train=False idx=200 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,479][HYDRA] 	#155 : run_train=False idx=200 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,485][HYDRA] 	#156 : run_train=False idx=239 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,491][HYDRA] 	#157 : run_train=False idx=239 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,497][HYDRA] 	#158 : run_train=False idx=239 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,503][HYDRA] 	#159 : run_train=False idx=239 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,508][HYDRA] 	#160 : run_train=False idx=268 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,514][HYDRA] 	#161 : run_train=False idx=268 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,520][HYDRA] 	#162 : run_train=False idx=268 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,526][HYDRA] 	#163 : run_train=False idx=268 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,532][HYDRA] 	#164 : run_train=False idx=269 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,538][HYDRA] 	#165 : run_train=False idx=269 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,544][HYDRA] 	#166 : run_train=False idx=269 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,549][HYDRA] 	#167 : run_train=False idx=269 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,555][HYDRA] 	#168 : run_train=False idx=274 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,562][HYDRA] 	#169 : run_train=False idx=274 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,568][HYDRA] 	#170 : run_train=False idx=274 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,574][HYDRA] 	#171 : run_train=False idx=274 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,579][HYDRA] 	#172 : run_train=False idx=275 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,585][HYDRA] 	#173 : run_train=False idx=275 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,592][HYDRA] 	#174 : run_train=False idx=275 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,598][HYDRA] 	#175 : run_train=False idx=275 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,604][HYDRA] 	#176 : run_train=False idx=284 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,610][HYDRA] 	#177 : run_train=False idx=284 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,616][HYDRA] 	#178 : run_train=False idx=284 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,622][HYDRA] 	#179 : run_train=False idx=284 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,627][HYDRA] 	#180 : run_train=False idx=308 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,633][HYDRA] 	#181 : run_train=False idx=308 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,639][HYDRA] 	#182 : run_train=False idx=308 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,645][HYDRA] 	#183 : run_train=False idx=308 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,651][HYDRA] 	#184 : run_train=False idx=310 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,657][HYDRA] 	#185 : run_train=False idx=310 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,663][HYDRA] 	#186 : run_train=False idx=310 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,669][HYDRA] 	#187 : run_train=False idx=310 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,675][HYDRA] 	#188 : run_train=False idx=311 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,680][HYDRA] 	#189 : run_train=False idx=311 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,687][HYDRA] 	#190 : run_train=False idx=311 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,693][HYDRA] 	#191 : run_train=False idx=311 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,698][HYDRA] 	#192 : run_train=False idx=312 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,704][HYDRA] 	#193 : run_train=False idx=312 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,710][HYDRA] 	#194 : run_train=False idx=312 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,716][HYDRA] 	#195 : run_train=False idx=312 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,722][HYDRA] 	#196 : run_train=False idx=313 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,728][HYDRA] 	#197 : run_train=False idx=313 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,957][HYDRA] 	#198 : run_train=False idx=313 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,963][HYDRA] 	#199 : run_train=False idx=313 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,969][HYDRA] 	#200 : run_train=False idx=314 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,975][HYDRA] 	#201 : run_train=False idx=314 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,981][HYDRA] 	#202 : run_train=False idx=314 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,988][HYDRA] 	#203 : run_train=False idx=314 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:49,995][HYDRA] 	#204 : run_train=False idx=335 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,001][HYDRA] 	#205 : run_train=False idx=335 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,007][HYDRA] 	#206 : run_train=False idx=335 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,014][HYDRA] 	#207 : run_train=False idx=335 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,020][HYDRA] 	#208 : run_train=False idx=336 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,026][HYDRA] 	#209 : run_train=False idx=336 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,032][HYDRA] 	#210 : run_train=False idx=336 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,038][HYDRA] 	#211 : run_train=False idx=336 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,044][HYDRA] 	#212 : run_train=False idx=338 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,050][HYDRA] 	#213 : run_train=False idx=338 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,056][HYDRA] 	#214 : run_train=False idx=338 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,062][HYDRA] 	#215 : run_train=False idx=338 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,068][HYDRA] 	#216 : run_train=False idx=339 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,074][HYDRA] 	#217 : run_train=False idx=339 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,080][HYDRA] 	#218 : run_train=False idx=339 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,086][HYDRA] 	#219 : run_train=False idx=339 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,092][HYDRA] 	#220 : run_train=False idx=341 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,098][HYDRA] 	#221 : run_train=False idx=341 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,104][HYDRA] 	#222 : run_train=False idx=341 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,110][HYDRA] 	#223 : run_train=False idx=341 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,117][HYDRA] 	#224 : run_train=False idx=342 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,123][HYDRA] 	#225 : run_train=False idx=342 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,129][HYDRA] 	#226 : run_train=False idx=342 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,135][HYDRA] 	#227 : run_train=False idx=342 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,141][HYDRA] 	#228 : run_train=False idx=343 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,147][HYDRA] 	#229 : run_train=False idx=343 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,153][HYDRA] 	#230 : run_train=False idx=343 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,159][HYDRA] 	#231 : run_train=False idx=343 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,166][HYDRA] 	#232 : run_train=False idx=344 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,172][HYDRA] 	#233 : run_train=False idx=344 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,177][HYDRA] 	#234 : run_train=False idx=344 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,183][HYDRA] 	#235 : run_train=False idx=344 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,189][HYDRA] 	#236 : run_train=False idx=345 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,195][HYDRA] 	#237 : run_train=False idx=345 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,202][HYDRA] 	#238 : run_train=False idx=345 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,208][HYDRA] 	#239 : run_train=False idx=345 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,214][HYDRA] 	#240 : run_train=False idx=346 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,221][HYDRA] 	#241 : run_train=False idx=346 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,227][HYDRA] 	#242 : run_train=False idx=346 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,233][HYDRA] 	#243 : run_train=False idx=346 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,239][HYDRA] 	#244 : run_train=False idx=347 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,246][HYDRA] 	#245 : run_train=False idx=347 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,252][HYDRA] 	#246 : run_train=False idx=347 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,259][HYDRA] 	#247 : run_train=False idx=347 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,266][HYDRA] 	#248 : run_train=False idx=349 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,272][HYDRA] 	#249 : run_train=False idx=349 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,278][HYDRA] 	#250 : run_train=False idx=349 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,284][HYDRA] 	#251 : run_train=False idx=349 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,291][HYDRA] 	#252 : run_train=False idx=350 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,297][HYDRA] 	#253 : run_train=False idx=350 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,303][HYDRA] 	#254 : run_train=False idx=350 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,309][HYDRA] 	#255 : run_train=False idx=350 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,315][HYDRA] 	#256 : run_train=False idx=351 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,321][HYDRA] 	#257 : run_train=False idx=351 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,327][HYDRA] 	#258 : run_train=False idx=351 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,334][HYDRA] 	#259 : run_train=False idx=351 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,340][HYDRA] 	#260 : run_train=False idx=352 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,346][HYDRA] 	#261 : run_train=False idx=352 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,352][HYDRA] 	#262 : run_train=False idx=352 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,357][HYDRA] 	#263 : run_train=False idx=352 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,363][HYDRA] 	#264 : run_train=False idx=353 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,369][HYDRA] 	#265 : run_train=False idx=353 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,376][HYDRA] 	#266 : run_train=False idx=353 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,382][HYDRA] 	#267 : run_train=False idx=353 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,388][HYDRA] 	#268 : run_train=False idx=355 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,394][HYDRA] 	#269 : run_train=False idx=355 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,400][HYDRA] 	#270 : run_train=False idx=355 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,406][HYDRA] 	#271 : run_train=False idx=355 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,412][HYDRA] 	#272 : run_train=False idx=356 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,418][HYDRA] 	#273 : run_train=False idx=356 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,424][HYDRA] 	#274 : run_train=False idx=356 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,430][HYDRA] 	#275 : run_train=False idx=356 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,436][HYDRA] 	#276 : run_train=False idx=357 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,442][HYDRA] 	#277 : run_train=False idx=357 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,448][HYDRA] 	#278 : run_train=False idx=357 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,454][HYDRA] 	#279 : run_train=False idx=357 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,460][HYDRA] 	#280 : run_train=False idx=358 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,466][HYDRA] 	#281 : run_train=False idx=358 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,472][HYDRA] 	#282 : run_train=False idx=358 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,478][HYDRA] 	#283 : run_train=False idx=358 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,484][HYDRA] 	#284 : run_train=False idx=359 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,490][HYDRA] 	#285 : run_train=False idx=359 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,496][HYDRA] 	#286 : run_train=False idx=359 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,503][HYDRA] 	#287 : run_train=False idx=359 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,508][HYDRA] 	#288 : run_train=False idx=360 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,515][HYDRA] 	#289 : run_train=False idx=360 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,521][HYDRA] 	#290 : run_train=False idx=360 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,527][HYDRA] 	#291 : run_train=False idx=360 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,533][HYDRA] 	#292 : run_train=False idx=361 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,539][HYDRA] 	#293 : run_train=False idx=361 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,545][HYDRA] 	#294 : run_train=False idx=361 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,551][HYDRA] 	#295 : run_train=False idx=361 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,557][HYDRA] 	#296 : run_train=False idx=362 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,563][HYDRA] 	#297 : run_train=False idx=362 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,569][HYDRA] 	#298 : run_train=False idx=362 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,575][HYDRA] 	#299 : run_train=False idx=362 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,581][HYDRA] 	#300 : run_train=False idx=363 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,588][HYDRA] 	#301 : run_train=False idx=363 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,594][HYDRA] 	#302 : run_train=False idx=363 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,600][HYDRA] 	#303 : run_train=False idx=363 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,606][HYDRA] 	#304 : run_train=False idx=364 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,612][HYDRA] 	#305 : run_train=False idx=364 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,618][HYDRA] 	#306 : run_train=False idx=364 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,623][HYDRA] 	#307 : run_train=False idx=364 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,630][HYDRA] 	#308 : run_train=False idx=365 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,636][HYDRA] 	#309 : run_train=False idx=365 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,642][HYDRA] 	#310 : run_train=False idx=365 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,647][HYDRA] 	#311 : run_train=False idx=365 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,653][HYDRA] 	#312 : run_train=False idx=366 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,659][HYDRA] 	#313 : run_train=False idx=366 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,665][HYDRA] 	#314 : run_train=False idx=366 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,672][HYDRA] 	#315 : run_train=False idx=366 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,678][HYDRA] 	#316 : run_train=False idx=367 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,684][HYDRA] 	#317 : run_train=False idx=367 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,690][HYDRA] 	#318 : run_train=False idx=367 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,695][HYDRA] 	#319 : run_train=False idx=367 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,701][HYDRA] 	#320 : run_train=False idx=368 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,707][HYDRA] 	#321 : run_train=False idx=368 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,714][HYDRA] 	#322 : run_train=False idx=368 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,720][HYDRA] 	#323 : run_train=False idx=368 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,726][HYDRA] 	#324 : run_train=False idx=369 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,732][HYDRA] 	#325 : run_train=False idx=369 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,738][HYDRA] 	#326 : run_train=False idx=369 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,744][HYDRA] 	#327 : run_train=False idx=369 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:50,749][HYDRA] 	#328 : run_train=False idx=370 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,019][HYDRA] 	#329 : run_train=False idx=370 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,026][HYDRA] 	#330 : run_train=False idx=370 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,032][HYDRA] 	#331 : run_train=False idx=370 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,038][HYDRA] 	#332 : run_train=False idx=371 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,044][HYDRA] 	#333 : run_train=False idx=371 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,049][HYDRA] 	#334 : run_train=False idx=371 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,056][HYDRA] 	#335 : run_train=False idx=371 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,062][HYDRA] 	#336 : run_train=False idx=372 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,067][HYDRA] 	#337 : run_train=False idx=372 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,074][HYDRA] 	#338 : run_train=False idx=372 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,080][HYDRA] 	#339 : run_train=False idx=372 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,086][HYDRA] 	#340 : run_train=False idx=373 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,092][HYDRA] 	#341 : run_train=False idx=373 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,099][HYDRA] 	#342 : run_train=False idx=373 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,105][HYDRA] 	#343 : run_train=False idx=373 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,111][HYDRA] 	#344 : run_train=False idx=374 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,117][HYDRA] 	#345 : run_train=False idx=374 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,123][HYDRA] 	#346 : run_train=False idx=374 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,129][HYDRA] 	#347 : run_train=False idx=374 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,136][HYDRA] 	#348 : run_train=False idx=375 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,142][HYDRA] 	#349 : run_train=False idx=375 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,148][HYDRA] 	#350 : run_train=False idx=375 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,154][HYDRA] 	#351 : run_train=False idx=375 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,160][HYDRA] 	#352 : run_train=False idx=376 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,166][HYDRA] 	#353 : run_train=False idx=376 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,172][HYDRA] 	#354 : run_train=False idx=376 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,178][HYDRA] 	#355 : run_train=False idx=376 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,184][HYDRA] 	#356 : run_train=False idx=377 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,190][HYDRA] 	#357 : run_train=False idx=377 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,196][HYDRA] 	#358 : run_train=False idx=377 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,202][HYDRA] 	#359 : run_train=False idx=377 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,209][HYDRA] 	#360 : run_train=False idx=378 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,215][HYDRA] 	#361 : run_train=False idx=378 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,221][HYDRA] 	#362 : run_train=False idx=378 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,227][HYDRA] 	#363 : run_train=False idx=378 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,233][HYDRA] 	#364 : run_train=False idx=379 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,239][HYDRA] 	#365 : run_train=False idx=379 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,245][HYDRA] 	#366 : run_train=False idx=379 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,251][HYDRA] 	#367 : run_train=False idx=379 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,257][HYDRA] 	#368 : run_train=False idx=380 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,263][HYDRA] 	#369 : run_train=False idx=380 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,269][HYDRA] 	#370 : run_train=False idx=380 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,275][HYDRA] 	#371 : run_train=False idx=380 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,281][HYDRA] 	#372 : run_train=False idx=381 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,287][HYDRA] 	#373 : run_train=False idx=381 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,293][HYDRA] 	#374 : run_train=False idx=381 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,299][HYDRA] 	#375 : run_train=False idx=381 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,304][HYDRA] 	#376 : run_train=False idx=382 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,311][HYDRA] 	#377 : run_train=False idx=382 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,317][HYDRA] 	#378 : run_train=False idx=382 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,323][HYDRA] 	#379 : run_train=False idx=382 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,329][HYDRA] 	#380 : run_train=False idx=383 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,335][HYDRA] 	#381 : run_train=False idx=383 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,341][HYDRA] 	#382 : run_train=False idx=383 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,346][HYDRA] 	#383 : run_train=False idx=383 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,353][HYDRA] 	#384 : run_train=False idx=384 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,359][HYDRA] 	#385 : run_train=False idx=384 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,364][HYDRA] 	#386 : run_train=False idx=384 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,370][HYDRA] 	#387 : run_train=False idx=384 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,376][HYDRA] 	#388 : run_train=False idx=385 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,381][HYDRA] 	#389 : run_train=False idx=385 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,387][HYDRA] 	#390 : run_train=False idx=385 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,393][HYDRA] 	#391 : run_train=False idx=385 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,399][HYDRA] 	#392 : run_train=False idx=386 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,405][HYDRA] 	#393 : run_train=False idx=386 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,410][HYDRA] 	#394 : run_train=False idx=386 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,416][HYDRA] 	#395 : run_train=False idx=386 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,422][HYDRA] 	#396 : run_train=False idx=387 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,427][HYDRA] 	#397 : run_train=False idx=387 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,433][HYDRA] 	#398 : run_train=False idx=387 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,439][HYDRA] 	#399 : run_train=False idx=387 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,445][HYDRA] 	#400 : run_train=False idx=388 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,451][HYDRA] 	#401 : run_train=False idx=388 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,457][HYDRA] 	#402 : run_train=False idx=388 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,462][HYDRA] 	#403 : run_train=False idx=388 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,468][HYDRA] 	#404 : run_train=False idx=389 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,475][HYDRA] 	#405 : run_train=False idx=389 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,481][HYDRA] 	#406 : run_train=False idx=389 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,487][HYDRA] 	#407 : run_train=False idx=389 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,493][HYDRA] 	#408 : run_train=False idx=390 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,498][HYDRA] 	#409 : run_train=False idx=390 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,504][HYDRA] 	#410 : run_train=False idx=390 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,510][HYDRA] 	#411 : run_train=False idx=390 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,516][HYDRA] 	#412 : run_train=False idx=391 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,522][HYDRA] 	#413 : run_train=False idx=391 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,527][HYDRA] 	#414 : run_train=False idx=391 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,533][HYDRA] 	#415 : run_train=False idx=391 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,539][HYDRA] 	#416 : run_train=False idx=392 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,545][HYDRA] 	#417 : run_train=False idx=392 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,550][HYDRA] 	#418 : run_train=False idx=392 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-08 04:26:51,557][HYDRA] 	#419 : run_train=False idx=392 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2

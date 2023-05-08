@@ -1,0 +1,25 @@
+# @package _global_
+name: pyloric
+
+defaults:
+  - override /partition: cuda
+
+
+hydra:
+  mode: MULTIRUN
+  sweeper:
+    params:
+      model: maf_pyro
+      model.params.hidden_dims: [200,200,200]
+      model.params.num_transforms: 3
+      model/embedding_net: pyloric
+      task: pyloric
+      train.N_train: 750000
+      train.N_val: 4096
+      train.N_test: 10000
+      train: fKL
+      defense: fisher_trace
+      defense.params.beta: 80.,100., 120.
+      defense.params.ema_mc_samples: 1
+      defense.params.grad_clamp_val: 1000.
+      run_eval: false

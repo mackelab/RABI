@@ -1,8 +1,0 @@
-metric_module: rbibm.metric.robustness_metric
-metric_class: MMDsquaredRobMetric
-eval_mc_budget: 256
-num_adversarial_examples: 10000
-params:
-  kernel:
-    kernel_name: preselected_rbf_multidim_family
-  mask: null

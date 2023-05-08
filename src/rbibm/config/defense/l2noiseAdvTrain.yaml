@@ -1,0 +1,5 @@
+defense_module: rbi.defenses
+defense: L2UniformNoiseTraining
+params: 
+  eps: 1.
+  scale_eps_beta_by_std: true

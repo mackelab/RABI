@@ -1,4 +1,0 @@
-metric_plot: True 
-samples_plot: True
-predictive_samples_plot: True 
-backend: "sns"

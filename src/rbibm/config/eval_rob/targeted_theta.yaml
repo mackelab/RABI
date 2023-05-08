@@ -1,0 +1,16 @@
+eps: 0.5
+attack_attemps: 1
+targeted: true
+target_strategy: "theta"
+eps_relative_to_std: true
+clip_min_max_automatic: true
+batch_size: null
+
+
+defaults:
+  - attack: l2pgd
+  - metric: NLL
+
+# @package _global_
+attack:
+  attack_loss_fn: LogLikelihoodLoss

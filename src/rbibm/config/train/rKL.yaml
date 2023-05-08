@@ -1,0 +1,25 @@
+class_name: NegativeElboLoss
+loss_module: rbi.loss
+N_train: 10000
+N_test: 10000
+N_val: 512
+batch_size: 512
+shuffle: true
+params:
+  loss_fn_hyper_parameters: 
+    mc_samples: 10
+    method: joint_contrastive
+  optimizer: Adam
+  lr: 1e-3
+  grad_clip_value: 65
+  lr_scheduler: ExponentialLR
+  lr_scheduler_kwargs:
+    gamma: 0.999
+  early_stopping: true
+  patience: 5
+  min_epochs: 5
+  max_epochs: 150
+  z_score_x: true
+  train_in_unconstrained_space: true
+  initialize_as_prior: true
+  initialize_as_prior_rounds: 300

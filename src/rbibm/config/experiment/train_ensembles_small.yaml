@@ -1,0 +1,16 @@
+# @package _global_
+name: benchmark
+
+defaults:
+  - override /partition: cuda
+
+hydra:
+  mode: MULTIRUN
+  sweeper:
+    params:
+      #model: gaussian,mixture_gaussian,multivariate_gaussian,maf_pyro,nsf_pyro
+      model: maf_pyro_ensemble
+      task: gaussian_linear,sir
+      train.N_train: 100000
+      train: fKL
+      run_eval_rob: false

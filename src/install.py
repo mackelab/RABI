@@ -10,23 +10,23 @@ import os
 here = os.path.abspath(os.path.dirname(__file__))
 sep = os.sep
 
-def install_v1():
+def install():
     os.system(f"pip install -e '{here}{sep}v1{sep}rbi'")
     os.system(f"pip install -e '{here}{sep}v1{sep}rbibm'")
 
-def install_v2():
-    os.system("pip install -e v1/rbi")
-    os.system("pip install -e v1/rbibm")
+def install_r():
+    os.system("pip install -r requirements.txt")
+
 
 if __name__ == "__main__":
     args = sys.argv
     if len(args) > 1:
-        version = args[-1]
+        with_requirements = args[-1] == "-r"
     else:
-        version = "v1"
-    print(f"{here}{sep}v1{sep}rbi")
-    if version == "v1":
-        install_v1()
-    elif version == "v2":
-        install_v2()
+        with_requirements = False
+
+    if with_requirements:
+        install_r()
+    
+    install()
 
