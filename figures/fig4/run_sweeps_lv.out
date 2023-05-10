@@ -1866,3 +1866,616 @@
 [2023-05-08 10:35:17,884][HYDRA] 	#1757 : defense.params.beta=0.005055609308816829 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
 [2023-05-08 10:35:17,891][HYDRA] 	#1758 : defense.params.beta=0.010548517320221521 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
 [2023-05-08 10:35:17,898][HYDRA] 	#1759 : defense.params.beta=0.0018429519153388189 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,175][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-06/16-24-33
+[2023-05-08 17:04:12,185][HYDRA] 	#1760 : defense.params.beta=0.010887337207402446 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,192][HYDRA] 	#1761 : defense.params.beta=19.239867576932824 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,197][HYDRA] 	#1762 : defense.params.beta=0.003786929201949365 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,203][HYDRA] 	#1763 : defense.params.beta=10.29027157317654 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,209][HYDRA] 	#1764 : defense.params.beta=0.01026645026521552 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,216][HYDRA] 	#1765 : defense.params.beta=0.003941790218055917 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,221][HYDRA] 	#1766 : defense.params.beta=0.00023039666015376575 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,227][HYDRA] 	#1767 : defense.params.beta=8.201367996782308 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,233][HYDRA] 	#1768 : defense.params.beta=0.002061362761564218 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,239][HYDRA] 	#1769 : defense.params.beta=10.18462743807389 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,245][HYDRA] 	#1770 : defense.params.beta=0.007607804211934236 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,252][HYDRA] 	#1771 : defense.params.beta=0.006275597852797133 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,259][HYDRA] 	#1772 : defense.params.beta=0.02653567477436704 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,265][HYDRA] 	#1773 : defense.params.beta=0.028627683946374112 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,271][HYDRA] 	#1774 : defense.params.beta=0.01491550635367352 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,277][HYDRA] 	#1775 : defense.params.beta=10.40777146278815 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,284][HYDRA] 	#1776 : defense.params.beta=10.000244201929538 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,290][HYDRA] 	#1777 : defense.params.beta=0.007338798668483857 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,296][HYDRA] 	#1778 : defense.params.beta=0.015230410061541244 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:04:12,302][HYDRA] 	#1779 : defense.params.beta=0.0019947449663424957 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:53,937][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-06/16-24-33
+[2023-05-08 17:35:53,946][HYDRA] 	#1780 : defense.params.beta=0.008910961593560727 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:53,953][HYDRA] 	#1781 : defense.params.beta=0.008132184680266833 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:53,958][HYDRA] 	#1782 : defense.params.beta=0.008188546811686667 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:53,964][HYDRA] 	#1783 : defense.params.beta=0.02982475281466091 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:53,970][HYDRA] 	#1784 : defense.params.beta=0.00300701106788226 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:53,976][HYDRA] 	#1785 : defense.params.beta=0.018738491753389562 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:53,982][HYDRA] 	#1786 : defense.params.beta=0.022816944048442835 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:53,988][HYDRA] 	#1787 : defense.params.beta=0.006048016534324207 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:53,993][HYDRA] 	#1788 : defense.params.beta=0.009090701918535171 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:53,999][HYDRA] 	#1789 : defense.params.beta=10.994127124315241 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:54,006][HYDRA] 	#1790 : defense.params.beta=3.318751023234351 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:54,011][HYDRA] 	#1791 : defense.params.beta=0.006365527127343343 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:54,017][HYDRA] 	#1792 : defense.params.beta=0.03309396382920189 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:54,023][HYDRA] 	#1793 : defense.params.beta=0.0011959914194824934 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:54,029][HYDRA] 	#1794 : defense.params.beta=0.0033504551045110288 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:54,035][HYDRA] 	#1795 : defense.params.beta=0.02511938367836342 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:54,041][HYDRA] 	#1796 : defense.params.beta=0.027733916593264907 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:54,048][HYDRA] 	#1797 : defense.params.beta=0.005490657761467214 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:54,053][HYDRA] 	#1798 : defense.params.beta=0.005824130956602948 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 17:35:54,059][HYDRA] 	#1799 : defense.params.beta=0.0029879704126391246 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,483][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-06/16-24-33
+[2023-05-08 18:06:56,494][HYDRA] 	#1800 : defense.params.beta=0.008788196671784253 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,502][HYDRA] 	#1801 : defense.params.beta=0.0003414411506968779 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,508][HYDRA] 	#1802 : defense.params.beta=0.016985895378427273 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,514][HYDRA] 	#1803 : defense.params.beta=0.029299364160602116 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,520][HYDRA] 	#1804 : defense.params.beta=0.0030577445024539776 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,526][HYDRA] 	#1805 : defense.params.beta=0.00278628669225224 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,532][HYDRA] 	#1806 : defense.params.beta=0.011742357612302445 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,538][HYDRA] 	#1807 : defense.params.beta=0.003099374444569227 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,544][HYDRA] 	#1808 : defense.params.beta=0.004120668535844554 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,550][HYDRA] 	#1809 : defense.params.beta=0.07073314654131019 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,555][HYDRA] 	#1810 : defense.params.beta=0.0025563019117271577 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,561][HYDRA] 	#1811 : defense.params.beta=0.02016333902823801 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,567][HYDRA] 	#1812 : defense.params.beta=0.002066196770317758 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,574][HYDRA] 	#1813 : defense.params.beta=0.006699476989793614 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,579][HYDRA] 	#1814 : defense.params.beta=0.0030572971570473175 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,585][HYDRA] 	#1815 : defense.params.beta=0.032704638471436134 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,591][HYDRA] 	#1816 : defense.params.beta=6.937739195326985 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,597][HYDRA] 	#1817 : defense.params.beta=0.0017084627611907016 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,603][HYDRA] 	#1818 : defense.params.beta=0.004262386681088005 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:06:56,608][HYDRA] 	#1819 : defense.params.beta=0.006485476232950427 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,492][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-06/16-24-33
+[2023-05-08 18:26:46,501][HYDRA] 	#1820 : defense.params.beta=0.006696322391991959 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,507][HYDRA] 	#1821 : defense.params.beta=0.028030138169848125 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,513][HYDRA] 	#1822 : defense.params.beta=0.024392658145109623 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,519][HYDRA] 	#1823 : defense.params.beta=0.0014550797876634743 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,525][HYDRA] 	#1824 : defense.params.beta=0.009960855464892268 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,531][HYDRA] 	#1825 : defense.params.beta=0.03392564269910786 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,536][HYDRA] 	#1826 : defense.params.beta=0.019259940836333946 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,542][HYDRA] 	#1827 : defense.params.beta=0.004045107130051519 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,548][HYDRA] 	#1828 : defense.params.beta=0.009027516990078154 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,553][HYDRA] 	#1829 : defense.params.beta=0.016121579886364104 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,559][HYDRA] 	#1830 : defense.params.beta=0.013821028971464554 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,565][HYDRA] 	#1831 : defense.params.beta=15.245292871334579 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,571][HYDRA] 	#1832 : defense.params.beta=14.886777438324689 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,577][HYDRA] 	#1833 : defense.params.beta=0.004431858311401026 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,582][HYDRA] 	#1834 : defense.params.beta=0.006386565589538468 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,588][HYDRA] 	#1835 : defense.params.beta=0.004628521686885143 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,594][HYDRA] 	#1836 : defense.params.beta=0.012611481387603289 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,600][HYDRA] 	#1837 : defense.params.beta=0.012468044396053486 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,606][HYDRA] 	#1838 : defense.params.beta=13.443085222867179 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:26:46,612][HYDRA] 	#1839 : defense.params.beta=0.016021061850344825 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,067][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-06/16-24-33
+[2023-05-08 18:55:10,080][HYDRA] 	#1840 : defense.params.beta=0.03133136337945182 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,087][HYDRA] 	#1841 : defense.params.beta=0.017684257720200727 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,093][HYDRA] 	#1842 : defense.params.beta=0.0022318622413166136 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,099][HYDRA] 	#1843 : defense.params.beta=9.166903861248088 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,105][HYDRA] 	#1844 : defense.params.beta=0.002831819672182251 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,111][HYDRA] 	#1845 : defense.params.beta=0.013737113328770447 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,117][HYDRA] 	#1846 : defense.params.beta=0.005924616140920558 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,123][HYDRA] 	#1847 : defense.params.beta=0.009206222489873232 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,129][HYDRA] 	#1848 : defense.params.beta=4.295678213657288 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,138][HYDRA] 	#1849 : defense.params.beta=0.02233214707912643 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,144][HYDRA] 	#1850 : defense.params.beta=0.004501087671914353 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,150][HYDRA] 	#1851 : defense.params.beta=0.02225598863881339 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,155][HYDRA] 	#1852 : defense.params.beta=0.005191780398052924 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,161][HYDRA] 	#1853 : defense.params.beta=0.008970724363207236 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,167][HYDRA] 	#1854 : defense.params.beta=0.005144781206157441 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,173][HYDRA] 	#1855 : defense.params.beta=0.005059912575286359 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,179][HYDRA] 	#1856 : defense.params.beta=0.008587316687474145 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,185][HYDRA] 	#1857 : defense.params.beta=0.006724557734609791 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,190][HYDRA] 	#1858 : defense.params.beta=0.005665416427515366 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 18:55:10,196][HYDRA] 	#1859 : defense.params.beta=0.019197560046321647 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:35,945][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-06/16-24-33
+[2023-05-08 19:16:35,958][HYDRA] 	#1860 : defense.params.beta=0.006717412821485563 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:35,965][HYDRA] 	#1861 : defense.params.beta=3.0062831590849983 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:35,971][HYDRA] 	#1862 : defense.params.beta=0.019880747202542258 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:35,977][HYDRA] 	#1863 : defense.params.beta=0.007634325020842705 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:35,983][HYDRA] 	#1864 : defense.params.beta=0.004672606462757822 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:35,989][HYDRA] 	#1865 : defense.params.beta=0.0028487543779021065 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:35,996][HYDRA] 	#1866 : defense.params.beta=0.0027853947216111225 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:36,002][HYDRA] 	#1867 : defense.params.beta=0.004289685092585683 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:36,008][HYDRA] 	#1868 : defense.params.beta=0.006259074531231938 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:36,014][HYDRA] 	#1869 : defense.params.beta=0.0006037117819659866 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:36,020][HYDRA] 	#1870 : defense.params.beta=16.082463105775354 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:36,026][HYDRA] 	#1871 : defense.params.beta=4.879418458105243 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:36,032][HYDRA] 	#1872 : defense.params.beta=0.01553183386222885 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:36,039][HYDRA] 	#1873 : defense.params.beta=0.039451541197189334 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:36,045][HYDRA] 	#1874 : defense.params.beta=16.1733531302875 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:36,051][HYDRA] 	#1875 : defense.params.beta=0.01811618807906492 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:36,057][HYDRA] 	#1876 : defense.params.beta=0.002795256267993801 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:36,063][HYDRA] 	#1877 : defense.params.beta=0.009379940795154895 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:36,069][HYDRA] 	#1878 : defense.params.beta=0.0031733286842725718 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:16:36,075][HYDRA] 	#1879 : defense.params.beta=0.012410545425744966 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,718][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-06/16-24-33
+[2023-05-08 19:43:02,727][HYDRA] 	#1880 : defense.params.beta=0.008404117130642092 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,733][HYDRA] 	#1881 : defense.params.beta=0.0017032971675365455 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,739][HYDRA] 	#1882 : defense.params.beta=18.81695906988788 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,745][HYDRA] 	#1883 : defense.params.beta=0.009774512322584358 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,750][HYDRA] 	#1884 : defense.params.beta=0.0015667303977750353 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,756][HYDRA] 	#1885 : defense.params.beta=0.008156899222636411 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,761][HYDRA] 	#1886 : defense.params.beta=0.00431120422410422 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,766][HYDRA] 	#1887 : defense.params.beta=10.807006440709639 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,772][HYDRA] 	#1888 : defense.params.beta=7.613100543597868 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,777][HYDRA] 	#1889 : defense.params.beta=0.0035918641648247027 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,783][HYDRA] 	#1890 : defense.params.beta=0.00655828008037762 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,789][HYDRA] 	#1891 : defense.params.beta=0.03908098758565632 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,794][HYDRA] 	#1892 : defense.params.beta=0.011735724209178702 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,800][HYDRA] 	#1893 : defense.params.beta=10.70896628024783 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,805][HYDRA] 	#1894 : defense.params.beta=0.027989231346253675 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,811][HYDRA] 	#1895 : defense.params.beta=0.015048357082970708 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,816][HYDRA] 	#1896 : defense.params.beta=9.438672161470189 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,822][HYDRA] 	#1897 : defense.params.beta=19.555066020744952 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,828][HYDRA] 	#1898 : defense.params.beta=0.006163638428964179 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 19:43:02,833][HYDRA] 	#1899 : defense.params.beta=3.487109044855875 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,446][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-06/16-24-33
+[2023-05-08 20:06:05,459][HYDRA] 	#1900 : defense.params.beta=13.674990309188129 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,466][HYDRA] 	#1901 : defense.params.beta=0.008464969642174448 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,472][HYDRA] 	#1902 : defense.params.beta=8.211162024878314 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,478][HYDRA] 	#1903 : defense.params.beta=0.029199877028459 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,483][HYDRA] 	#1904 : defense.params.beta=0.010022101325606016 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,489][HYDRA] 	#1905 : defense.params.beta=0.03049363298780507 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,495][HYDRA] 	#1906 : defense.params.beta=0.005686051365790582 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,500][HYDRA] 	#1907 : defense.params.beta=0.008111766484003522 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,506][HYDRA] 	#1908 : defense.params.beta=0.014769928176408398 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,511][HYDRA] 	#1909 : defense.params.beta=6.080926863947072 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,517][HYDRA] 	#1910 : defense.params.beta=0.00820814457507632 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,522][HYDRA] 	#1911 : defense.params.beta=0.007411528316908539 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,528][HYDRA] 	#1912 : defense.params.beta=1.639836765110389 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,533][HYDRA] 	#1913 : defense.params.beta=13.618247044843548 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,539][HYDRA] 	#1914 : defense.params.beta=0.010954026435924278 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,545][HYDRA] 	#1915 : defense.params.beta=0.017414446457771685 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,550][HYDRA] 	#1916 : defense.params.beta=0.004150326680517392 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,555][HYDRA] 	#1917 : defense.params.beta=0.006548452533163532 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,561][HYDRA] 	#1918 : defense.params.beta=0.004331146592850674 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:06:05,567][HYDRA] 	#1919 : defense.params.beta=5.222914915231226 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,304][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-06/16-24-33
+[2023-05-08 20:33:57,313][HYDRA] 	#1920 : defense.params.beta=0.008877902158301287 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,320][HYDRA] 	#1921 : defense.params.beta=0.002406998557043365 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,326][HYDRA] 	#1922 : defense.params.beta=0.007317276158620946 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,332][HYDRA] 	#1923 : defense.params.beta=0.024721813325218826 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,338][HYDRA] 	#1924 : defense.params.beta=12.736228524909494 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,345][HYDRA] 	#1925 : defense.params.beta=2.61189347598991 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,352][HYDRA] 	#1926 : defense.params.beta=0.017456032752070503 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,358][HYDRA] 	#1927 : defense.params.beta=0.012306187341364731 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,364][HYDRA] 	#1928 : defense.params.beta=0.005210153793754963 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,371][HYDRA] 	#1929 : defense.params.beta=0.0020885963415798996 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,377][HYDRA] 	#1930 : defense.params.beta=0.0012381886476085027 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,384][HYDRA] 	#1931 : defense.params.beta=2.7569863829396803 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,390][HYDRA] 	#1932 : defense.params.beta=12.748303610623942 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,397][HYDRA] 	#1933 : defense.params.beta=0.027751706186717438 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,403][HYDRA] 	#1934 : defense.params.beta=2.520851387455421 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,409][HYDRA] 	#1935 : defense.params.beta=0.0024743034324626115 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,415][HYDRA] 	#1936 : defense.params.beta=0.01106130328471324 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,422][HYDRA] 	#1937 : defense.params.beta=0.0008104952285893729 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,428][HYDRA] 	#1938 : defense.params.beta=0.0024321053062404396 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:33:57,434][HYDRA] 	#1939 : defense.params.beta=0.0026936405405262134 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,063][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-06/16-24-33
+[2023-05-08 20:59:09,072][HYDRA] 	#1940 : defense.params.beta=0.010357515506209669 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,078][HYDRA] 	#1941 : defense.params.beta=0.06941547256665316 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,084][HYDRA] 	#1942 : defense.params.beta=0.006939271289842799 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,090][HYDRA] 	#1943 : defense.params.beta=0.0038207261313577714 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,095][HYDRA] 	#1944 : defense.params.beta=0.00025338738250333705 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,101][HYDRA] 	#1945 : defense.params.beta=0.02066362308356306 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,106][HYDRA] 	#1946 : defense.params.beta=0.017300071251298597 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,112][HYDRA] 	#1947 : defense.params.beta=0.010885166171014728 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,117][HYDRA] 	#1948 : defense.params.beta=0.006861699568090161 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,123][HYDRA] 	#1949 : defense.params.beta=0.005968730115574486 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,129][HYDRA] 	#1950 : defense.params.beta=0.020761091821872607 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,135][HYDRA] 	#1951 : defense.params.beta=0.010675116441692216 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,140][HYDRA] 	#1952 : defense.params.beta=0.011514769411982982 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,146][HYDRA] 	#1953 : defense.params.beta=0.00840697501970179 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,152][HYDRA] 	#1954 : defense.params.beta=0.02010591501098961 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,157][HYDRA] 	#1955 : defense.params.beta=0.010437965830140861 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,163][HYDRA] 	#1956 : defense.params.beta=0.018212494478246702 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,169][HYDRA] 	#1957 : defense.params.beta=0.0010490823795190447 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,175][HYDRA] 	#1958 : defense.params.beta=6.93913836336089 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 20:59:09,180][HYDRA] 	#1959 : defense.params.beta=0.008685699563594704 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,217][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-06/16-24-33
+[2023-05-08 21:22:54,223][HYDRA] 	#1960 : defense.params.beta=0.009470846933470922 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,230][HYDRA] 	#1961 : defense.params.beta=0.023395447219627233 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,236][HYDRA] 	#1962 : defense.params.beta=0.01766094265572941 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,243][HYDRA] 	#1963 : defense.params.beta=0.010909780955286715 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,248][HYDRA] 	#1964 : defense.params.beta=15.545920916365027 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,254][HYDRA] 	#1965 : defense.params.beta=15.577577396666523 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,260][HYDRA] 	#1966 : defense.params.beta=0.008467817511850101 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,266][HYDRA] 	#1967 : defense.params.beta=0.018376591437065944 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,273][HYDRA] 	#1968 : defense.params.beta=0.0045775959907191285 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,279][HYDRA] 	#1969 : defense.params.beta=0.012451215037314993 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,285][HYDRA] 	#1970 : defense.params.beta=0.02724192586991585 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,290][HYDRA] 	#1971 : defense.params.beta=0.014568739889004997 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,296][HYDRA] 	#1972 : defense.params.beta=0.0034565062911810444 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,301][HYDRA] 	#1973 : defense.params.beta=0.01679795599188428 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,307][HYDRA] 	#1974 : defense.params.beta=15.382101653212032 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,314][HYDRA] 	#1975 : defense.params.beta=0.0001851999855228808 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,320][HYDRA] 	#1976 : defense.params.beta=0.01254640811317993 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,326][HYDRA] 	#1977 : defense.params.beta=0.0014426540709922822 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,332][HYDRA] 	#1978 : defense.params.beta=0.019697142218552732 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:22:54,338][HYDRA] 	#1979 : defense.params.beta=3.9049314106609634 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,843][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-06/16-24-33
+[2023-05-08 21:47:28,860][HYDRA] 	#1980 : defense.params.beta=0.006274053526261142 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,866][HYDRA] 	#1981 : defense.params.beta=0.014416497009770317 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,872][HYDRA] 	#1982 : defense.params.beta=0.01171587668210838 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,878][HYDRA] 	#1983 : defense.params.beta=0.010925391657441809 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,884][HYDRA] 	#1984 : defense.params.beta=0.0008489308327654099 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,890][HYDRA] 	#1985 : defense.params.beta=4.468885854739292 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,896][HYDRA] 	#1986 : defense.params.beta=0.04003367142172633 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,902][HYDRA] 	#1987 : defense.params.beta=0.049962839407485166 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,907][HYDRA] 	#1988 : defense.params.beta=14.335137359127888 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,913][HYDRA] 	#1989 : defense.params.beta=4.666987460214234 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,919][HYDRA] 	#1990 : defense.params.beta=0.059602663875178874 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,924][HYDRA] 	#1991 : defense.params.beta=0.005664744479105909 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,930][HYDRA] 	#1992 : defense.params.beta=0.004626917021916421 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,936][HYDRA] 	#1993 : defense.params.beta=0.0007960000879554518 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,942][HYDRA] 	#1994 : defense.params.beta=0.0538807054078281 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,948][HYDRA] 	#1995 : defense.params.beta=0.019848805039299276 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,953][HYDRA] 	#1996 : defense.params.beta=0.00725637183347004 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,959][HYDRA] 	#1997 : defense.params.beta=0.015325972431918189 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,964][HYDRA] 	#1998 : defense.params.beta=0.002446031365259971 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 21:47:28,971][HYDRA] 	#1999 : defense.params.beta=9.70763996233709 defense=fisher_trace task=lotka_volterra eval_rob.eps=2.0 model=maf_pyro train.N_train=100000 train.N_test=10000 run_eval_approx=False sweeper.objective=['rob_value','test_loss'] +experiment=sweep_lv
+[2023-05-08 22:03:16,492][HYDRA] Number of Pareto solutions: 358
+[2023-05-08 22:03:16,494][HYDRA]     Values: [0.00036017788806930184, 2.515634298324585], Params: {'defense.params.beta': 10.976270123665143}
+[2023-05-08 22:03:16,495][HYDRA]     Values: [0.00022303361038211733, 2.5920026302337646], Params: {'defense.params.beta': 14.303787355929451}
+[2023-05-08 22:03:16,495][HYDRA]     Values: [0.0003146076633129269, 2.5307745933532715], Params: {'defense.params.beta': 12.055267561156539}
+[2023-05-08 22:03:16,495][HYDRA]     Values: [0.00038735297857783735, 2.4930264949798584], Params: {'defense.params.beta': 10.897663705449618}
+[2023-05-08 22:03:16,495][HYDRA]     Values: [0.0005180570296943188, 2.433133602142334], Params: {'defense.params.beta': 8.751744281495128}
+[2023-05-08 22:03:16,495][HYDRA]     Values: [0.00014690191892441362, 2.6462745666503906], Params: {'defense.params.beta': 17.835460026464297}
+[2023-05-08 22:03:16,495][HYDRA]     Values: [0.00013535682228393853, 2.658717632293701], Params: {'defense.params.beta': 19.27325521365431}
+[2023-05-08 22:03:16,495][HYDRA]     Values: [0.0007090428262017667, 2.356095790863037], Params: {'defense.params.beta': 7.668830438171402}
+[2023-05-08 22:03:16,496][HYDRA]     Values: [0.008526047691702843, 1.420046091079712], Params: {'defense.params.beta': 1.742586085317884}
+[2023-05-08 22:03:16,496][HYDRA]     Values: [0.00018012977670878172, 2.620537519454956], Params: {'defense.params.beta': 15.61058354767619}
+[2023-05-08 22:03:16,496][HYDRA]     Values: [0.0005966766038909554, 2.398176670074463], Params: {'defense.params.beta': 8.293238858344276}
+[2023-05-08 22:03:16,496][HYDRA]     Values: [0.001375165767967701, 2.1672985553741455], Params: {'defense.params.beta': 5.291112315636978}
+[2023-05-08 22:03:16,496][HYDRA]     Values: [0.0002372675808146596, 2.5814805030822754], Params: {'defense.params.beta': 13.952623948782175}
+[2023-05-08 22:03:16,496][HYDRA]     Values: [0.015444058924913406, 1.0635850429534912], Params: {'defense.params.beta': 1.2045095265628496}
+[2023-05-08 22:03:16,496][HYDRA]     Values: [0.00470928056165576, 1.7062759399414062], Params: {'defense.params.beta': 2.578526040204436}
+[2023-05-08 22:03:16,496][HYDRA]     Values: [0.007009850814938545, 1.5104860067367554], Params: {'defense.params.beta': 2.04089630475608}
+[2023-05-08 22:03:16,496][HYDRA]     Values: [0.0019836712162941694, 2.050748825073242], Params: {'defense.params.beta': 4.177535201009018}
+[2023-05-08 22:03:16,496][HYDRA]     Values: [0.0002453768684063107, 2.5708603858947754], Params: {'defense.params.beta': 13.062166543997135}
+[2023-05-08 22:03:16,496][HYDRA]     Values: [0.001415895065292716, 2.158897876739502], Params: {'defense.params.beta': 5.065832125466482}
+[2023-05-08 22:03:16,497][HYDRA]     Values: [0.0031352497171610594, 1.8708089590072632], Params: {'defense.params.beta': 3.179391757013436}
+[2023-05-08 22:03:16,497][HYDRA]     Values: [0.005736296530812979, 1.5961616039276123], Params: {'defense.params.beta': 2.207502912248588}
+[2023-05-08 22:03:16,497][HYDRA]     Values: [0.003988782875239849, 1.7679611444473267], Params: {'defense.params.beta': 2.7636591131539805}
+[2023-05-08 22:03:16,497][HYDRA]     Values: [0.0023890743032097816, 1.9937496185302734], Params: {'defense.params.beta': 3.9316473139428334}
+[2023-05-08 22:03:16,497][HYDRA]     Values: [0.0001686865434749052, 2.6231656074523926], Params: {'defense.params.beta': 16.419864614859378}
+[2023-05-08 22:03:16,497][HYDRA]     Values: [0.00763453496620059, 1.4787843227386475], Params: {'defense.params.beta': 1.9420256061510979}
+[2023-05-08 22:03:16,497][HYDRA]     Values: [0.0071632335893809795, 1.4864928722381592], Params: {'defense.params.beta': 1.9219682482694205}
+[2023-05-08 22:03:16,497][HYDRA]     Values: [0.0004993517650291324, 2.445493221282959], Params: {'defense.params.beta': 9.37302408608891}
+[2023-05-08 22:03:16,497][HYDRA]     Values: [0.02900884300470352, 0.6972094774246216], Params: {'defense.params.beta': 0.7837559411676341}
+[2023-05-08 22:03:16,497][HYDRA]     Values: [0.0012970668030902743, 2.210336446762085], Params: {'defense.params.beta': 5.656139323247495}
+[2023-05-08 22:03:16,497][HYDRA]     Values: [0.00533653050661087, 1.6254228353500366], Params: {'defense.params.beta': 2.4039313122437216}
+[2023-05-08 22:03:16,497][HYDRA]     Values: [0.0011005818378180265, 2.246354818344116], Params: {'defense.params.beta': 5.922804020828879}
+[2023-05-08 22:03:16,497][HYDRA]     Values: [0.005329720210283995, 1.6616442203521729], Params: {'defense.params.beta': 2.374554467212109}
+[2023-05-08 22:03:16,497][HYDRA]     Values: [0.013270669616758823, 1.1321558952331543], Params: {'defense.params.beta': 1.2829500205609377}
+[2023-05-08 22:03:16,498][HYDRA]     Values: [0.0003212435112800449, 2.5183868408203125], Params: {'defense.params.beta': 11.332029127471356}
+[2023-05-08 22:03:16,498][HYDRA]     Values: [0.007984902709722519, 1.4699347019195557], Params: {'defense.params.beta': 1.8788103057747825}
+[2023-05-08 22:03:16,498][HYDRA]     Values: [0.0001366959186270833, 2.6539463996887207], Params: {'defense.params.beta': 18.585923958594663}
+[2023-05-08 22:03:16,498][HYDRA]     Values: [0.0009336727089248598, 2.2857987880706787], Params: {'defense.params.beta': 6.371379117169578}
+[2023-05-08 22:03:16,498][HYDRA]     Values: [0.004312886856496334, 1.7478408813476562], Params: {'defense.params.beta': 2.6359573349080567}
+[2023-05-08 22:03:16,498][HYDRA]     Values: [0.0010810662060976028, 2.2511096000671387], Params: {'defense.params.beta': 5.788121930003412}
+[2023-05-08 22:03:16,498][HYDRA]     Values: [0.0024718332570046186, 1.9733946323394775], Params: {'defense.params.beta': 3.6638273218232}
+[2023-05-08 22:03:16,498][HYDRA]     Values: [0.0013161171227693558, 2.1949303150177], Params: {'defense.params.beta': 5.4001595368425}
+[2023-05-08 22:03:16,498][HYDRA]     Values: [0.0015494591789320111, 2.142899751663208], Params: {'defense.params.beta': 4.975062945523846}
+[2023-05-08 22:03:16,498][HYDRA]     Values: [0.00030199301545508206, 2.5323257446289062], Params: {'defense.params.beta': 11.840838666232585}
+[2023-05-08 22:03:16,498][HYDRA]     Values: [0.0003728531301021576, 2.510242223739624], Params: {'defense.params.beta': 11.445038158592276}
+[2023-05-08 22:03:16,498][HYDRA]     Values: [0.0006468052743002772, 2.3819210529327393], Params: {'defense.params.beta': 7.930114877289118}
+[2023-05-08 22:03:16,498][HYDRA]     Values: [0.000151614542119205, 2.6450538635253906], Params: {'defense.params.beta': 17.622063954112914}
+[2023-05-08 22:03:16,498][HYDRA]     Values: [0.00015535797865595669, 2.641000270843506], Params: {'defense.params.beta': 17.63470724892352}
+[2023-05-08 22:03:16,498][HYDRA]     Values: [0.06883859634399414, -0.3353738784790039], Params: {'defense.params.beta': 0.38386406426735065}
+[2023-05-08 22:03:16,498][HYDRA]     Values: [0.001066691125743091, 2.2589426040649414], Params: {'defense.params.beta': 6.031496403333505}
+[2023-05-08 22:03:16,499][HYDRA]     Values: [0.0002575716935098171, 2.5670599937438965], Params: {'defense.params.beta': 13.203470783836346}
+[2023-05-08 22:03:16,499][HYDRA]     Values: [0.0011626937193796039, 2.235384225845337], Params: {'defense.params.beta': 5.801552215201121}
+[2023-05-08 22:03:16,499][HYDRA]     Values: [0.004530671518296003, 1.7154409885406494], Params: {'defense.params.beta': 2.7094813709015977}
+[2023-05-08 22:03:16,499][HYDRA]     Values: [0.0002632745308801532, 2.5550196170806885], Params: {'defense.params.beta': 13.064016431822589}
+[2023-05-08 22:03:16,499][HYDRA]     Values: [0.0005655269487760961, 2.4188694953918457], Params: {'defense.params.beta': 8.628368765537635}
+[2023-05-08 22:03:16,499][HYDRA]     Values: [0.0001506285188952461, 2.6451926231384277], Params: {'defense.params.beta': 17.9309319273666}
+[2023-05-08 22:03:16,499][HYDRA]     Values: [0.0005568239139392972, 2.4238929748535156], Params: {'defense.params.beta': 8.717298561726043}
+[2023-05-08 22:03:16,499][HYDRA]     Values: [0.000234086939599365, 2.5816988945007324], Params: {'defense.params.beta': 14.077771700418467}
+[2023-05-08 22:03:16,499][HYDRA]     Values: [0.00012327462900429964, 2.6636435985565186], Params: {'defense.params.beta': 19.97694013147263}
+[2023-05-08 22:03:16,499][HYDRA]     Values: [0.0032340632751584053, 1.8703374862670898], Params: {'defense.params.beta': 3.249858777278203}
+[2023-05-08 22:03:16,499][HYDRA]     Values: [0.0002872234908863902, 2.543869972229004], Params: {'defense.params.beta': 12.311191324120927}
+[2023-05-08 22:03:16,499][HYDRA]     Values: [0.004826780408620834, 1.6913201808929443], Params: {'defense.params.beta': 2.4763997446068315}
+[2023-05-08 22:03:16,499][HYDRA]     Values: [0.00035956624196842313, 2.5161566734313965], Params: {'defense.params.beta': 11.38201481538179}
+[2023-05-08 22:03:16,499][HYDRA]     Values: [0.0006263754330575466, 2.392282009124756], Params: {'defense.params.beta': 8.143666003801663}
+[2023-05-08 22:03:16,500][HYDRA]     Values: [0.010818756185472012, 1.2200679779052734], Params: {'defense.params.beta': 1.3833400021860613}
+[2023-05-08 22:03:16,500][HYDRA]     Values: [0.00020913424668833613, 2.5950546264648438], Params: {'defense.params.beta': 14.441112017201396}
+[2023-05-08 22:03:16,500][HYDRA]     Values: [0.13421984016895294, -0.8358535766601562], Params: {'defense.params.beta': 0.234281782528631}
+[2023-05-08 22:03:16,500][HYDRA]     Values: [0.0007966975681483746, 2.3298563957214355], Params: {'defense.params.beta': 7.199561353569472}
+[2023-05-08 22:03:16,500][HYDRA]     Values: [0.002893176395446062, 1.9007266759872437], Params: {'defense.params.beta': 3.4325936280658422}
+[2023-05-08 22:03:16,500][HYDRA]     Values: [0.0022054354194551706, 2.0031027793884277], Params: {'defense.params.beta': 3.9999305779283487}
+[2023-05-08 22:03:16,500][HYDRA]     Values: [0.00018376998195890337, 2.6183762550354004], Params: {'defense.params.beta': 15.87395408777864}
+[2023-05-08 22:03:16,500][HYDRA]     Values: [0.0018133239354938269, 2.0837149620056152], Params: {'defense.params.beta': 4.478493838815134}
+[2023-05-08 22:03:16,500][HYDRA]     Values: [0.00022469500254373997, 2.583714246749878], Params: {'defense.params.beta': 14.088288068029215}
+[2023-05-08 22:03:16,500][HYDRA]     Values: [0.0016989806899800897, 2.130173444747925], Params: {'defense.params.beta': 4.75785650370089}
+[2023-05-08 22:03:16,500][HYDRA]     Values: [0.00037315284134820104, 2.494997501373291], Params: {'defense.params.beta': 10.712656106935885}
+[2023-05-08 22:03:16,500][HYDRA]     Values: [0.0010036090388894081, 2.2787232398986816], Params: {'defense.params.beta': 6.238899978397537}
+[2023-05-08 22:03:16,500][HYDRA]     Values: [0.00200877757743001, 2.0422780513763428], Params: {'defense.params.beta': 4.196875058518068}
+[2023-05-08 22:03:16,500][HYDRA]     Values: [0.0027090893127024174, 1.9476871490478516], Params: {'defense.params.beta': 3.7238601989874223}
+[2023-05-08 22:03:16,500][HYDRA]     Values: [0.0017557147657498717, 2.0958428382873535], Params: {'defense.params.beta': 4.548292636725002}
+[2023-05-08 22:03:16,501][HYDRA]     Values: [0.015095159411430359, 1.068228840827942], Params: {'defense.params.beta': 1.1605833006745963}
+[2023-05-08 22:03:16,501][HYDRA]     Values: [0.0005643381155095994, 2.421124219894409], Params: {'defense.params.beta': 8.688332567720751}
+[2023-05-08 22:03:16,501][HYDRA]     Values: [0.024800581857562065, 0.7187294363975525], Params: {'defense.params.beta': 0.8200758548326369}
+[2023-05-08 22:03:16,501][HYDRA]     Values: [0.02955976501107216, 0.6097748875617981], Params: {'defense.params.beta': 0.75750693246541}
+[2023-05-08 22:03:16,501][HYDRA]     Values: [0.3812587261199951, -1.9579709768295288], Params: {'defense.params.beta': 0.09822707839280541}
+[2023-05-08 22:03:16,501][HYDRA]     Values: [0.21970219910144806, -1.3525936603546143], Params: {'defense.params.beta': 0.16082732359091886}
+[2023-05-08 22:03:16,501][HYDRA]     Values: [0.03478933498263359, 0.3435666561126709], Params: {'defense.params.beta': 0.6346285252159775}
+[2023-05-08 22:03:16,501][HYDRA]     Values: [0.255376935005188, -1.6346518993377686], Params: {'defense.params.beta': 0.1269313474159674}
+[2023-05-08 22:03:16,501][HYDRA]     Values: [0.030004937201738358, 0.5239982008934021], Params: {'defense.params.beta': 0.7440133793777959}
+[2023-05-08 22:03:16,501][HYDRA]     Values: [11.183502197265625, -6.061751842498779], Params: {'defense.params.beta': 0.0021605130142495184}
+[2023-05-08 22:03:16,501][HYDRA]     Values: [0.09133104234933853, -0.5301663279533386], Params: {'defense.params.beta': 0.31270053981282997}
+[2023-05-08 22:03:16,501][HYDRA]     Values: [0.6335163116455078, -2.6551811695098877], Params: {'defense.params.beta': 0.05652793073535679}
+[2023-05-08 22:03:16,501][HYDRA]     Values: [0.046709299087524414, 0.0713377445936203], Params: {'defense.params.beta': 0.5217938358184051}
+[2023-05-08 22:03:16,501][HYDRA]     Values: [0.04012177884578705, 0.32365888357162476], Params: {'defense.params.beta': 0.5684597721654745}
+[2023-05-08 22:03:16,502][HYDRA]     Values: [0.052846215665340424, 0.03389471024274826], Params: {'defense.params.beta': 0.47687666902326264}
+[2023-05-08 22:03:16,502][HYDRA]     Values: [0.06152084097266197, -0.09918259084224701], Params: {'defense.params.beta': 0.4348006622651805}
+[2023-05-08 22:03:16,502][HYDRA]     Values: [0.04461927339434624, 0.1252530813217163], Params: {'defense.params.beta': 0.5462892318036985}
+[2023-05-08 22:03:16,502][HYDRA]     Values: [0.044839564710855484, 0.1192418783903122], Params: {'defense.params.beta': 0.529709587949872}
+[2023-05-08 22:03:16,502][HYDRA]     Values: [1.2247017621994019, -3.4731857776641846], Params: {'defense.params.beta': 0.03061733797898896}
+[2023-05-08 22:03:16,502][HYDRA]     Values: [0.42917561531066895, -2.089766025543213], Params: {'defense.params.beta': 0.0798027959765075}
+[2023-05-08 22:03:16,502][HYDRA]     Values: [1.27756929397583, -3.5971477031707764], Params: {'defense.params.beta': 0.02641950010417269}
+[2023-05-08 22:03:16,502][HYDRA]     Values: [0.4470585882663727, -2.162036657333374], Params: {'defense.params.beta': 0.08204655663773613}
+[2023-05-08 22:03:16,502][HYDRA]     Values: [10.153359413146973, -6.012078285217285], Params: {'defense.params.beta': 0.0024960444258255087}
+[2023-05-08 22:03:16,502][HYDRA]     Values: [0.45129314064979553, -2.2875659465789795], Params: {'defense.params.beta': 0.07831762212926514}
+[2023-05-08 22:03:16,502][HYDRA]     Values: [0.013323108665645123, 1.1204177141189575], Params: {'defense.params.beta': 1.178080900844385}
+[2023-05-08 22:03:16,502][HYDRA]     Values: [0.019820138812065125, 0.8976737856864929], Params: {'defense.params.beta': 0.9898476935765083}
+[2023-05-08 22:03:16,502][HYDRA]     Values: [0.016657331958413124, 1.0310814380645752], Params: {'defense.params.beta': 1.1086165536220645}
+[2023-05-08 22:03:16,502][HYDRA]     Values: [0.01675316132605076, 1.002199411392212], Params: {'defense.params.beta': 1.1072278488456073}
+[2023-05-08 22:03:16,502][HYDRA]     Values: [0.017091354355216026, 0.9434589147567749], Params: {'defense.params.beta': 1.120371270076086}
+[2023-05-08 22:03:16,502][HYDRA]     Values: [0.02235000766813755, 0.7562805414199829], Params: {'defense.params.beta': 0.93011822205681}
+[2023-05-08 22:03:16,503][HYDRA]     Values: [0.012409796938300133, 1.1822446584701538], Params: {'defense.params.beta': 1.3262250765488204}
+[2023-05-08 22:03:16,503][HYDRA]     Values: [0.014421554282307625, 1.082012414932251], Params: {'defense.params.beta': 1.1851572083180393}
+[2023-05-08 22:03:16,503][HYDRA]     Values: [0.020949959754943848, 0.8512842059135437], Params: {'defense.params.beta': 1.045342557015772}
+[2023-05-08 22:03:16,503][HYDRA]     Values: [0.018684159964323044, 0.9122147560119629], Params: {'defense.params.beta': 1.0579640091868272}
+[2023-05-08 22:03:16,503][HYDRA]     Values: [0.08659245073795319, -0.5298734903335571], Params: {'defense.params.beta': 0.3305671631659477}
+[2023-05-08 22:03:16,503][HYDRA]     Values: [0.08286581188440323, -0.45280081033706665], Params: {'defense.params.beta': 0.3325908385349661}
+[2023-05-08 22:03:16,503][HYDRA]     Values: [0.0941627249121666, -0.5715104341506958], Params: {'defense.params.beta': 0.3127789342477445}
+[2023-05-08 22:03:16,503][HYDRA]     Values: [1.851500153541565, -4.041679382324219], Params: {'defense.params.beta': 0.01776330108128122}
+[2023-05-08 22:03:16,503][HYDRA]     Values: [1.2116471529006958, -3.463183641433716], Params: {'defense.params.beta': 0.029789361033969022}
+[2023-05-08 22:03:16,503][HYDRA]     Values: [0.30455881357192993, -1.7637617588043213], Params: {'defense.params.beta': 0.11750309009454663}
+[2023-05-08 22:03:16,503][HYDRA]     Values: [0.03606826812028885, 0.3294103741645813], Params: {'defense.params.beta': 0.643329350854423}
+[2023-05-08 22:03:16,503][HYDRA]     Values: [0.03414594382047653, 0.4515353739261627], Params: {'defense.params.beta': 0.626913127483466}
+[2023-05-08 22:03:16,503][HYDRA]     Values: [0.04260639846324921, 0.23283667862415314], Params: {'defense.params.beta': 0.5715816451576992}
+[2023-05-08 22:03:16,503][HYDRA]     Values: [0.03460633009672165, 0.37719497084617615], Params: {'defense.params.beta': 0.6383518324392532}
+[2023-05-08 22:03:16,503][HYDRA]     Values: [0.24402709305286407, -1.5085186958312988], Params: {'defense.params.beta': 0.13778893883077237}
+[2023-05-08 22:03:16,503][HYDRA]     Values: [0.06703457981348038, -0.275211364030838], Params: {'defense.params.beta': 0.3932719195029557}
+[2023-05-08 22:03:16,504][HYDRA]     Values: [0.09238842874765396, -0.5550998449325562], Params: {'defense.params.beta': 0.3082171880954883}
+[2023-05-08 22:03:16,504][HYDRA]     Values: [0.08320179581642151, -0.47237682342529297], Params: {'defense.params.beta': 0.32190036813848}
+[2023-05-08 22:03:16,504][HYDRA]     Values: [0.07599452883005142, -0.4370437264442444], Params: {'defense.params.beta': 0.3488671982706141}
+[2023-05-08 22:03:16,504][HYDRA]     Values: [0.0843135267496109, -0.48549580574035645], Params: {'defense.params.beta': 0.3307264601466986}
+[2023-05-08 22:03:16,504][HYDRA]     Values: [4.074528217315674, -5.0432586669921875], Params: {'defense.params.beta': 0.007802801406688675}
+[2023-05-08 22:03:16,504][HYDRA]     Values: [1.07296621799469, -3.3260841369628906], Params: {'defense.params.beta': 0.03242190646566008}
+[2023-05-08 22:03:16,504][HYDRA]     Values: [1.0444649457931519, -3.276151180267334], Params: {'defense.params.beta': 0.034801345935531774}
+[2023-05-08 22:03:16,504][HYDRA]     Values: [17.8406925201416, -6.5116286277771], Params: {'defense.params.beta': 0.0010092717027130396}
+[2023-05-08 22:03:16,504][HYDRA]     Values: [0.8055946826934814, -2.9846794605255127], Params: {'defense.params.beta': 0.04381584791331741}
+[2023-05-08 22:03:16,504][HYDRA]     Values: [1.6331021785736084, -3.874699354171753], Params: {'defense.params.beta': 0.022284784295504755}
+[2023-05-08 22:03:16,504][HYDRA]     Values: [13.614928245544434, -6.330389499664307], Params: {'defense.params.beta': 0.0016427607166817125}
+[2023-05-08 22:03:16,504][HYDRA]     Values: [8.179352760314941, -5.798018455505371], Params: {'defense.params.beta': 0.003420427833291581}
+[2023-05-08 22:03:16,504][HYDRA]     Values: [0.06349825114011765, -0.21037113666534424], Params: {'defense.params.beta': 0.4034857678440015}
+[2023-05-08 22:03:16,504][HYDRA]     Values: [0.06679003685712814, -0.26630350947380066], Params: {'defense.params.beta': 0.408563334414166}
+[2023-05-08 22:03:16,505][HYDRA]     Values: [0.07308365404605865, -0.36538249254226685], Params: {'defense.params.beta': 0.3688784990502713}
+[2023-05-08 22:03:16,505][HYDRA]     Values: [3.1245226860046387, -4.704450607299805], Params: {'defense.params.beta': 0.009931730372091423}
+[2023-05-08 22:03:16,505][HYDRA]     Values: [1.6715465784072876, -3.916383743286133], Params: {'defense.params.beta': 0.020235294462000668}
+[2023-05-08 22:03:16,505][HYDRA]     Values: [2.5667388439178467, -4.460829257965088], Params: {'defense.params.beta': 0.012708250256944165}
+[2023-05-08 22:03:16,505][HYDRA]     Values: [0.09135525673627853, -0.5309382677078247], Params: {'defense.params.beta': 0.3128151867880609}
+[2023-05-08 22:03:16,505][HYDRA]     Values: [0.09558982402086258, -0.5857046842575073], Params: {'defense.params.beta': 0.3042343267921146}
+[2023-05-08 22:03:16,505][HYDRA]     Values: [0.7227818369865417, -2.8794491291046143], Params: {'defense.params.beta': 0.046276206985523725}
+[2023-05-08 22:03:16,505][HYDRA]     Values: [5.138302803039551, -5.290588855743408], Params: {'defense.params.beta': 0.006167168115257991}
+[2023-05-08 22:03:16,505][HYDRA]     Values: [21.795175552368164, -6.663893699645996], Params: {'defense.params.beta': 0.000665570524695687}
+[2023-05-08 22:03:16,505][HYDRA]     Values: [0.0002057858946500346, 2.5989372730255127], Params: {'defense.params.beta': 15.20392780974414}
+[2023-05-08 22:03:16,505][HYDRA]     Values: [0.0001886126701720059, 2.601688861846924], Params: {'defense.params.beta': 15.255207917712648}
+[2023-05-08 22:03:16,505][HYDRA]     Values: [2.288691759109497, -4.306424140930176], Params: {'defense.params.beta': 0.014545504316191251}
+[2023-05-08 22:03:16,505][HYDRA]     Values: [1.4288301467895508, -3.661858320236206], Params: {'defense.params.beta': 0.02607519334613012}
+[2023-05-08 22:03:16,505][HYDRA]     Values: [14.855527877807617, -6.360792636871338], Params: {'defense.params.beta': 0.001300963566071007}
+[2023-05-08 22:03:16,506][HYDRA]     Values: [0.0025356286205351353, 1.9480177164077759], Params: {'defense.params.beta': 3.6303410987515505}
+[2023-05-08 22:03:16,506][HYDRA]     Values: [0.10587482899427414, -0.6738887429237366], Params: {'defense.params.beta': 0.28066421696002175}
+[2023-05-08 22:03:16,506][HYDRA]     Values: [0.00040358045953325927, 2.482381582260132], Params: {'defense.params.beta': 10.074874422502711}
+[2023-05-08 22:03:16,506][HYDRA]     Values: [0.00042410814785398543, 2.4742066860198975], Params: {'defense.params.beta': 9.81238443774916}
+[2023-05-08 22:03:16,506][HYDRA]     Values: [0.00013556971680372953, 2.6539885997772217], Params: {'defense.params.beta': 18.234051745556915}
+[2023-05-08 22:03:16,506][HYDRA]     Values: [0.0008011576719582081, 2.3283615112304688], Params: {'defense.params.beta': 6.9674281477331315}
+[2023-05-08 22:03:16,506][HYDRA]     Values: [0.09958858042955399, -0.6222804188728333], Params: {'defense.params.beta': 0.2969734345441691}
+[2023-05-08 22:03:16,506][HYDRA]     Values: [3.5772202014923096, -4.854328155517578], Params: {'defense.params.beta': 0.009115464337291726}
+[2023-05-08 22:03:16,506][HYDRA]     Values: [9.035004615783691, -5.9062089920043945], Params: {'defense.params.beta': 0.0029202930797926157}
+[2023-05-08 22:03:16,506][HYDRA]     Values: [0.9697181582450867, -3.1828789710998535], Params: {'defense.params.beta': 0.03595295037341101}
+[2023-05-08 22:03:16,506][HYDRA]     Values: [0.872342050075531, -3.1343886852264404], Params: {'defense.params.beta': 0.039703184079747086}
+[2023-05-08 22:03:16,506][HYDRA]     Values: [8.025102615356445, -5.760036468505859], Params: {'defense.params.beta': 0.003445986900436515}
+[2023-05-08 22:03:16,506][HYDRA]     Values: [0.0008656182908453047, 2.319550037384033], Params: {'defense.params.beta': 6.71372807114032}
+[2023-05-08 22:03:16,506][HYDRA]     Values: [3.88240385055542, -4.963313102722168], Params: {'defense.params.beta': 0.008180234759617162}
+[2023-05-08 22:03:16,506][HYDRA]     Values: [0.0006592759164050221, 2.378413677215576], Params: {'defense.params.beta': 7.670694558020487}
+[2023-05-08 22:03:16,507][HYDRA]     Values: [11.44116497039795, -6.146759033203125], Params: {'defense.params.beta': 0.0021867469231607447}
+[2023-05-08 22:03:16,507][HYDRA]     Values: [0.1378825157880783, -0.885814368724823], Params: {'defense.params.beta': 0.2310506713803099}
+[2023-05-08 22:03:16,507][HYDRA]     Values: [1.3635261058807373, -3.651346206665039], Params: {'defense.params.beta': 0.025478343118014262}
+[2023-05-08 22:03:16,507][HYDRA]     Values: [0.11452597379684448, -0.8297907710075378], Params: {'defense.params.beta': 0.2560110193483593}
+[2023-05-08 22:03:16,507][HYDRA]     Values: [1.1593176126480103, -3.4399466514587402], Params: {'defense.params.beta': 0.029442788360863545}
+[2023-05-08 22:03:16,507][HYDRA]     Values: [5.56866979598999, -5.331250190734863], Params: {'defense.params.beta': 0.005473950301292701}
+[2023-05-08 22:03:16,507][HYDRA]     Values: [0.7224645614624023, -2.854517936706543], Params: {'defense.params.beta': 0.048843992487003586}
+[2023-05-08 22:03:16,507][HYDRA]     Values: [7.4253668785095215, -5.676712989807129], Params: {'defense.params.beta': 0.0037718287994437305}
+[2023-05-08 22:03:16,507][HYDRA]     Values: [18.778419494628906, -6.53445291519165], Params: {'defense.params.beta': 0.0008239478538761705}
+[2023-05-08 22:03:16,507][HYDRA]     Values: [1.610527515411377, -3.874384641647339], Params: {'defense.params.beta': 0.020949375866187746}
+[2023-05-08 22:03:16,507][HYDRA]     Values: [2.1619083881378174, -4.245879173278809], Params: {'defense.params.beta': 0.015636141380213527}
+[2023-05-08 22:03:16,507][HYDRA]     Values: [2.3918936252593994, -4.344250679016113], Params: {'defense.params.beta': 0.013634183155204295}
+[2023-05-08 22:03:16,507][HYDRA]     Values: [0.9366896152496338, -3.1614410877227783], Params: {'defense.params.beta': 0.03884477137860741}
+[2023-05-08 22:03:16,507][HYDRA]     Values: [4.614864826202393, -5.125180721282959], Params: {'defense.params.beta': 0.007010808029750993}
+[2023-05-08 22:03:16,508][HYDRA]     Values: [0.5179417729377747, -2.327457904815674], Params: {'defense.params.beta': 0.067755094959564}
+[2023-05-08 22:03:16,508][HYDRA]     Values: [5.895370006561279, -5.423501014709473], Params: {'defense.params.beta': 0.005221154419993393}
+[2023-05-08 22:03:16,508][HYDRA]     Values: [19.337970733642578, -6.60797643661499], Params: {'defense.params.beta': 0.0008584359530960104}
+[2023-05-08 22:03:16,508][HYDRA]     Values: [4.5621795654296875, -5.1072096824646], Params: {'defense.params.beta': 0.007190166952969527}
+[2023-05-08 22:03:16,508][HYDRA]     Values: [18.209754943847656, -6.52853536605835], Params: {'defense.params.beta': 0.0008381961442278257}
+[2023-05-08 22:03:16,508][HYDRA]     Values: [0.5095537304878235, -2.3158822059631348], Params: {'defense.params.beta': 0.06532202861136262}
+[2023-05-08 22:03:16,508][HYDRA]     Values: [1.1742500066757202, -3.4434311389923096], Params: {'defense.params.beta': 0.03067198031233796}
+[2023-05-08 22:03:16,508][HYDRA]     Values: [3.3131461143493652, -4.833674907684326], Params: {'defense.params.beta': 0.009705464375943277}
+[2023-05-08 22:03:16,508][HYDRA]     Values: [8.573874473571777, -5.8759307861328125], Params: {'defense.params.beta': 0.003166292659566852}
+[2023-05-08 22:03:16,508][HYDRA]     Values: [4.870387554168701, -5.226746559143066], Params: {'defense.params.beta': 0.006638860115465808}
+[2023-05-08 22:03:16,508][HYDRA]     Values: [1.0366542339324951, -3.2636654376983643], Params: {'defense.params.beta': 0.03507807988986583}
+[2023-05-08 22:03:16,508][HYDRA]     Values: [4.443046569824219, -5.089446067810059], Params: {'defense.params.beta': 0.007205130528140083}
+[2023-05-08 22:03:16,508][HYDRA]     Values: [1.9570151567459106, -4.138982772827148], Params: {'defense.params.beta': 0.017075100754826524}
+[2023-05-08 22:03:16,508][HYDRA]     Values: [4.617001533508301, -5.153914928436279], Params: {'defense.params.beta': 0.00668018665400538}
+[2023-05-08 22:03:16,508][HYDRA]     Values: [1.7126132249832153, -3.9584319591522217], Params: {'defense.params.beta': 0.02021896093866988}
+[2023-05-08 22:03:16,508][HYDRA]     Values: [6.5794358253479, -5.557192802429199], Params: {'defense.params.beta': 0.004460510466305585}
+[2023-05-08 22:03:16,509][HYDRA]     Values: [3.8193163871765137, -4.926548004150391], Params: {'defense.params.beta': 0.008456364891875423}
+[2023-05-08 22:03:16,509][HYDRA]     Values: [13.009895324707031, -6.208355903625488], Params: {'defense.params.beta': 0.0017308926291353466}
+[2023-05-08 22:03:16,509][HYDRA]     Values: [1.2274457216262817, -3.5365586280822754], Params: {'defense.params.beta': 0.027500561244745175}
+[2023-05-08 22:03:16,509][HYDRA]     Values: [2.139620542526245, -4.226916313171387], Params: {'defense.params.beta': 0.015616589804058561}
+[2023-05-08 22:03:16,509][HYDRA]     Values: [29.42450523376465, -6.806519508361816], Params: {'defense.params.beta': 0.00020856431971410117}
+[2023-05-08 22:03:16,509][HYDRA]     Values: [1.7336071729660034, -3.975896120071411], Params: {'defense.params.beta': 0.019500147921475364}
+[2023-05-08 22:03:16,509][HYDRA]     Values: [2.1424176692962646, -4.229422569274902], Params: {'defense.params.beta': 0.01574317723418308}
+[2023-05-08 22:03:16,509][HYDRA]     Values: [4.7874956130981445, -5.162515640258789], Params: {'defense.params.beta': 0.0065023006219471135}
+[2023-05-08 22:03:16,509][HYDRA]     Values: [3.959634304046631, -5.007177829742432], Params: {'defense.params.beta': 0.00763587950046423}
+[2023-05-08 22:03:16,509][HYDRA]     Values: [2.5385963916778564, -4.4331254959106445], Params: {'defense.params.beta': 0.012922663161071008}
+[2023-05-08 22:03:16,509][HYDRA]     Values: [2.0521092414855957, -4.165463447570801], Params: {'defense.params.beta': 0.01606624897940492}
+[2023-05-08 22:03:16,509][HYDRA]     Values: [1.3002550601959229, -3.6208934783935547], Params: {'defense.params.beta': 0.026792275602651835}
+[2023-05-08 22:03:16,509][HYDRA]     Values: [2.007852077484131, -4.161041259765625], Params: {'defense.params.beta': 0.01684716046743657}
+[2023-05-08 22:03:16,509][HYDRA]     Values: [0.8633015155792236, -3.071190595626831], Params: {'defense.params.beta': 0.041624933137574115}
+[2023-05-08 22:03:16,510][HYDRA]     Values: [2.424088716506958, -4.413560390472412], Params: {'defense.params.beta': 0.014330563525450927}
+[2023-05-08 22:03:16,510][HYDRA]     Values: [3.515019416809082, -4.839540004730225], Params: {'defense.params.beta': 0.009148506871743324}
+[2023-05-08 22:03:16,510][HYDRA]     Values: [1.8190081119537354, -4.01678991317749], Params: {'defense.params.beta': 0.01868617331483146}
+[2023-05-08 22:03:16,510][HYDRA]     Values: [4.795376777648926, -5.2012834548950195], Params: {'defense.params.beta': 0.006446074284695286}
+[2023-05-08 22:03:16,510][HYDRA]     Values: [1.4112521409988403, -3.6531338691711426], Params: {'defense.params.beta': 0.024171213279956458}
+[2023-05-08 22:03:16,510][HYDRA]     Values: [2.701820135116577, -4.517954349517822], Params: {'defense.params.beta': 0.012592823283146167}
+[2023-05-08 22:03:16,510][HYDRA]     Values: [26.841779708862305, -6.788330078125], Params: {'defense.params.beta': 0.00033269122590349207}
+[2023-05-08 22:03:16,510][HYDRA]     Values: [1.9533790349960327, -4.090439796447754], Params: {'defense.params.beta': 0.018034251541456256}
+[2023-05-08 22:03:16,510][HYDRA]     Values: [2.3867859840393066, -4.322171688079834], Params: {'defense.params.beta': 0.014303187969834937}
+[2023-05-08 22:03:16,510][HYDRA]     Values: [1.0881073474884033, -3.3623948097229004], Params: {'defense.params.beta': 0.033420689050101614}
+[2023-05-08 22:03:16,510][HYDRA]     Values: [4.556710243225098, -5.103825569152832], Params: {'defense.params.beta': 0.007394370556611369}
+[2023-05-08 22:03:16,510][HYDRA]     Values: [12.042736053466797, -6.191374778747559], Params: {'defense.params.beta': 0.002016211734876122}
+[2023-05-08 22:03:16,510][HYDRA]     Values: [1.814831256866455, -3.9973034858703613], Params: {'defense.params.beta': 0.018763649313177335}
+[2023-05-08 22:03:16,510][HYDRA]     Values: [1.049298882484436, -3.2838428020477295], Params: {'defense.params.beta': 0.03381818980730906}
+[2023-05-08 22:03:16,510][HYDRA]     Values: [10.273558616638184, -6.033488750457764], Params: {'defense.params.beta': 0.0024230235275892143}
+[2023-05-08 22:03:16,510][HYDRA]     Values: [11.21971607208252, -6.079098224639893], Params: {'defense.params.beta': 0.0020826671767037205}
+[2023-05-08 22:03:16,511][HYDRA]     Values: [3.772536277770996, -4.924027919769287], Params: {'defense.params.beta': 0.008471758722474288}
+[2023-05-08 22:03:16,511][HYDRA]     Values: [3.577493667602539, -4.885923862457275], Params: {'defense.params.beta': 0.008866513499667661}
+[2023-05-08 22:03:16,511][HYDRA]     Values: [5.597349166870117, -5.338520526885986], Params: {'defense.params.beta': 0.005471478657500155}
+[2023-05-08 22:03:16,511][HYDRA]     Values: [13.48985481262207, -6.28601598739624], Params: {'defense.params.beta': 0.0017105115489740984}
+[2023-05-08 22:03:16,511][HYDRA]     Values: [3.6453421115875244, -4.915337562561035], Params: {'defense.params.beta': 0.009128458756492921}
+[2023-05-08 22:03:16,511][HYDRA]     Values: [5.3007001876831055, -5.331042766571045], Params: {'defense.params.beta': 0.005771013365557267}
+[2023-05-08 22:03:16,511][HYDRA]     Values: [6.9780731201171875, -5.627926349639893], Params: {'defense.params.beta': 0.004197399182999619}
+[2023-05-08 22:03:16,511][HYDRA]     Values: [1.7964974641799927, -3.9854557514190674], Params: {'defense.params.beta': 0.01931592859828312}
+[2023-05-08 22:03:16,511][HYDRA]     Values: [9.927968978881836, -5.9629034996032715], Params: {'defense.params.beta': 0.002464718122543234}
+[2023-05-08 22:03:16,511][HYDRA]     Values: [0.7055774331092834, -2.7759673595428467], Params: {'defense.params.beta': 0.05367018941141666}
+[2023-05-08 22:03:16,511][HYDRA]     Values: [1.247391939163208, -3.5667030811309814], Params: {'defense.params.beta': 0.028343672988905423}
+[2023-05-08 22:03:16,511][HYDRA]     Values: [2.710888147354126, -4.521340370178223], Params: {'defense.params.beta': 0.01252385865065293}
+[2023-05-08 22:03:16,511][HYDRA]     Values: [2.7679049968719482, -4.554801940917969], Params: {'defense.params.beta': 0.012351470387694491}
+[2023-05-08 22:03:16,511][HYDRA]     Values: [2.6391451358795166, -4.5134406089782715], Params: {'defense.params.beta': 0.012102981886162871}
+[2023-05-08 22:03:16,511][HYDRA]     Values: [2.581822156906128, -4.465229034423828], Params: {'defense.params.beta': 0.012944728509525823}
+[2023-05-08 22:03:16,511][HYDRA]     Values: [1.7938064336776733, -3.9782397747039795], Params: {'defense.params.beta': 0.018658841728875122}
+[2023-05-08 22:03:16,512][HYDRA]     Values: [5.078554153442383, -5.2439775466918945], Params: {'defense.params.beta': 0.006060009963625481}
+[2023-05-08 22:03:16,512][HYDRA]     Values: [2.9706034660339355, -4.672966957092285], Params: {'defense.params.beta': 0.010877509290521576}
+[2023-05-08 22:03:16,512][HYDRA]     Values: [1.5010675191879272, -3.8000171184539795], Params: {'defense.params.beta': 0.022154948119765653}
+[2023-05-08 22:03:16,512][HYDRA]     Values: [1.1303430795669556, -3.404170513153076], Params: {'defense.params.beta': 0.03163322826181843}
+[2023-05-08 22:03:16,512][HYDRA]     Values: [2.132448434829712, -4.2177324295043945], Params: {'defense.params.beta': 0.015809067645926385}
+[2023-05-08 22:03:16,512][HYDRA]     Values: [0.6492502093315125, -2.74440860748291], Params: {'defense.params.beta': 0.05434159573625189}
+[2023-05-08 22:03:16,512][HYDRA]     Values: [1.2554138898849487, -3.5884406566619873], Params: {'defense.params.beta': 0.026929865655287266}
+[2023-05-08 22:03:16,512][HYDRA]     Values: [11.070955276489258, -6.057292461395264], Params: {'defense.params.beta': 0.0021023381031259718}
+[2023-05-08 22:03:16,512][HYDRA]     Values: [1.8478777408599854, -4.027176380157471], Params: {'defense.params.beta': 0.01839626660259716}
+[2023-05-08 22:03:16,512][HYDRA]     Values: [8.315018653869629, -5.842620849609375], Params: {'defense.params.beta': 0.003180637578677096}
+[2023-05-08 22:03:16,512][HYDRA]     Values: [2.2203354835510254, -4.289916038513184], Params: {'defense.params.beta': 0.015053327869110721}
+[2023-05-08 22:03:16,512][HYDRA]     Values: [6.4375810623168945, -5.50686502456665], Params: {'defense.params.beta': 0.004844406987711372}
+[2023-05-08 22:03:16,512][HYDRA]     Values: [0.0002720476477406919, 2.5549778938293457], Params: {'defense.params.beta': 12.649201544267653}
+[2023-05-08 22:03:16,512][HYDRA]     Values: [6.574678897857666, -5.524929046630859], Params: {'defense.params.beta': 0.004501371996942267}
+[2023-05-08 22:03:16,512][HYDRA]     Values: [10.761585235595703, -6.054022789001465], Params: {'defense.params.beta': 0.002397828649748123}
+[2023-05-08 22:03:16,512][HYDRA]     Values: [2.790076494216919, -4.580167293548584], Params: {'defense.params.beta': 0.01143633778588369}
+[2023-05-08 22:03:16,513][HYDRA]     Values: [2.514235734939575, -4.421146392822266], Params: {'defense.params.beta': 0.01273781958523643}
+[2023-05-08 22:03:16,513][HYDRA]     Values: [2.2478082180023193, -4.298342227935791], Params: {'defense.params.beta': 0.01439607417299212}
+[2023-05-08 22:03:16,513][HYDRA]     Values: [1.040354609489441, -3.2733757495880127], Params: {'defense.params.beta': 0.034586223339568345}
+[2023-05-08 22:03:16,513][HYDRA]     Values: [1.5631572008132935, -3.836113452911377], Params: {'defense.params.beta': 0.021524766716360454}
+[2023-05-08 22:03:16,513][HYDRA]     Values: [2.037116765975952, -4.161628723144531], Params: {'defense.params.beta': 0.01687495274011929}
+[2023-05-08 22:03:16,513][HYDRA]     Values: [0.9634073972702026, -3.164051055908203], Params: {'defense.params.beta': 0.03987121755985717}
+[2023-05-08 22:03:16,513][HYDRA]     Values: [9.992982864379883, -5.9643025398254395], Params: {'defense.params.beta': 0.0025879281616141645}
+[2023-05-08 22:03:16,513][HYDRA]     Values: [0.009356390684843063, 1.3371803760528564], Params: {'defense.params.beta': 1.6249446309799147}
+[2023-05-08 22:03:16,513][HYDRA]     Values: [0.0006723300903104246, 2.373089075088501], Params: {'defense.params.beta': 7.78963339717685}
+[2023-05-08 22:03:16,513][HYDRA]     Values: [2.583534002304077, -4.4922990798950195], Params: {'defense.params.beta': 0.013129646230147996}
+[2023-05-08 22:03:16,513][HYDRA]     Values: [5.666662216186523, -5.341378211975098], Params: {'defense.params.beta': 0.0054271439854895395}
+[2023-05-08 22:03:16,513][HYDRA]     Values: [1.0769760608673096, -3.353431224822998], Params: {'defense.params.beta': 0.03275667930643744}
+[2023-05-08 22:03:16,513][HYDRA]     Values: [0.0008840913651511073, 2.298671245574951], Params: {'defense.params.beta': 6.515527394977351}
+[2023-05-08 22:03:16,513][HYDRA]     Values: [10.886520385742188, -6.055678844451904], Params: {'defense.params.beta': 0.0021381903703135865}
+[2023-05-08 22:03:16,513][HYDRA]     Values: [0.0008682702900841832, 2.3055453300476074], Params: {'defense.params.beta': 6.540223370860939}
+[2023-05-08 22:03:16,514][HYDRA]     Values: [2.1724185943603516, -4.248410224914551], Params: {'defense.params.beta': 0.015043134265896721}
+[2023-05-08 22:03:16,514][HYDRA]     Values: [8.16757583618164, -5.783337116241455], Params: {'defense.params.beta': 0.0033552907972018075}
+[2023-05-08 22:03:16,514][HYDRA]     Values: [0.00016832900291774422, 2.6233649253845215], Params: {'defense.params.beta': 16.574350455682413}
+[2023-05-08 22:03:16,514][HYDRA]     Values: [2.8913261890411377, -4.585339546203613], Params: {'defense.params.beta': 0.01147526399535341}
+[2023-05-08 22:03:16,514][HYDRA]     Values: [0.0001666016032686457, 2.626502275466919], Params: {'defense.params.beta': 16.40171249642216}
+[2023-05-08 22:03:16,514][HYDRA]     Values: [2.1272592544555664, -4.20038366317749], Params: {'defense.params.beta': 0.015283129266011943}
+[2023-05-08 22:03:16,514][HYDRA]     Values: [15.756036758422852, -6.4401655197143555], Params: {'defense.params.beta': 0.0012273341532973118}
+[2023-05-08 22:03:16,514][HYDRA]     Values: [0.002847040770575404, 1.9285430908203125], Params: {'defense.params.beta': 3.487031662862134}
+[2023-05-08 22:03:16,514][HYDRA]     Values: [5.9395670890808105, -5.48761510848999], Params: {'defense.params.beta': 0.005038780123101645}
+[2023-05-08 22:03:16,514][HYDRA]     Values: [4.241519451141357, -5.085267066955566], Params: {'defense.params.beta': 0.007411095425232368}
+[2023-05-08 22:03:16,514][HYDRA]     Values: [2.849655866622925, -4.583616256713867], Params: {'defense.params.beta': 0.011539806458503443}
+[2023-05-08 22:03:16,514][HYDRA]     Values: [2.405200719833374, -4.366877555847168], Params: {'defense.params.beta': 0.014207283322893626}
+[2023-05-08 22:03:16,514][HYDRA]     Values: [0.0001606237783562392, 2.6360599994659424], Params: {'defense.params.beta': 17.122360153265785}
+[2023-05-08 22:03:16,514][HYDRA]     Values: [3.018357038497925, -4.70383358001709], Params: {'defense.params.beta': 0.010640665076619725}
+[2023-05-08 22:03:16,514][HYDRA]     Values: [1.454390048980713, -3.7490811347961426], Params: {'defense.params.beta': 0.02353368795935461}
+[2023-05-08 22:03:16,514][HYDRA]     Values: [10.031194686889648, -5.965167999267578], Params: {'defense.params.beta': 0.0024011853646517776}
+[2023-05-08 22:03:16,515][HYDRA]     Values: [13.300615310668945, -6.236881256103516], Params: {'defense.params.beta': 0.0016162089224166253}
+[2023-05-08 22:03:16,515][HYDRA]     Values: [7.666421890258789, -5.723769187927246], Params: {'defense.params.beta': 0.0038087762118043755}
+[2023-05-08 22:03:16,515][HYDRA]     Values: [0.7052119970321655, -2.7745015621185303], Params: {'defense.params.beta': 0.051997548279480506}
+[2023-05-08 22:03:16,515][HYDRA]     Values: [2.356412649154663, -4.318216323852539], Params: {'defense.params.beta': 0.014317009464111467}
+[2023-05-08 22:03:16,515][HYDRA]     Values: [7.235727787017822, -5.659316062927246], Params: {'defense.params.beta': 0.00395498516361318}
+[2023-05-08 22:03:16,515][HYDRA]     Values: [0.001995891099795699, 2.0456295013427734], Params: {'defense.params.beta': 4.3915164948804115}
+[2023-05-08 22:03:16,515][HYDRA]     Values: [0.003594042966142297, 1.8255048990249634], Params: {'defense.params.beta': 2.9400119143928842}
+[2023-05-08 22:03:16,515][HYDRA]     Values: [1.148934245109558, -3.4078292846679688], Params: {'defense.params.beta': 0.03017389623904005}
+[2023-05-08 22:03:16,515][HYDRA]     Values: [12.661680221557617, -6.201815128326416], Params: {'defense.params.beta': 0.0017976478005223982}
+[2023-05-08 22:03:16,515][HYDRA]     Values: [3.1432015895843506, -4.754785537719727], Params: {'defense.params.beta': 0.00994791762320388}
+[2023-05-08 22:03:16,515][HYDRA]     Values: [0.006628948729485273, 1.5364768505096436], Params: {'defense.params.beta': 2.0945385077325733}
+[2023-05-08 22:03:16,515][HYDRA]     Values: [2.286989688873291, -4.305773735046387], Params: {'defense.params.beta': 0.014564992787714986}
+[2023-05-08 22:03:16,515][HYDRA]     Values: [0.0013227725867182016, 2.1901631355285645], Params: {'defense.params.beta': 5.4027522848174145}
+[2023-05-08 22:03:16,515][HYDRA]     Values: [2.7804150581359863, -4.562006950378418], Params: {'defense.params.beta': 0.011563237303304923}
+[2023-05-08 22:03:16,515][HYDRA]     Values: [26.072511672973633, -6.667245388031006], Params: {'defense.params.beta': 0.0003280227442700595}
+[2023-05-08 22:03:16,516][HYDRA]     Values: [0.00046050691162236035, 2.4540438652038574], Params: {'defense.params.beta': 9.671287139691822}
+[2023-05-08 22:03:16,516][HYDRA]     Values: [0.009594954550266266, 1.323639154434204], Params: {'defense.params.beta': 1.5843356247157327}
+[2023-05-08 22:03:16,516][HYDRA]     Values: [9.713130950927734, -5.9414520263671875], Params: {'defense.params.beta': 0.002383239967481841}
+[2023-05-08 22:03:16,516][HYDRA]     Values: [16.702529907226562, -6.463554382324219], Params: {'defense.params.beta': 0.0010809165454116528}
+[2023-05-08 22:03:16,516][HYDRA]     Values: [0.7555434107780457, -2.9763951301574707], Params: {'defense.params.beta': 0.045371104621205915}
+[2023-05-08 22:03:16,516][HYDRA]     Values: [1.0046063661575317, -3.2307288646698], Params: {'defense.params.beta': 0.03573524403289718}
+[2023-05-08 22:03:16,516][HYDRA]     Values: [0.5464958548545837, -2.553071975708008], Params: {'defense.params.beta': 0.06351547805185298}
+[2023-05-08 22:03:16,516][HYDRA]     Values: [0.001688443124294281, 2.130185842514038], Params: {'defense.params.beta': 4.882085938167056}
+[2023-05-08 22:03:16,516][HYDRA]     Values: [1.666107416152954, -3.88824725151062], Params: {'defense.params.beta': 0.020456041417594217}
+[2023-05-08 22:03:16,516][HYDRA]     Values: [11.961413383483887, -6.1724982261657715], Params: {'defense.params.beta': 0.001991861204806108}
+[2023-05-08 22:03:16,516][HYDRA]     Values: [0.0001188655078294687, 2.667551279067993], Params: {'defense.params.beta': 19.93163829985051}
+[2023-05-08 22:03:16,516][HYDRA]     Values: [0.0007336011622101068, 2.3474254608154297], Params: {'defense.params.beta': 7.3744481169217195}
+[2023-05-08 22:03:16,516][HYDRA]     Values: [0.00017014145851135254, 2.6218149662017822], Params: {'defense.params.beta': 15.932056018902713}
+[2023-05-08 22:03:16,516][HYDRA]     Values: [0.8066538572311401, -3.0007691383361816], Params: {'defense.params.beta': 0.043032221035709285}
+[2023-05-08 22:03:16,517][HYDRA]     Values: [2.913630723953247, -4.621585845947266], Params: {'defense.params.beta': 0.011059805865080687}
+[2023-05-08 22:03:16,517][HYDRA]     Values: [5.763367176055908, -5.404018878936768], Params: {'defense.params.beta': 0.005412092408746846}
+[2023-05-08 22:03:16,517][HYDRA]     Values: [0.0007779800798743963, 2.337857484817505], Params: {'defense.params.beta': 7.299754159188515}
+[2023-05-08 22:03:16,517][HYDRA]     Values: [0.0001426164380973205, 2.651801824569702], Params: {'defense.params.beta': 18.10211453373675}
+[2023-05-08 22:03:16,517][HYDRA]     Values: [0.0012503932230174541, 2.214473009109497], Params: {'defense.params.beta': 5.559879379145005}
+[2023-05-08 22:03:16,517][HYDRA]     Values: [0.00910096988081932, 1.3932589292526245], Params: {'defense.params.beta': 1.731938019767707}
+[2023-05-08 22:03:16,517][HYDRA]     Values: [0.0012214037124067545, 2.2301344871520996], Params: {'defense.params.beta': 5.625344189343988}
+[2023-05-08 22:03:16,517][HYDRA]     Values: [0.008794603869318962, 1.3953322172164917], Params: {'defense.params.beta': 1.67840174878744}
+[2023-05-08 22:03:16,517][HYDRA]     Values: [0.00012841746502090245, 2.6626579761505127], Params: {'defense.params.beta': 19.239867576932824}
+[2023-05-08 22:03:16,517][HYDRA]     Values: [8.841340065002441, -5.8909010887146], Params: {'defense.params.beta': 0.00300701106788226}
+[2023-05-08 22:03:16,517][HYDRA]     Values: [0.0003939495363738388, 2.491999864578247], Params: {'defense.params.beta': 10.994127124315241}
+[2023-05-08 22:03:16,517][HYDRA]     Values: [5.701152801513672, -5.393586158752441], Params: {'defense.params.beta': 0.005490657761467214}
+[2023-05-08 22:03:16,518][HYDRA]     Values: [6.9261155128479, -5.583550453186035], Params: {'defense.params.beta': 0.004120668535844554}
+[2023-05-08 22:03:16,518][HYDRA]     Values: [0.48161032795906067, -2.314979076385498], Params: {'defense.params.beta': 0.07073314654131019}
+[2023-05-08 22:03:16,518][HYDRA]     Values: [1.1239157915115356, -3.3733315467834473], Params: {'defense.params.beta': 0.032704638471436134}
+[2023-05-08 22:03:16,518][HYDRA]     Values: [6.873684406280518, -5.562777042388916], Params: {'defense.params.beta': 0.004262386681088005}
+[2023-05-08 22:03:16,518][HYDRA]     Values: [14.65569019317627, -6.330470561981201], Params: {'defense.params.beta': 0.0014550797876634743}
+[2023-05-08 22:03:16,518][HYDRA]     Values: [0.00024237729667220265, 2.5743660926818848], Params: {'defense.params.beta': 13.443085222867179}
+[2023-05-08 22:03:16,518][HYDRA]     Values: [1.1493890285491943, -3.410297393798828], Params: {'defense.params.beta': 0.03133136337945182}
+[2023-05-08 22:03:16,518][HYDRA]     Values: [0.0035121580585837364, 1.839622139930725], Params: {'defense.params.beta': 3.0062831590849983}
+[2023-05-08 22:03:16,518][HYDRA]     Values: [1.671854019165039, -3.9332847595214844], Params: {'defense.params.beta': 0.019880747202542258}
+[2023-05-08 22:03:16,518][HYDRA]     Values: [21.42620277404785, -6.614199638366699], Params: {'defense.params.beta': 0.0006037117819659866}
+[2023-05-08 22:03:16,518][HYDRA]     Values: [0.0015907221240922809, 2.1302385330200195], Params: {'defense.params.beta': 4.879418458105243}
+[2023-05-08 22:03:16,518][HYDRA]     Values: [9.445165634155273, -5.938729286193848], Params: {'defense.params.beta': 0.002795256267993801}
+[2023-05-08 22:03:16,518][HYDRA]     Values: [3.771660089492798, -4.922056198120117], Params: {'defense.params.beta': 0.008156899222636411}
+[2023-05-08 22:03:16,518][HYDRA]     Values: [0.0003665756667032838, 2.5108020305633545], Params: {'defense.params.beta': 10.70896628024783}
+[2023-05-08 22:03:16,518][HYDRA]     Values: [0.0027819860260933638, 1.9286607503890991], Params: {'defense.params.beta': 3.487109044855875}
+[2023-05-08 22:03:16,518][HYDRA]     Values: [1.148788571357727, -3.4077861309051514], Params: {'defense.params.beta': 0.03049363298780507}
+[2023-05-08 22:03:16,518][HYDRA]     Values: [0.001027886988595128, 2.270885467529297], Params: {'defense.params.beta': 6.080926863947072}
+[2023-05-08 22:03:16,519][HYDRA]     Values: [3.845667839050293, -4.943144798278809], Params: {'defense.params.beta': 0.00820814457507632}
+[2023-05-08 22:03:16,519][HYDRA]     Values: [0.005181678105145693, 1.6725040674209595], Params: {'defense.params.beta': 2.520851387455421}
+[2023-05-08 22:03:16,519][HYDRA]     Values: [7.503173351287842, -5.698761940002441], Params: {'defense.params.beta': 0.0038207261313577714}
+[2023-05-08 22:03:16,519][HYDRA]     Values: [1.9059278964996338, -4.086427688598633], Params: {'defense.params.beta': 0.01766094265572941}
+[2023-05-08 22:03:16,519][HYDRA]     Values: [0.0001844536018325016, 2.61279559135437], Params: {'defense.params.beta': 15.577577396666523}
+[2023-05-08 22:03:16,519][HYDRA]     Values: [8.230264663696289, -5.831501483917236], Params: {'defense.params.beta': 0.0034565062911810444}
+[2023-05-08 22:03:16,519][HYDRA]     Values: [0.0017716230358928442, 2.0954067707061768], Params: {'defense.params.beta': 4.666987460214234}
+[2023-05-08 22:03:16,519][HYDRA]     Values: [0.6090099215507507, -2.624814748764038], Params: {'defense.params.beta': 0.059602663875178874}
+[2023-05-08 22:03:16,519][HYDRA]     Values: [6.2960734367370605, -5.500125885009766], Params: {'defense.params.beta': 0.004626917021916421}
+[2023-05-08 22:03:16,519][HYDRA]     Values: [2.2005624771118164, -4.2597455978393555], Params: {'defense.params.beta': 0.015325972431918189}
+/mnt/qb/home/macke/mgloeckler90/robustness_ai/src/rbibm/config/experiment/sweep_lv.yaml
+{'name': 'main_sweeps', 'hydra': {'mode': 'MULTIRUN', 'sweeper': {'params': {'defense': 'fisher_trace', 'task': 'lotka_volterra', 'eval_rob.eps': 2.0, 'model': 'maf_pyro', 'train.N_train': 100000, 'train.N_test': 10000, 'defense.params.beta': 'interval(0.0000001,20.)', 'run_eval_approx': False, 'sweeper.objective': ['rob_value', 'test_loss']}, 'direction': ['minimize', 'minimize']}}, 'defaults': [{'override /partition': 'cuda'}, {'override /sweeper': 'tpe_mo'}]}

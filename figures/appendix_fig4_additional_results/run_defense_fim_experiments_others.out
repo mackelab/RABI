@@ -1,0 +1,122 @@
+          
+                      
+  _____  ____ _____ ____  __  __ 
+ |  __ \|  _ \_   _|  _ \|  \/  |       --..,_                     _,.--.       
+ | |__) | |_) || | | |_) | \  / |          `'.'.                .'`__ o  `;__.  
+ |  _  /|  _ < | | |  _ <| |\/| |             '.'.            .'.'`  '---'`  ` 
+ | | \ \| |_) || |_| |_) | |  | |              '.`'--....--'`.'            
+ |_|  \_\____/_____|____/|_|  |_|                `'--....--'`         
+
+ 
+                                           
+
+['/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/bin/rbibm', '+experiment=train_small_others_fim']
+[2023-05-10 15:59:13,775][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-10/15-58-19
+[2023-05-10 15:59:13,780][HYDRA] 	#0 : model=gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.0001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:13,787][HYDRA] 	#1 : model=gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.0001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:13,793][HYDRA] 	#2 : model=gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.0001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:13,799][HYDRA] 	#3 : model=gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:13,805][HYDRA] 	#4 : model=gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:13,811][HYDRA] 	#5 : model=gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:13,817][HYDRA] 	#6 : model=gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.01 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:13,823][HYDRA] 	#7 : model=gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.01 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:13,829][HYDRA] 	#8 : model=gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.01 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:13,835][HYDRA] 	#9 : model=gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.1 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:13,841][HYDRA] 	#10 : model=gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.1 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:13,847][HYDRA] 	#11 : model=gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.1 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:13,852][HYDRA] 	#12 : model=gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.0001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:13,858][HYDRA] 	#13 : model=gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.0001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:13,864][HYDRA] 	#14 : model=gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.0001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:13,870][HYDRA] 	#15 : model=gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,106][HYDRA] 	#16 : model=gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,112][HYDRA] 	#17 : model=gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,118][HYDRA] 	#18 : model=gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.01 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,124][HYDRA] 	#19 : model=gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.01 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,129][HYDRA] 	#20 : model=gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.01 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,135][HYDRA] 	#21 : model=gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.1 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,141][HYDRA] 	#22 : model=gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.1 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,147][HYDRA] 	#23 : model=gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.1 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,152][HYDRA] 	#24 : model=gaussian task=sir defense=fisher_trace defense.params.beta=0.0001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,158][HYDRA] 	#25 : model=gaussian task=sir defense=fisher_trace defense.params.beta=0.0001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,164][HYDRA] 	#26 : model=gaussian task=sir defense=fisher_trace defense.params.beta=0.0001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,169][HYDRA] 	#27 : model=gaussian task=sir defense=fisher_trace defense.params.beta=0.001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,176][HYDRA] 	#28 : model=gaussian task=sir defense=fisher_trace defense.params.beta=0.001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,182][HYDRA] 	#29 : model=gaussian task=sir defense=fisher_trace defense.params.beta=0.001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,187][HYDRA] 	#30 : model=gaussian task=sir defense=fisher_trace defense.params.beta=0.01 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,193][HYDRA] 	#31 : model=gaussian task=sir defense=fisher_trace defense.params.beta=0.01 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,199][HYDRA] 	#32 : model=gaussian task=sir defense=fisher_trace defense.params.beta=0.01 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,204][HYDRA] 	#33 : model=gaussian task=sir defense=fisher_trace defense.params.beta=0.1 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,210][HYDRA] 	#34 : model=gaussian task=sir defense=fisher_trace defense.params.beta=0.1 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,217][HYDRA] 	#35 : model=gaussian task=sir defense=fisher_trace defense.params.beta=0.1 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,222][HYDRA] 	#36 : model=mixture_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.0001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,228][HYDRA] 	#37 : model=mixture_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.0001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,234][HYDRA] 	#38 : model=mixture_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.0001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,240][HYDRA] 	#39 : model=mixture_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,246][HYDRA] 	#40 : model=mixture_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,251][HYDRA] 	#41 : model=mixture_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,258][HYDRA] 	#42 : model=mixture_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.01 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,264][HYDRA] 	#43 : model=mixture_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.01 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,269][HYDRA] 	#44 : model=mixture_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.01 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,275][HYDRA] 	#45 : model=mixture_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.1 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,281][HYDRA] 	#46 : model=mixture_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.1 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,287][HYDRA] 	#47 : model=mixture_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.1 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,293][HYDRA] 	#48 : model=mixture_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.0001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,299][HYDRA] 	#49 : model=mixture_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.0001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,305][HYDRA] 	#50 : model=mixture_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.0001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,311][HYDRA] 	#51 : model=mixture_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,317][HYDRA] 	#52 : model=mixture_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,322][HYDRA] 	#53 : model=mixture_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,328][HYDRA] 	#54 : model=mixture_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.01 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,334][HYDRA] 	#55 : model=mixture_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.01 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,340][HYDRA] 	#56 : model=mixture_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.01 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,346][HYDRA] 	#57 : model=mixture_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.1 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,352][HYDRA] 	#58 : model=mixture_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.1 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,358][HYDRA] 	#59 : model=mixture_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.1 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,363][HYDRA] 	#60 : model=mixture_gaussian task=sir defense=fisher_trace defense.params.beta=0.0001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,369][HYDRA] 	#61 : model=mixture_gaussian task=sir defense=fisher_trace defense.params.beta=0.0001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,375][HYDRA] 	#62 : model=mixture_gaussian task=sir defense=fisher_trace defense.params.beta=0.0001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,381][HYDRA] 	#63 : model=mixture_gaussian task=sir defense=fisher_trace defense.params.beta=0.001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,387][HYDRA] 	#64 : model=mixture_gaussian task=sir defense=fisher_trace defense.params.beta=0.001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,393][HYDRA] 	#65 : model=mixture_gaussian task=sir defense=fisher_trace defense.params.beta=0.001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,399][HYDRA] 	#66 : model=mixture_gaussian task=sir defense=fisher_trace defense.params.beta=0.01 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,404][HYDRA] 	#67 : model=mixture_gaussian task=sir defense=fisher_trace defense.params.beta=0.01 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,410][HYDRA] 	#68 : model=mixture_gaussian task=sir defense=fisher_trace defense.params.beta=0.01 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,416][HYDRA] 	#69 : model=mixture_gaussian task=sir defense=fisher_trace defense.params.beta=0.1 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,422][HYDRA] 	#70 : model=mixture_gaussian task=sir defense=fisher_trace defense.params.beta=0.1 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,428][HYDRA] 	#71 : model=mixture_gaussian task=sir defense=fisher_trace defense.params.beta=0.1 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,434][HYDRA] 	#72 : model=multivariate_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.0001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,439][HYDRA] 	#73 : model=multivariate_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.0001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,445][HYDRA] 	#74 : model=multivariate_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.0001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,451][HYDRA] 	#75 : model=multivariate_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,457][HYDRA] 	#76 : model=multivariate_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,463][HYDRA] 	#77 : model=multivariate_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,469][HYDRA] 	#78 : model=multivariate_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.01 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,474][HYDRA] 	#79 : model=multivariate_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.01 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,480][HYDRA] 	#80 : model=multivariate_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.01 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,486][HYDRA] 	#81 : model=multivariate_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.1 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,492][HYDRA] 	#82 : model=multivariate_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.1 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,498][HYDRA] 	#83 : model=multivariate_gaussian task=gaussian_linear defense=fisher_trace defense.params.beta=0.1 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,504][HYDRA] 	#84 : model=multivariate_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.0001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,510][HYDRA] 	#85 : model=multivariate_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.0001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,516][HYDRA] 	#86 : model=multivariate_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.0001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,521][HYDRA] 	#87 : model=multivariate_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,527][HYDRA] 	#88 : model=multivariate_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,533][HYDRA] 	#89 : model=multivariate_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,539][HYDRA] 	#90 : model=multivariate_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.01 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,545][HYDRA] 	#91 : model=multivariate_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.01 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,551][HYDRA] 	#92 : model=multivariate_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.01 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,557][HYDRA] 	#93 : model=multivariate_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.1 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,562][HYDRA] 	#94 : model=multivariate_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.1 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,568][HYDRA] 	#95 : model=multivariate_gaussian task=lotka_volterra defense=fisher_trace defense.params.beta=0.1 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,574][HYDRA] 	#96 : model=multivariate_gaussian task=sir defense=fisher_trace defense.params.beta=0.0001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,580][HYDRA] 	#97 : model=multivariate_gaussian task=sir defense=fisher_trace defense.params.beta=0.0001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,586][HYDRA] 	#98 : model=multivariate_gaussian task=sir defense=fisher_trace defense.params.beta=0.0001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,592][HYDRA] 	#99 : model=multivariate_gaussian task=sir defense=fisher_trace defense.params.beta=0.001 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,599][HYDRA] 	#100 : model=multivariate_gaussian task=sir defense=fisher_trace defense.params.beta=0.001 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,604][HYDRA] 	#101 : model=multivariate_gaussian task=sir defense=fisher_trace defense.params.beta=0.001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,611][HYDRA] 	#102 : model=multivariate_gaussian task=sir defense=fisher_trace defense.params.beta=0.01 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,616][HYDRA] 	#103 : model=multivariate_gaussian task=sir defense=fisher_trace defense.params.beta=0.01 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,622][HYDRA] 	#104 : model=multivariate_gaussian task=sir defense=fisher_trace defense.params.beta=0.01 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,629][HYDRA] 	#105 : model=multivariate_gaussian task=sir defense=fisher_trace defense.params.beta=0.1 train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,813][HYDRA] 	#106 : model=multivariate_gaussian task=sir defense=fisher_trace defense.params.beta=0.1 train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others_fim
+[2023-05-10 15:59:14,819][HYDRA] 	#107 : model=multivariate_gaussian task=sir defense=fisher_trace defense.params.beta=0.1 train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others_fim

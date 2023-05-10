@@ -1,0 +1,100 @@
+          
+                      
+  _____  ____ _____ ____  __  __ 
+ |  __ \|  _ \_   _|  _ \|  \/  |       --..,_                     _,.--.       
+ | |__) | |_) || | | |_) | \  / |          `'.'.                .'`__ o  `;__.  
+ |  _  /|  _ < | | |  _ <| |\/| |             '.'.            .'.'`  '---'`  ` 
+ | | \ \| |_) || |_| |_) | |  | |              '.`'--....--'`.'            
+ |_|  \_\____/_____|____/|_|  |_|                `'--....--'`         
+
+ 
+                                           
+
+['/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/bin/rbibm', '+experiment=train_small_others']
+[2023-05-10 15:53:01,633][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-10/15-50-34
+[2023-05-10 15:53:01,638][HYDRA] 	#0 : model=gaussian task=gaussian_linear train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,645][HYDRA] 	#1 : model=gaussian task=gaussian_linear train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,652][HYDRA] 	#2 : model=gaussian task=gaussian_linear train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,657][HYDRA] 	#3 : model=gaussian task=lotka_volterra train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,663][HYDRA] 	#4 : model=gaussian task=lotka_volterra train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,669][HYDRA] 	#5 : model=gaussian task=lotka_volterra train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,674][HYDRA] 	#6 : model=gaussian task=sir train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,680][HYDRA] 	#7 : model=gaussian task=sir train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,685][HYDRA] 	#8 : model=gaussian task=sir train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,692][HYDRA] 	#9 : model=mixture_gaussian task=gaussian_linear train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,698][HYDRA] 	#10 : model=mixture_gaussian task=gaussian_linear train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,704][HYDRA] 	#11 : model=mixture_gaussian task=gaussian_linear train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,709][HYDRA] 	#12 : model=mixture_gaussian task=lotka_volterra train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,715][HYDRA] 	#13 : model=mixture_gaussian task=lotka_volterra train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,721][HYDRA] 	#14 : model=mixture_gaussian task=lotka_volterra train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,728][HYDRA] 	#15 : model=mixture_gaussian task=sir train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,735][HYDRA] 	#16 : model=mixture_gaussian task=sir train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,740][HYDRA] 	#17 : model=mixture_gaussian task=sir train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,746][HYDRA] 	#18 : model=multivariate_gaussian task=gaussian_linear train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,752][HYDRA] 	#19 : model=multivariate_gaussian task=gaussian_linear train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,758][HYDRA] 	#20 : model=multivariate_gaussian task=gaussian_linear train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,764][HYDRA] 	#21 : model=multivariate_gaussian task=lotka_volterra train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,770][HYDRA] 	#22 : model=multivariate_gaussian task=lotka_volterra train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,776][HYDRA] 	#23 : model=multivariate_gaussian task=lotka_volterra train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,783][HYDRA] 	#24 : model=multivariate_gaussian task=sir train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,789][HYDRA] 	#25 : model=multivariate_gaussian task=sir train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_small_others
+[2023-05-10 15:53:01,795][HYDRA] 	#26 : model=multivariate_gaussian task=sir train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_small_others
+/mnt/qb/home/macke/mgloeckler90/robustness_ai/src/rbibm/config/experiment/train_small_others.yaml
+{'name': 'benchmark', 'defaults': [{'override /partition': 'cuda'}], 'hydra': {'mode': 'MULTIRUN', 'sweeper': {'params': {'model': 'gaussian,mixture_gaussian,multivariate_gaussian', 'task': 'gaussian_linear,lotka_volterra,sir', 'train.N_train': '1000,10000,100000', 'train': 'fKL', 'run_eval_rob': False}}}}
+          
+                      
+  _____  ____ _____ ____  __  __ 
+ |  __ \|  _ \_   _|  _ \|  \/  |       --..,_                     _,.--.       
+ | |__) | |_) || | | |_) | \  / |          `'.'.                .'`__ o  `;__.  
+ |  _  /|  _ < | | |  _ <| |\/| |             '.'.            .'.'`  '---'`  ` 
+ | | \ \| |_) || |_| |_) | |  | |              '.`'--....--'`.'            
+ |_|  \_\____/_____|____/|_|  |_|                `'--....--'`         
+
+ 
+                                           
+
+['/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/bin/rbibm', '+experiment=train_large_others']
+[2023-05-10 15:58:11,789][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-10/15-57-58
+[2023-05-10 15:58:11,793][HYDRA] 	#0 : model=gaussian model/embedding_net=mlp task=hudgkin_huxley train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,800][HYDRA] 	#1 : model=gaussian model/embedding_net=mlp task=hudgkin_huxley train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,805][HYDRA] 	#2 : model=gaussian model/embedding_net=mlp task=hudgkin_huxley train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,811][HYDRA] 	#3 : model=gaussian model/embedding_net=mlp task=spatial_sir train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,817][HYDRA] 	#4 : model=gaussian model/embedding_net=mlp task=spatial_sir train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,825][HYDRA] 	#5 : model=gaussian model/embedding_net=mlp task=spatial_sir train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,832][HYDRA] 	#6 : model=gaussian model/embedding_net=mlp task=vae_task train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,839][HYDRA] 	#7 : model=gaussian model/embedding_net=mlp task=vae_task train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,845][HYDRA] 	#8 : model=gaussian model/embedding_net=mlp task=vae_task train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,851][HYDRA] 	#9 : model=mixture_gaussian model/embedding_net=mlp task=hudgkin_huxley train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,857][HYDRA] 	#10 : model=mixture_gaussian model/embedding_net=mlp task=hudgkin_huxley train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,863][HYDRA] 	#11 : model=mixture_gaussian model/embedding_net=mlp task=hudgkin_huxley train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,869][HYDRA] 	#12 : model=mixture_gaussian model/embedding_net=mlp task=spatial_sir train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,875][HYDRA] 	#13 : model=mixture_gaussian model/embedding_net=mlp task=spatial_sir train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,882][HYDRA] 	#14 : model=mixture_gaussian model/embedding_net=mlp task=spatial_sir train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,888][HYDRA] 	#15 : model=mixture_gaussian model/embedding_net=mlp task=vae_task train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,894][HYDRA] 	#16 : model=mixture_gaussian model/embedding_net=mlp task=vae_task train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,901][HYDRA] 	#17 : model=mixture_gaussian model/embedding_net=mlp task=vae_task train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,907][HYDRA] 	#18 : model=multivariate_gaussian model/embedding_net=mlp task=hudgkin_huxley train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,913][HYDRA] 	#19 : model=multivariate_gaussian model/embedding_net=mlp task=hudgkin_huxley train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,919][HYDRA] 	#20 : model=multivariate_gaussian model/embedding_net=mlp task=hudgkin_huxley train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,927][HYDRA] 	#21 : model=multivariate_gaussian model/embedding_net=mlp task=spatial_sir train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,933][HYDRA] 	#22 : model=multivariate_gaussian model/embedding_net=mlp task=spatial_sir train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,939][HYDRA] 	#23 : model=multivariate_gaussian model/embedding_net=mlp task=spatial_sir train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,944][HYDRA] 	#24 : model=multivariate_gaussian model/embedding_net=mlp task=vae_task train.N_train=1000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,950][HYDRA] 	#25 : model=multivariate_gaussian model/embedding_net=mlp task=vae_task train.N_train=10000 train=fKL run_eval_rob=False +experiment=train_large_others
+[2023-05-10 15:58:11,956][HYDRA] 	#26 : model=multivariate_gaussian model/embedding_net=mlp task=vae_task train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_large_others
+/mnt/qb/home/macke/mgloeckler90/robustness_ai/src/rbibm/config/experiment/train_large_others.yaml
+{'name': 'benchmark', 'defaults': [{'override /partition': 'cuda'}], 'hydra': {'mode': 'MULTIRUN', 'sweeper': {'params': {'model': 'gaussian,mixture_gaussian,multivariate_gaussian', 'model/embedding_net': 'mlp', 'task': 'hudgkin_huxley,spatial_sir,vae_task', 'train.N_train': '1000,10000,100000', 'train': 'fKL', 'run_eval_rob': False}}}}
+393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,462,463,470
+          
+                      
+  _____  ____ _____ ____  __  __ 
+ |  __ \|  _ \_   _|  _ \|  \/  |       --..,_                     _,.--.       
+ | |__) | |_) || | | |_) | \  / |          `'.'.                .'`__ o  `;__.  
+ |  _  /|  _ < | | |  _ <| |\/| |             '.'.            .'.'`  '---'`  ` 
+ | | \ \| |_) || |_| |_) | |  | |              '.`'--....--'`.'            
+ |_|  \_\____/_____|____/|_|  |_|                `'--....--'`         
+
+ 
+                                           
+
+['/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/bin/rbibm', '+experiment=eval_l2', 'idx=393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,462,463,470']

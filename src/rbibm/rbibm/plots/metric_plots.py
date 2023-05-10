@@ -164,11 +164,11 @@ def defense_to_plot_name(defense: Optional[str]):
 
 def task_plot_name(task: Optional[str]):
     if task == "gaussian_linear":
-        return "Linear gaussian"
+        return "Linear Gaussian"
     elif task == "rbf_regression":
         return "GLR"
     elif task == "lotka_volterra":
-        return "Lotka volterra"
+        return "Lotka Volterra"
     elif task == "sir":
         return "SIR"
     elif task == "vae_task":

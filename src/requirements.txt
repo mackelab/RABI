@@ -28,3 +28,4 @@ tueplots==0.0.4
 jupyter
 
 git+https://github.com/BorealisAI/advertorch.git 
+git+https://github.com/mackelab/pyloric.git
