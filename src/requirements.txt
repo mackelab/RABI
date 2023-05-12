@@ -17,6 +17,7 @@ pandas==1.4.0
 pyloric==0.0.1
 PyYAML==6.0
 svgutil==0.3.1
+paretoset
 sbi==0.21.0
 scikit_learn==1.2.1
 scipy==1.8.0
