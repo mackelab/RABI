@@ -1,0 +1,105 @@
+0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,462,463,470
+          
+                      
+  _____  ____ _____ ____  __  __ 
+ |  __ \|  _ \_   _|  _ \|  \/  |       --..,_                     _,.--.       
+ | |__) | |_) || | | |_) | \  / |          `'.'.                .'`__ o  `;__.  
+ |  _  /|  _ < | | |  _ <| |\/| |             '.'.            .'.'`  '---'`  ` 
+ | | \ \| |_) || |_| |_) | |  | |              '.`'--....--'`.'            
+ |_|  \_\____/_____|____/|_|  |_|                `'--....--'`         
+
+ 
+                                           
+
+['/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/bin/rbibm', '+experiment=eval_l2_nll', 'idx=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,393,394,395,396,397,398,399,400,401,402,403,404,405,406,407,408,409,410,411,412,413,414,415,416,417,418,419,420,421,422,423,424,425,426,427,428,429,430,431,432,433,434,435,436,437,438,439,440,441,442,443,462,463,470', 'eval_rob/attack=l2noise']
+[2023-05-12 11:55:59,548][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-12/11-55-17
+[2023-05-12 11:55:59,559][HYDRA] 	#0 : run_train=False idx=0 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,566][HYDRA] 	#1 : run_train=False idx=1 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,572][HYDRA] 	#2 : run_train=False idx=2 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,580][HYDRA] 	#3 : run_train=False idx=3 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,586][HYDRA] 	#4 : run_train=False idx=4 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,593][HYDRA] 	#5 : run_train=False idx=5 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,602][HYDRA] 	#6 : run_train=False idx=6 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,608][HYDRA] 	#7 : run_train=False idx=7 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,614][HYDRA] 	#8 : run_train=False idx=8 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,620][HYDRA] 	#9 : run_train=False idx=9 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,626][HYDRA] 	#10 : run_train=False idx=10 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,633][HYDRA] 	#11 : run_train=False idx=11 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,639][HYDRA] 	#12 : run_train=False idx=12 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,645][HYDRA] 	#13 : run_train=False idx=13 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,651][HYDRA] 	#14 : run_train=False idx=14 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,657][HYDRA] 	#15 : run_train=False idx=15 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,663][HYDRA] 	#16 : run_train=False idx=16 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,669][HYDRA] 	#17 : run_train=False idx=17 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,676][HYDRA] 	#18 : run_train=False idx=18 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,682][HYDRA] 	#19 : run_train=False idx=19 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,688][HYDRA] 	#20 : run_train=False idx=20 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,694][HYDRA] 	#21 : run_train=False idx=21 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,700][HYDRA] 	#22 : run_train=False idx=22 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,706][HYDRA] 	#23 : run_train=False idx=23 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,712][HYDRA] 	#24 : run_train=False idx=24 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,718][HYDRA] 	#25 : run_train=False idx=25 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,724][HYDRA] 	#26 : run_train=False idx=26 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,731][HYDRA] 	#27 : run_train=False idx=27 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,736][HYDRA] 	#28 : run_train=False idx=28 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,743][HYDRA] 	#29 : run_train=False idx=29 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,748][HYDRA] 	#30 : run_train=False idx=30 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,754][HYDRA] 	#31 : run_train=False idx=31 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,761][HYDRA] 	#32 : run_train=False idx=32 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,767][HYDRA] 	#33 : run_train=False idx=33 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,774][HYDRA] 	#34 : run_train=False idx=34 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,780][HYDRA] 	#35 : run_train=False idx=35 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,786][HYDRA] 	#36 : run_train=False idx=393 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,793][HYDRA] 	#37 : run_train=False idx=394 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:55:59,799][HYDRA] 	#38 : run_train=False idx=395 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,017][HYDRA] 	#39 : run_train=False idx=396 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,024][HYDRA] 	#40 : run_train=False idx=397 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,029][HYDRA] 	#41 : run_train=False idx=398 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,035][HYDRA] 	#42 : run_train=False idx=399 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,045][HYDRA] 	#43 : run_train=False idx=400 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,053][HYDRA] 	#44 : run_train=False idx=401 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,059][HYDRA] 	#45 : run_train=False idx=402 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,065][HYDRA] 	#46 : run_train=False idx=403 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,071][HYDRA] 	#47 : run_train=False idx=404 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,077][HYDRA] 	#48 : run_train=False idx=405 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,083][HYDRA] 	#49 : run_train=False idx=406 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,089][HYDRA] 	#50 : run_train=False idx=407 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,096][HYDRA] 	#51 : run_train=False idx=408 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,102][HYDRA] 	#52 : run_train=False idx=409 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,108][HYDRA] 	#53 : run_train=False idx=410 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,114][HYDRA] 	#54 : run_train=False idx=411 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,120][HYDRA] 	#55 : run_train=False idx=412 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,126][HYDRA] 	#56 : run_train=False idx=413 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,133][HYDRA] 	#57 : run_train=False idx=414 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,140][HYDRA] 	#58 : run_train=False idx=415 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,147][HYDRA] 	#59 : run_train=False idx=416 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,153][HYDRA] 	#60 : run_train=False idx=417 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,159][HYDRA] 	#61 : run_train=False idx=418 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,165][HYDRA] 	#62 : run_train=False idx=419 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,172][HYDRA] 	#63 : run_train=False idx=420 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,178][HYDRA] 	#64 : run_train=False idx=421 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,185][HYDRA] 	#65 : run_train=False idx=422 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,191][HYDRA] 	#66 : run_train=False idx=423 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,197][HYDRA] 	#67 : run_train=False idx=424 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,203][HYDRA] 	#68 : run_train=False idx=425 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,210][HYDRA] 	#69 : run_train=False idx=426 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,216][HYDRA] 	#70 : run_train=False idx=427 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,222][HYDRA] 	#71 : run_train=False idx=428 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,228][HYDRA] 	#72 : run_train=False idx=429 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,234][HYDRA] 	#73 : run_train=False idx=430 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,241][HYDRA] 	#74 : run_train=False idx=431 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,246][HYDRA] 	#75 : run_train=False idx=432 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,253][HYDRA] 	#76 : run_train=False idx=433 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,263][HYDRA] 	#77 : run_train=False idx=434 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,270][HYDRA] 	#78 : run_train=False idx=435 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,276][HYDRA] 	#79 : run_train=False idx=436 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,282][HYDRA] 	#80 : run_train=False idx=437 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,288][HYDRA] 	#81 : run_train=False idx=438 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,295][HYDRA] 	#82 : run_train=False idx=439 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,301][HYDRA] 	#83 : run_train=False idx=440 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,307][HYDRA] 	#84 : run_train=False idx=441 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,313][HYDRA] 	#85 : run_train=False idx=442 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,320][HYDRA] 	#86 : run_train=False idx=443 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,326][HYDRA] 	#87 : run_train=False idx=462 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,332][HYDRA] 	#88 : run_train=False idx=463 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+[2023-05-12 11:56:00,373][HYDRA] 	#89 : run_train=False idx=470 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll

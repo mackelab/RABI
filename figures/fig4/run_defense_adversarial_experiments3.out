@@ -66,21 +66,7 @@
 [2023-05-07 14:15:58,224][HYDRA] 	#51 : model=nsf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=1000 train=fKL run_eval=False +experiment=train_small_flows_trades
 [2023-05-07 14:15:58,230][HYDRA] 	#52 : model=nsf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=10000 train=fKL run_eval=False +experiment=train_small_flows_trades
 [2023-05-07 14:15:58,236][HYDRA] 	#53 : model=nsf_pyro task=sir defense=l2pgdTrades_rKL defense.params.eps=1.0 train.N_train=100000 train=fKL run_eval=False +experiment=train_small_flows_trades
-Error executing job with overrides: ['model=maf_pyro', 'task=lotka_volterra', 'defense=l2pgdTrades_rKL', 'defense.params.eps=0.5', 'train.N_train=1000', 'train=fKL', 'run_eval=False', '+experiment=train_small_flows_trades']
-Traceback (most recent call last):
-  File "/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/lib/python3.9/site-packages/hydra/_internal/utils.py", line 220, in run_and_report
-    return func()
-  File "/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/lib/python3.9/site-packages/hydra/_internal/utils.py", line 466, in <lambda>
-    lambda: hydra.multirun(
-  File "/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/lib/python3.9/site-packages/hydra/_internal/hydra.py", line 162, in multirun
-    ret = sweeper.sweep(arguments=task_overrides)
-  File "/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/lib/python3.9/site-packages/hydra/_internal/core_plugins/basic_sweeper.py", line 181, in sweep
-    _ = r.return_value
-  File "/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/lib/python3.9/site-packages/hydra/core/utils.py", line 260, in return_value
-    raise self._return_value
-RuntimeError: CUDA error: out of memory
-CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
-For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+
           
                       
   _____  ____ _____ ____  __  __ 

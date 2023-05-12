@@ -1,0 +1,54 @@
+          
+                      
+  _____  ____ _____ ____  __  __ 
+ |  __ \|  _ \_   _|  _ \|  \/  |       --..,_                     _,.--.       
+ | |__) | |_) || | | |_) | \  / |          `'.'.                .'`__ o  `;__.  
+ |  _  /|  _ < | | |  _ <| |\/| |             '.'.            .'.'`  '---'`  ` 
+ | | \ \| |_) || |_| |_) | |  | |              '.`'--....--'`.'            
+ |_|  \_\____/_____|____/|_|  |_|                `'--....--'`         
+
+ 
+                                           
+
+['/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/bin/rbibm', '+experiment=appendix_vae']
+          
+                      
+  _____  ____ _____ ____  __  __ 
+ |  __ \|  _ \_   _|  _ \|  \/  |       --..,_                     _,.--.       
+ | |__) | |_) || | | |_) | \  / |          `'.'.                .'`__ o  `;__.  
+ |  _  /|  _ < | | |  _ <| |\/| |             '.'.            .'.'`  '---'`  ` 
+ | | \ \| |_) || |_| |_) | |  | |              '.`'--....--'`.'            
+ |_|  \_\____/_____|____/|_|  |_|                `'--....--'`         
+
+ 
+                                           
+
+['/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/bin/rbibm', '+experiment=appendix_vae1']
+          
+                      
+  _____  ____ _____ ____  __  __ 
+ |  __ \|  _ \_   _|  _ \|  \/  |       --..,_                     _,.--.       
+ | |__) | |_) || | | |_) | \  / |          `'.'.                .'`__ o  `;__.  
+ |  _  /|  _ < | | |  _ <| |\/| |             '.'.            .'.'`  '---'`  ` 
+ | | \ \| |_) || |_| |_) | |  | |              '.`'--....--'`.'            
+ |_|  \_\____/_____|____/|_|  |_|                `'--....--'`         
+
+ 
+                                           
+
+['/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/bin/rbibm', '+experiment=appendix_vae2']
+[2023-05-12 12:07:29,910][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-12/12-07-27
+[2023-05-12 12:07:29,915][HYDRA] 	#0 : model=gaussian model/embedding_net=mlp task=vae_task defense=fisher_trace defense.params.beta=0.0001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=appendix_vae
+[2023-05-12 12:07:29,922][HYDRA] 	#1 : model=gaussian model/embedding_net=mlp task=vae_task defense=fisher_trace defense.params.beta=0.001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=appendix_vae
+[2023-05-12 12:07:29,928][HYDRA] 	#2 : model=gaussian model/embedding_net=mlp task=vae_task defense=fisher_trace defense.params.beta=0.01 train.N_train=100000 train=fKL run_eval_rob=False +experiment=appendix_vae
+[2023-05-12 12:07:29,934][HYDRA] 	#3 : model=gaussian model/embedding_net=mlp task=vae_task defense=fisher_trace defense.params.beta=0.1 train.N_train=100000 train=fKL run_eval_rob=False +experiment=appendix_vae
+[2023-05-12 12:07:30,342][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-12/12-07-27
+[2023-05-12 12:07:30,342][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-12/12-07-27
+[2023-05-12 12:07:30,344][HYDRA] 	#0 : model=gaussian model/embedding_net=mlp task=vae_task defense=fisher_trace defense.params.algorithm=jac_exact defense.params.beta=0.0001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=appendix_vae2
+[2023-05-12 12:07:30,345][HYDRA] 	#0 : model=gaussian model/embedding_net=mlp task=vae_task defense=fisher_eigenval defense.params.beta=0.0001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=appendix_vae1
+[2023-05-12 12:07:30,351][HYDRA] 	#1 : model=gaussian model/embedding_net=mlp task=vae_task defense=fisher_trace defense.params.algorithm=jac_exact defense.params.beta=0.001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=appendix_vae2
+[2023-05-12 12:07:30,351][HYDRA] 	#1 : model=gaussian model/embedding_net=mlp task=vae_task defense=fisher_eigenval defense.params.beta=0.001 train.N_train=100000 train=fKL run_eval_rob=False +experiment=appendix_vae1
+[2023-05-12 12:07:30,357][HYDRA] 	#2 : model=gaussian model/embedding_net=mlp task=vae_task defense=fisher_trace defense.params.algorithm=jac_exact defense.params.beta=0.01 train.N_train=100000 train=fKL run_eval_rob=False +experiment=appendix_vae2
+[2023-05-12 12:07:30,357][HYDRA] 	#2 : model=gaussian model/embedding_net=mlp task=vae_task defense=fisher_eigenval defense.params.beta=0.01 train.N_train=100000 train=fKL run_eval_rob=False +experiment=appendix_vae1
+[2023-05-12 12:07:30,363][HYDRA] 	#3 : model=gaussian model/embedding_net=mlp task=vae_task defense=fisher_trace defense.params.algorithm=jac_exact defense.params.beta=0.1 train.N_train=100000 train=fKL run_eval_rob=False +experiment=appendix_vae2
+[2023-05-12 12:07:30,363][HYDRA] 	#3 : model=gaussian model/embedding_net=mlp task=vae_task defense=fisher_eigenval defense.params.beta=0.1 train.N_train=100000 train=fKL run_eval_rob=False +experiment=appendix_vae1
