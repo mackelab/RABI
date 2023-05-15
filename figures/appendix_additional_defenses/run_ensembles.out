@@ -1,0 +1,91 @@
+          
+                      
+  _____  ____ _____ ____  __  __ 
+ |  __ \|  _ \_   _|  _ \|  \/  |       --..,_                     _,.--.       
+ | |__) | |_) || | | |_) | \  / |          `'.'.                .'`__ o  `;__.  
+ |  _  /|  _ < | | |  _ <| |\/| |             '.'.            .'.'`  '---'`  ` 
+ | | \ \| |_) || |_| |_) | |  | |              '.`'--....--'`.'            
+ |_|  \_\____/_____|____/|_|  |_|                `'--....--'`         
+
+ 
+                                           
+
+['/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/bin/rbibm', '+experiment=train_ensembles_large']
+          
+                      
+  _____  ____ _____ ____  __  __ 
+ |  __ \|  _ \_   _|  _ \|  \/  |       --..,_                     _,.--.       
+ | |__) | |_) || | | |_) | \  / |          `'.'.                .'`__ o  `;__.  
+ |  _  /|  _ < | | |  _ <| |\/| |             '.'.            .'.'`  '---'`  ` 
+ | | \ \| |_) || |_| |_) | |  | |              '.`'--....--'`.'            
+ |_|  \_\____/_____|____/|_|  |_|                `'--....--'`         
+
+ 
+                                           
+
+['/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/bin/rbibm', '+experiment=train_ensembles_small']
+          
+                      
+  _____  ____ _____ ____  __  __ 
+ |  __ \|  _ \_   _|  _ \|  \/  |       --..,_                     _,.--.       
+ | |__) | |_) || | | |_) | \  / |          `'.'.                .'`__ o  `;__.  
+ |  _  /|  _ < | | |  _ <| |\/| |             '.'.            .'.'`  '---'`  ` 
+ | | \ \| |_) || |_| |_) | |  | |              '.`'--....--'`.'            
+ |_|  \_\____/_____|____/|_|  |_|                `'--....--'`         
+
+ 
+                                           
+
+['/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/bin/rbibm', '+experiment=train_ensembles_lv']
+[2023-05-12 13:09:16,861][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-12/13-09-15
+[2023-05-12 13:09:16,864][HYDRA] 	#0 : model=maf_pyro_ensemble task=lotka_volterra train.N_train=100000 train.params.lr=0.0001 train.params.patience=15 train=fKL run_eval_rob=False +experiment=train_ensembles_lv
+[2023-05-12 13:09:17,504][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-12/13-09-15
+[2023-05-12 13:09:17,510][HYDRA] 	#0 : model=maf_pyro_ensemble task=gaussian_linear train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_ensembles_small
+[2023-05-12 13:09:17,517][HYDRA] 	#1 : model=maf_pyro_ensemble task=sir train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_ensembles_small
+[2023-05-12 13:09:18,096][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-12/13-09-15
+[2023-05-12 13:09:18,102][HYDRA] 	#0 : model=maf_pyro_ensemble model/embedding_net=mlp task=hudgkin_huxley train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_ensembles_large
+[2023-05-12 13:09:18,108][HYDRA] 	#1 : model=maf_pyro_ensemble model/embedding_net=mlp task=spatial_sir train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_ensembles_large
+[2023-05-12 13:09:18,114][HYDRA] 	#2 : model=maf_pyro_ensemble model/embedding_net=mlp task=vae_task train.N_train=100000 train=fKL run_eval_rob=False +experiment=train_ensembles_large
+/mnt/qb/home/macke/mgloeckler90/robustness_ai/src/rbibm/config/experiment/train_ensembles_lv.yaml
+{'name': 'benchmark', 'defaults': [{'override /partition': 'cuda'}], 'hydra': {'mode': 'MULTIRUN', 'sweeper': {'params': {'model': 'maf_pyro_ensemble', 'task': 'lotka_volterra', 'train.N_train': 100000, 'train.params.lr': '1e-4', 'train.params.patience': 15, 'train': 'fKL', 'run_eval_rob': False}}}}
+/mnt/qb/home/macke/mgloeckler90/robustness_ai/src/rbibm/config/experiment/train_ensembles_large.yaml
+{'name': 'benchmark', 'defaults': [{'override /partition': 'cuda'}], 'hydra': {'mode': 'MULTIRUN', 'sweeper': {'params': {'model': 'maf_pyro_ensemble', 'model/embedding_net': 'mlp', 'task': 'hudgkin_huxley,spatial_sir,vae_task', 'train.N_train': 100000, 'train': 'fKL', 'run_eval_rob': False}}}}
+667,669,674,677,678
+          
+                      
+  _____  ____ _____ ____  __  __ 
+ |  __ \|  _ \_   _|  _ \|  \/  |       --..,_                     _,.--.       
+ | |__) | |_) || | | |_) | \  / |          `'.'.                .'`__ o  `;__.  
+ |  _  /|  _ < | | |  _ <| |\/| |             '.'.            .'.'`  '---'`  ` 
+ | | \ \| |_) || |_| |_) | |  | |              '.`'--....--'`.'            
+ |_|  \_\____/_____|____/|_|  |_|                `'--....--'`         
+
+ 
+                                           
+
+['/mnt/qb/work/macke/mgloeckler90/miniconda3/envs/rbi_camera_ready/bin/rbibm', '+experiment=eval_l2', 'idx=667,669,674,677,678']
+[2023-05-12 16:00:05,258][HYDRA] Submitit 'slurm' sweep output dir : /mnt/qb/macke/mgloeckler90/RBI_paper_final/outputs/2023-05-12/15-59-42
+[2023-05-12 16:00:05,264][HYDRA] 	#0 : run_train=False idx=667 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,270][HYDRA] 	#1 : run_train=False idx=667 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,277][HYDRA] 	#2 : run_train=False idx=667 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,283][HYDRA] 	#3 : run_train=False idx=667 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,289][HYDRA] 	#4 : run_train=False idx=669 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,296][HYDRA] 	#5 : run_train=False idx=669 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,302][HYDRA] 	#6 : run_train=False idx=669 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,309][HYDRA] 	#7 : run_train=False idx=669 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,535][HYDRA] 	#8 : run_train=False idx=674 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,541][HYDRA] 	#9 : run_train=False idx=674 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,548][HYDRA] 	#10 : run_train=False idx=674 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,553][HYDRA] 	#11 : run_train=False idx=674 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,560][HYDRA] 	#12 : run_train=False idx=677 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,567][HYDRA] 	#13 : run_train=False idx=677 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,573][HYDRA] 	#14 : run_train=False idx=677 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,579][HYDRA] 	#15 : run_train=False idx=677 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,585][HYDRA] 	#16 : run_train=False idx=678 eval_rob/metric=rKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,592][HYDRA] 	#17 : run_train=False idx=678 eval_rob/metric=rKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,598][HYDRA] 	#18 : run_train=False idx=678 eval_rob/metric=fKL eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+[2023-05-12 16:00:05,604][HYDRA] 	#19 : run_train=False idx=678 eval_rob/metric=fKL eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2
+/mnt/qb/home/macke/mgloeckler90/robustness_ai/src/rbibm/config/experiment/train_ensembles_small.yaml
+{'name': 'benchmark', 'defaults': [{'override /partition': 'cuda'}], 'hydra': {'mode': 'MULTIRUN', 'sweeper': {'params': {'model': 'maf_pyro_ensemble', 'task': 'gaussian_linear,sir', 'train.N_train': 100000, 'train': 'fKL', 'run_eval_rob': False}}}}
+/mnt/qb/home/macke/mgloeckler90/robustness_ai/src/rbibm/config/experiment/eval_l2.yaml
+{'name': 'benchmark', 'defaults': [{'override /partition': 'cuda'}], 'hydra': {'mode': 'MULTIRUN', 'sweeper': {'params': {'run_train': False, 'idx': 'range(0,32)', 'eval_rob/metric': 'rKL,fKL', 'eval_rob/attack': 'l2pgd,l2noise', 'eval_rob.eps': [0.1, 0.2, 0.3, 0.5, 1.0, 2.0], 'partition': 'cuda', 'device': 'cuda'}}}}

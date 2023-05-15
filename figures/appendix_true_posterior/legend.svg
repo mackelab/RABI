@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="522.34875pt" height="291.6pt" viewBox="0 0 522.34875 291.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2023-05-15T11:02:28.314066</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.5.0, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 291.6 
+L 522.34875 291.6 
+L 522.34875 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="legend_1">
+    <g id="patch_2">
+     <path d="M 10.8 21.742031 
+L 28.8 21.742031 
+L 28.8 15.442031 
+L 10.8 15.442031 
+z
+" style="fill: #08519c; stroke: #08519c; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_1">
+     <text style="font: 9px 'sans-serif'; text-anchor: start" x="36" y="21.742031" transform="rotate(-0, 36, 21.742031)">Approx. posterior</text>
+    </g>
+    <g id="patch_3">
+     <path d="M 122.527969 21.742031 
+L 140.527969 21.742031 
+L 140.527969 15.442031 
+L 122.527969 15.442031 
+z
+" style="fill: #d94801; stroke: #d94801; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_2">
+     <text style="font: 9px 'sans-serif'; text-anchor: start" x="147.727969" y="21.742031" transform="rotate(-0, 147.727969, 21.742031)">Approx. adversarial posterior</text>
+    </g>
+    <g id="patch_4">
+     <path d="M 280.773281 21.742031 
+L 298.773281 21.742031 
+L 298.773281 15.442031 
+L 280.773281 15.442031 
+z
+" style="stroke: #000000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_3">
+     <text style="font: 9px 'sans-serif'; text-anchor: start" x="305.973281" y="21.742031" transform="rotate(-0, 305.973281, 21.742031)">True posterior</text>
+    </g>
+    <g id="patch_5">
+     <path d="M 379.652344 21.742031 
+L 397.652344 21.742031 
+L 397.652344 15.442031 
+L 379.652344 15.442031 
+z
+" style="fill: #8b0000; stroke: #8b0000; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_4">
+     <text style="font: 9px 'sans-serif'; text-anchor: start" x="404.852344" y="21.742031" transform="rotate(-0, 404.852344, 21.742031)">True adversarial posterior</text>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

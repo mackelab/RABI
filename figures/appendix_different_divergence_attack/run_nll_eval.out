@@ -103,3 +103,5 @@
 [2023-05-12 11:56:00,326][HYDRA] 	#87 : run_train=False idx=462 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
 [2023-05-12 11:56:00,332][HYDRA] 	#88 : run_train=False idx=463 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
 [2023-05-12 11:56:00,373][HYDRA] 	#89 : run_train=False idx=470 eval_rob=targeted_theta eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] partition=cuda device=cuda +experiment=eval_l2_nll
+/mnt/qb/home/macke/mgloeckler90/robustness_ai/src/rbibm/config/experiment/eval_l2_nll.yaml
+{'name': 'benchmark', 'defaults': [{'override /partition': 'cuda'}], 'hydra': {'mode': 'MULTIRUN', 'sweeper': {'params': {'run_train': False, 'idx': 'range(0,32)', 'eval_rob': 'targeted_theta', 'eval_rob/attack': 'l2pgd,l2noise', 'eval_rob.eps': [0.1, 0.2, 0.3, 0.5, 1.0, 2.0], 'partition': 'cuda', 'device': 'cuda'}}}}

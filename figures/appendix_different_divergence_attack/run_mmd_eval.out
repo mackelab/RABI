@@ -193,3 +193,5 @@
 [2023-05-12 11:56:16,379][HYDRA] 	#177 : run_train=False idx=463 eval_rob/metric=mmd eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] +experiment=eval_l2_mmd
 [2023-05-12 11:56:16,385][HYDRA] 	#178 : run_train=False idx=470 eval_rob/metric=mmd eval_rob/attack=l2pgd eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] +experiment=eval_l2_mmd
 [2023-05-12 11:56:16,391][HYDRA] 	#179 : run_train=False idx=470 eval_rob/metric=mmd eval_rob/attack=l2noise eval_rob.eps=[0.1,0.2,0.3,0.5,1.0,2.0] +experiment=eval_l2_mmd
+/mnt/qb/home/macke/mgloeckler90/robustness_ai/src/rbibm/config/experiment/eval_l2_mmd.yaml
+{'name': 'benchmark', 'defaults': [{'override /partition': 'cuda'}], 'hydra': {'mode': 'MULTIRUN', 'sweeper': {'params': {'run_train': False, 'idx': 'range(0,32)', 'eval_rob/metric': 'mmd', 'eval_rob/attack': 'l2pgd,l2noise', 'eval_rob.eps': [0.1, 0.2, 0.3, 0.5, 1.0, 2.0]}}}}
