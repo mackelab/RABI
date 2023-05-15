@@ -24,6 +24,8 @@ REQUIRED = [
     "torch>=1.11.0",
     "pyro-ppl",
     "functorch",
+    "cvxpy",
+    "zuko",
 ]
 
 EXTRAS = {

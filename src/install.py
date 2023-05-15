@@ -10,12 +10,14 @@ import os
 here = os.path.abspath(os.path.dirname(__file__))
 sep = os.sep
 
+
 def install():
-    os.system(f"pip install -e '{here}{sep}v1{sep}rbi'")
-    os.system(f"pip install -e '{here}{sep}v1{sep}rbibm'")
+    os.system(f"pip install -e {here}{sep}rbi")
+    os.system(f"pip install -e {here}{sep}rbibm")
+
 
 def install_r():
-    os.system("pip install -r requirements.txt")
+    os.system(f"pip install -r {here}{sep}requirements.txt")
 
 
 if __name__ == "__main__":
@@ -25,8 +27,7 @@ if __name__ == "__main__":
     else:
         with_requirements = False
 
-    if with_requirements:
-        install_r()
-    
     install()
 
+    if with_requirements:
+        install_r()
