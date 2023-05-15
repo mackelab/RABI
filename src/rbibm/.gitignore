@@ -1,7 +1,6 @@
 # Byte-compiled / optimized / DLL files
 final_paper_figures/
 paper_figures/
-rbibm/tasks/
 paper_figures/pyloric_scripts/*.pkl
 nohup.out
 notebooks
