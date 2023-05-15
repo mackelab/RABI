@@ -1168,7 +1168,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_1">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="41.367288" y="121.340469" transform="rotate(-0, 41.367288, 121.340469)">0</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="41.367288" y="121.340469" transform="rotate(-0, 41.367288, 121.340469)">0</text>
      </g>
     </g>
     <g id="xtick_2">
@@ -1178,7 +1178,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_2">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="83.254511" y="121.340469" transform="rotate(-0, 83.254511, 121.340469)">100</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="83.254511" y="121.340469" transform="rotate(-0, 83.254511, 121.340469)">100</text>
      </g>
     </g>
     <g id="xtick_3">
@@ -1188,7 +1188,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_3">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="125.141734" y="121.340469" transform="rotate(-0, 125.141734, 121.340469)">200</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="125.141734" y="121.340469" transform="rotate(-0, 125.141734, 121.340469)">200</text>
      </g>
     </g>
     <g id="text_4">
@@ -1214,7 +1214,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_5">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="29.545937" y="91.672356" transform="rotate(-0, 29.545937, 91.672356)">0</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="29.545937" y="91.672356" transform="rotate(-0, 29.545937, 91.672356)">0</text>
      </g>
     </g>
     <g id="ytick_2">
@@ -1224,7 +1224,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_6">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="29.545937" y="63.457163" transform="rotate(-0, 29.545937, 63.457163)">5</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="29.545937" y="63.457163" transform="rotate(-0, 29.545937, 63.457163)">5</text>
      </g>
     </g>
     <g id="ytick_3">
@@ -1234,11 +1234,11 @@ L -3.5 0
       </g>
      </g>
      <g id="text_7">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="29.545937" y="35.24197" transform="rotate(-0, 29.545937, 35.24197)">10</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="29.545937" y="35.24197" transform="rotate(-0, 29.545937, 35.24197)">10</text>
      </g>
     </g>
     <g id="text_8">
-     <text style="font: 9px 'sans-serif'; text-anchor: middle" x="13.642031" y="57.549219" transform="rotate(-90, 13.642031, 57.549219)">Average NLL</text>
+     <text style="font: 9px 'Arial'; text-anchor: middle" x="13.642031" y="57.549219" transform="rotate(-90, 13.642031, 57.549219)">Average NLL</text>
     </g>
    </g>
    <g id="patch_3">

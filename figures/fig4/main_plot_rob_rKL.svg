@@ -50,7 +50,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_1">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="57.395105" y="103.340469" transform="rotate(-0, 57.395105, 103.340469)">0.1</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="57.395105" y="103.340469" transform="rotate(-0, 57.395105, 103.340469)">0.1</text>
      </g>
     </g>
     <g id="xtick_2">
@@ -60,7 +60,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_2">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="75.032107" y="103.340469" transform="rotate(-0, 75.032107, 103.340469)">0.2</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="75.032107" y="103.340469" transform="rotate(-0, 75.032107, 103.340469)">0.2</text>
      </g>
     </g>
     <g id="xtick_3">
@@ -70,7 +70,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_3">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="92.669109" y="103.340469" transform="rotate(-0, 92.669109, 103.340469)">0.3</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="92.669109" y="103.340469" transform="rotate(-0, 92.669109, 103.340469)">0.3</text>
      </g>
     </g>
     <g id="xtick_4">
@@ -80,7 +80,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_4">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="110.306111" y="103.340469" transform="rotate(-0, 110.306111, 103.340469)">0.5</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="110.306111" y="103.340469" transform="rotate(-0, 110.306111, 103.340469)">0.5</text>
      </g>
     </g>
     <g id="xtick_5">
@@ -90,7 +90,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_5">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="127.943113" y="103.340469" transform="rotate(-0, 127.943113, 103.340469)">1.0</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="127.943113" y="103.340469" transform="rotate(-0, 127.943113, 103.340469)">1.0</text>
      </g>
     </g>
     <g id="xtick_6">
@@ -100,7 +100,7 @@ L 0 3.5
       </g>
      </g>
      <g id="text_6">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="145.580115" y="103.340469" transform="rotate(-0, 145.580115, 103.340469)">2.0</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="145.580115" y="103.340469" transform="rotate(-0, 145.580115, 103.340469)">2.0</text>
      </g>
     </g>
     <g id="text_7">
@@ -471,7 +471,7 @@ L 154.398616 89.898438
 " style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_11">
-    <text style="font: 9px 'sans-serif'; text-anchor: middle" x="101.48761" y="13.751719" transform="rotate(-0, 101.48761, 13.751719)">Linear Gaussian</text>
+    <text style="font: 9px 'Arial'; text-anchor: middle" x="101.48761" y="13.751719" transform="rotate(-0, 101.48761, 13.751719)">Linear Gaussian</text>
    </g>
   </g>
   <g id="axes_2">
@@ -491,7 +491,7 @@ z
       </g>
      </g>
      <g id="text_12">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="197.757117" y="103.340469" transform="rotate(-0, 197.757117, 103.340469)">0.1</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="197.757117" y="103.340469" transform="rotate(-0, 197.757117, 103.340469)">0.1</text>
      </g>
     </g>
     <g id="xtick_8">
@@ -501,7 +501,7 @@ z
       </g>
      </g>
      <g id="text_13">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="215.39412" y="103.340469" transform="rotate(-0, 215.39412, 103.340469)">0.2</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="215.39412" y="103.340469" transform="rotate(-0, 215.39412, 103.340469)">0.2</text>
      </g>
     </g>
     <g id="xtick_9">
@@ -511,7 +511,7 @@ z
       </g>
      </g>
      <g id="text_14">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="233.031122" y="103.340469" transform="rotate(-0, 233.031122, 103.340469)">0.3</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="233.031122" y="103.340469" transform="rotate(-0, 233.031122, 103.340469)">0.3</text>
      </g>
     </g>
     <g id="xtick_10">
@@ -521,7 +521,7 @@ z
       </g>
      </g>
      <g id="text_15">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="250.668124" y="103.340469" transform="rotate(-0, 250.668124, 103.340469)">0.5</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="250.668124" y="103.340469" transform="rotate(-0, 250.668124, 103.340469)">0.5</text>
      </g>
     </g>
     <g id="xtick_11">
@@ -531,7 +531,7 @@ z
       </g>
      </g>
      <g id="text_16">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="268.305126" y="103.340469" transform="rotate(-0, 268.305126, 103.340469)">1.0</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="268.305126" y="103.340469" transform="rotate(-0, 268.305126, 103.340469)">1.0</text>
      </g>
     </g>
     <g id="xtick_12">
@@ -541,7 +541,7 @@ z
       </g>
      </g>
      <g id="text_17">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="285.942128" y="103.340469" transform="rotate(-0, 285.942128, 103.340469)">2.0</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="285.942128" y="103.340469" transform="rotate(-0, 285.942128, 103.340469)">2.0</text>
      </g>
     </g>
     <g id="text_18">
@@ -826,7 +826,7 @@ L 294.760629 89.898438
 " style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_21">
-    <text style="font: 9px 'sans-serif'; text-anchor: middle" x="241.849623" y="13.751719" transform="rotate(-0, 241.849623, 13.751719)">Lotka Volterra</text>
+    <text style="font: 9px 'Arial'; text-anchor: middle" x="241.849623" y="13.751719" transform="rotate(-0, 241.849623, 13.751719)">Lotka Volterra</text>
    </g>
   </g>
   <g id="axes_3">
@@ -846,7 +846,7 @@ z
       </g>
      </g>
      <g id="text_22">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="338.11913" y="103.340469" transform="rotate(-0, 338.11913, 103.340469)">0.1</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="338.11913" y="103.340469" transform="rotate(-0, 338.11913, 103.340469)">0.1</text>
      </g>
     </g>
     <g id="xtick_14">
@@ -856,7 +856,7 @@ z
       </g>
      </g>
      <g id="text_23">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="355.756132" y="103.340469" transform="rotate(-0, 355.756132, 103.340469)">0.2</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="355.756132" y="103.340469" transform="rotate(-0, 355.756132, 103.340469)">0.2</text>
      </g>
     </g>
     <g id="xtick_15">
@@ -866,7 +866,7 @@ z
       </g>
      </g>
      <g id="text_24">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="373.393134" y="103.340469" transform="rotate(-0, 373.393134, 103.340469)">0.3</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="373.393134" y="103.340469" transform="rotate(-0, 373.393134, 103.340469)">0.3</text>
      </g>
     </g>
     <g id="xtick_16">
@@ -876,7 +876,7 @@ z
       </g>
      </g>
      <g id="text_25">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="391.030136" y="103.340469" transform="rotate(-0, 391.030136, 103.340469)">0.5</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="391.030136" y="103.340469" transform="rotate(-0, 391.030136, 103.340469)">0.5</text>
      </g>
     </g>
     <g id="xtick_17">
@@ -886,7 +886,7 @@ z
       </g>
      </g>
      <g id="text_26">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="408.667139" y="103.340469" transform="rotate(-0, 408.667139, 103.340469)">1.0</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="408.667139" y="103.340469" transform="rotate(-0, 408.667139, 103.340469)">1.0</text>
      </g>
     </g>
     <g id="xtick_18">
@@ -896,7 +896,7 @@ z
       </g>
      </g>
      <g id="text_27">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="426.304141" y="103.340469" transform="rotate(-0, 426.304141, 103.340469)">2.0</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="426.304141" y="103.340469" transform="rotate(-0, 426.304141, 103.340469)">2.0</text>
      </g>
     </g>
     <g id="text_28">
@@ -1181,7 +1181,7 @@ L 435.122642 89.898438
 " style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_31">
-    <text style="font: 9px 'sans-serif'; text-anchor: middle" x="382.211635" y="13.751719" transform="rotate(-0, 382.211635, 13.751719)">VAE</text>
+    <text style="font: 9px 'Arial'; text-anchor: middle" x="382.211635" y="13.751719" transform="rotate(-0, 382.211635, 13.751719)">VAE</text>
    </g>
   </g>
   <g id="axes_4">
@@ -1201,7 +1201,7 @@ z
       </g>
      </g>
      <g id="text_32">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="478.481143" y="103.340469" transform="rotate(-0, 478.481143, 103.340469)">0.1</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="478.481143" y="103.340469" transform="rotate(-0, 478.481143, 103.340469)">0.1</text>
      </g>
     </g>
     <g id="xtick_20">
@@ -1211,7 +1211,7 @@ z
       </g>
      </g>
      <g id="text_33">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="496.118145" y="103.340469" transform="rotate(-0, 496.118145, 103.340469)">0.2</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="496.118145" y="103.340469" transform="rotate(-0, 496.118145, 103.340469)">0.2</text>
      </g>
     </g>
     <g id="xtick_21">
@@ -1221,7 +1221,7 @@ z
       </g>
      </g>
      <g id="text_34">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="513.755147" y="103.340469" transform="rotate(-0, 513.755147, 103.340469)">0.3</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="513.755147" y="103.340469" transform="rotate(-0, 513.755147, 103.340469)">0.3</text>
      </g>
     </g>
     <g id="xtick_22">
@@ -1231,7 +1231,7 @@ z
       </g>
      </g>
      <g id="text_35">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="531.392149" y="103.340469" transform="rotate(-0, 531.392149, 103.340469)">0.5</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="531.392149" y="103.340469" transform="rotate(-0, 531.392149, 103.340469)">0.5</text>
      </g>
     </g>
     <g id="xtick_23">
@@ -1241,7 +1241,7 @@ z
       </g>
      </g>
      <g id="text_36">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="549.029151" y="103.340469" transform="rotate(-0, 549.029151, 103.340469)">1.0</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="549.029151" y="103.340469" transform="rotate(-0, 549.029151, 103.340469)">1.0</text>
      </g>
     </g>
     <g id="xtick_24">
@@ -1251,7 +1251,7 @@ z
       </g>
      </g>
      <g id="text_37">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="566.666153" y="103.340469" transform="rotate(-0, 566.666153, 103.340469)">2.0</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="566.666153" y="103.340469" transform="rotate(-0, 566.666153, 103.340469)">2.0</text>
      </g>
     </g>
     <g id="text_38">
@@ -1536,7 +1536,7 @@ L 575.484654 89.898438
 " style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_41">
-    <text style="font: 9px 'sans-serif'; text-anchor: middle" x="522.573648" y="13.751719" transform="rotate(-0, 522.573648, 13.751719)">Hodgkin Huxley</text>
+    <text style="font: 9px 'Arial'; text-anchor: middle" x="522.573648" y="13.751719" transform="rotate(-0, 522.573648, 13.751719)">Hodgkin Huxley</text>
    </g>
   </g>
   <g id="axes_5">
@@ -1556,7 +1556,7 @@ z
       </g>
      </g>
      <g id="text_42">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="618.843155" y="103.340469" transform="rotate(-0, 618.843155, 103.340469)">0.1</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="618.843155" y="103.340469" transform="rotate(-0, 618.843155, 103.340469)">0.1</text>
      </g>
     </g>
     <g id="xtick_26">
@@ -1566,7 +1566,7 @@ z
       </g>
      </g>
      <g id="text_43">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="636.480158" y="103.340469" transform="rotate(-0, 636.480158, 103.340469)">0.2</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="636.480158" y="103.340469" transform="rotate(-0, 636.480158, 103.340469)">0.2</text>
      </g>
     </g>
     <g id="xtick_27">
@@ -1576,7 +1576,7 @@ z
       </g>
      </g>
      <g id="text_44">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="654.11716" y="103.340469" transform="rotate(-0, 654.11716, 103.340469)">0.3</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="654.11716" y="103.340469" transform="rotate(-0, 654.11716, 103.340469)">0.3</text>
      </g>
     </g>
     <g id="xtick_28">
@@ -1586,7 +1586,7 @@ z
       </g>
      </g>
      <g id="text_45">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="671.754162" y="103.340469" transform="rotate(-0, 671.754162, 103.340469)">0.5</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="671.754162" y="103.340469" transform="rotate(-0, 671.754162, 103.340469)">0.5</text>
      </g>
     </g>
     <g id="xtick_29">
@@ -1596,7 +1596,7 @@ z
       </g>
      </g>
      <g id="text_46">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="689.391164" y="103.340469" transform="rotate(-0, 689.391164, 103.340469)">1.0</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="689.391164" y="103.340469" transform="rotate(-0, 689.391164, 103.340469)">1.0</text>
      </g>
     </g>
     <g id="xtick_30">
@@ -1606,7 +1606,7 @@ z
       </g>
      </g>
      <g id="text_47">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="707.028166" y="103.340469" transform="rotate(-0, 707.028166, 103.340469)">2.0</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="707.028166" y="103.340469" transform="rotate(-0, 707.028166, 103.340469)">2.0</text>
      </g>
     </g>
     <g id="text_48">
@@ -1891,7 +1891,7 @@ L 715.846667 89.898438
 " style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_51">
-    <text style="font: 9px 'sans-serif'; text-anchor: middle" x="662.935661" y="13.751719" transform="rotate(-0, 662.935661, 13.751719)">SIR</text>
+    <text style="font: 9px 'Arial'; text-anchor: middle" x="662.935661" y="13.751719" transform="rotate(-0, 662.935661, 13.751719)">SIR</text>
    </g>
   </g>
   <g id="axes_6">
@@ -1911,7 +1911,7 @@ z
       </g>
      </g>
      <g id="text_52">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="759.205168" y="103.340469" transform="rotate(-0, 759.205168, 103.340469)">0.1</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="759.205168" y="103.340469" transform="rotate(-0, 759.205168, 103.340469)">0.1</text>
      </g>
     </g>
     <g id="xtick_32">
@@ -1921,7 +1921,7 @@ z
       </g>
      </g>
      <g id="text_53">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="776.84217" y="103.340469" transform="rotate(-0, 776.84217, 103.340469)">0.2</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="776.84217" y="103.340469" transform="rotate(-0, 776.84217, 103.340469)">0.2</text>
      </g>
     </g>
     <g id="xtick_33">
@@ -1931,7 +1931,7 @@ z
       </g>
      </g>
      <g id="text_54">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="794.479172" y="103.340469" transform="rotate(-0, 794.479172, 103.340469)">0.3</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="794.479172" y="103.340469" transform="rotate(-0, 794.479172, 103.340469)">0.3</text>
      </g>
     </g>
     <g id="xtick_34">
@@ -1941,7 +1941,7 @@ z
       </g>
      </g>
      <g id="text_55">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="812.116174" y="103.340469" transform="rotate(-0, 812.116174, 103.340469)">0.5</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="812.116174" y="103.340469" transform="rotate(-0, 812.116174, 103.340469)">0.5</text>
      </g>
     </g>
     <g id="xtick_35">
@@ -1951,7 +1951,7 @@ z
       </g>
      </g>
      <g id="text_56">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="829.753177" y="103.340469" transform="rotate(-0, 829.753177, 103.340469)">1.0</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="829.753177" y="103.340469" transform="rotate(-0, 829.753177, 103.340469)">1.0</text>
      </g>
     </g>
     <g id="xtick_36">
@@ -1961,7 +1961,7 @@ z
       </g>
      </g>
      <g id="text_57">
-      <text style="font: 9px 'sans-serif'; text-anchor: middle" x="847.390179" y="103.340469" transform="rotate(-0, 847.390179, 103.340469)">2.0</text>
+      <text style="font: 9px 'Arial'; text-anchor: middle" x="847.390179" y="103.340469" transform="rotate(-0, 847.390179, 103.340469)">2.0</text>
      </g>
     </g>
     <g id="text_58">
@@ -2246,7 +2246,7 @@ L 856.20868 89.898438
 " style="fill: none; stroke: #000000; stroke-width: 1.5; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="text_61">
-    <text style="font: 9px 'sans-serif'; text-anchor: middle" x="803.297673" y="13.751719" transform="rotate(-0, 803.297673, 13.751719)">Spatial SIR</text>
+    <text style="font: 9px 'Arial'; text-anchor: middle" x="803.297673" y="13.751719" transform="rotate(-0, 803.297673, 13.751719)">Spatial SIR</text>
    </g>
   </g>
   <g id="legend_1">
@@ -2260,7 +2260,7 @@ L 295.001727 126.895781
     </g>
    </g>
    <g id="text_62">
-    <text style="font: 9px 'sans-serif'; text-anchor: start" x="302.201727" y="130.045781" transform="rotate(-0, 302.201727, 130.045781)">FIM regularizer</text>
+    <text style="font: 9px 'Arial'; text-anchor: start" x="302.201727" y="130.045781" transform="rotate(-0, 302.201727, 130.045781)">FIM regularizer</text>
    </g>
    <g id="line2d_122">
     <path d="M 380.709852 126.895781 
@@ -2272,7 +2272,7 @@ L 398.709852 126.895781
     </g>
    </g>
    <g id="text_63">
-    <text style="font: 9px 'sans-serif'; text-anchor: start" x="405.909852" y="130.045781" transform="rotate(-0, 405.909852, 130.045781)">Adv. training</text>
+    <text style="font: 9px 'Arial'; text-anchor: start" x="405.909852" y="130.045781" transform="rotate(-0, 405.909852, 130.045781)">Adv. training</text>
    </g>
    <g id="line2d_123">
     <path d="M 473.270633 126.895781 
@@ -2284,7 +2284,7 @@ L 491.270633 126.895781
     </g>
    </g>
    <g id="text_64">
-    <text style="font: 9px 'sans-serif'; text-anchor: start" x="498.470633" y="130.045781" transform="rotate(-0, 498.470633, 130.045781)">Trades</text>
+    <text style="font: 9px 'Arial'; text-anchor: start" x="498.470633" y="130.045781" transform="rotate(-0, 498.470633, 130.045781)">Trades</text>
    </g>
    <g id="line2d_124">
     <path d="M 544.141414 126.895781 
@@ -2296,7 +2296,7 @@ L 562.141414 126.895781
     </g>
    </g>
    <g id="text_65">
-    <text style="font: 9px 'sans-serif'; text-anchor: start" x="569.341414" y="130.045781" transform="rotate(-0, 569.341414, 130.045781)">None</text>
+    <text style="font: 9px 'Arial'; text-anchor: start" x="569.341414" y="130.045781" transform="rotate(-0, 569.341414, 130.045781)">None</text>
    </g>
   </g>
  </g>
