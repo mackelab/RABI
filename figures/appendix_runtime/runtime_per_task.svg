@@ -163,7 +163,7 @@ L 0 3.5
      </g>
     </g>
     <g id="text_4">
-     <text style="font: 9px 'sans-serif'; text-anchor: middle" x="111.977574" y="129.97125" transform="rotate(-0, 111.977574, 129.97125)">Number of simulations</text>
+     <text style="font: 9px 'Arial'; text-anchor: middle" x="111.977574" y="129.97125" transform="rotate(-0, 111.977574, 129.97125)">Number of simulations</text>
     </g>
    </g>
    <g id="matplotlib.axis_2">
@@ -179,7 +179,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_5">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="44.635828" y="100.973624" transform="rotate(-0, 44.635828, 100.973624)">0</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="44.635828" y="100.973624" transform="rotate(-0, 44.635828, 100.973624)">0</text>
      </g>
     </g>
     <g id="ytick_2">
@@ -189,7 +189,7 @@ L -3.5 0
       </g>
      </g>
      <g id="text_6">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="44.635828" y="63.373742" transform="rotate(-0, 44.635828, 63.373742)">10000</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="44.635828" y="63.373742" transform="rotate(-0, 44.635828, 63.373742)">10000</text>
      </g>
     </g>
     <g id="ytick_3">
@@ -199,11 +199,11 @@ L -3.5 0
       </g>
      </g>
      <g id="text_7">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="44.635828" y="25.77386" transform="rotate(-0, 44.635828, 25.77386)">20000</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="44.635828" y="25.77386" transform="rotate(-0, 44.635828, 25.77386)">20000</text>
      </g>
     </g>
     <g id="text_8">
-     <text style="font: 9px 'sans-serif'; text-anchor: middle" x="13.642031" y="60.605469" transform="rotate(-90, 13.642031, 60.605469)">Runtime [s]</text>
+     <text style="font: 9px 'Arial'; text-anchor: middle" x="13.642031" y="60.605469" transform="rotate(-90, 13.642031, 60.605469)">Runtime [s]</text>
     </g>
    </g>
    <g id="line2d_17">
@@ -359,7 +359,7 @@ z
     </g>
    </g>
    <g id="text_9">
-    <text style="font: 9px 'sans-serif'; text-anchor: middle" x="111.977574" y="13.751719" transform="rotate(-0, 111.977574, 13.751719)">Linear Gaussian</text>
+    <text style="font: 9px 'Arial'; text-anchor: middle" x="111.977574" y="13.751719" transform="rotate(-0, 111.977574, 13.751719)">Linear Gaussian</text>
    </g>
    <g id="line2d_37">
     <path d="M 71.749743 97.741186 
@@ -550,7 +550,7 @@ L 316.644504 94.631977
      </g>
     </g>
     <g id="text_13">
-     <text style="font: 9px 'sans-serif'; text-anchor: middle" x="274.405283" y="129.97125" transform="rotate(-0, 274.405283, 129.97125)">Number of simulations</text>
+     <text style="font: 9px 'Arial'; text-anchor: middle" x="274.405283" y="129.97125" transform="rotate(-0, 274.405283, 129.97125)">Number of simulations</text>
     </g>
    </g>
    <g id="matplotlib.axis_4">
@@ -561,7 +561,7 @@ L 316.644504 94.631977
       </g>
      </g>
      <g id="text_14">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="207.063537" y="100.981163" transform="rotate(-0, 207.063537, 100.981163)">0</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="207.063537" y="100.981163" transform="rotate(-0, 207.063537, 100.981163)">0</text>
      </g>
     </g>
     <g id="ytick_5">
@@ -571,7 +571,7 @@ L 316.644504 94.631977
       </g>
      </g>
      <g id="text_15">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="207.063537" y="64.321973" transform="rotate(-0, 207.063537, 64.321973)">5000</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="207.063537" y="64.321973" transform="rotate(-0, 207.063537, 64.321973)">5000</text>
      </g>
     </g>
     <g id="ytick_6">
@@ -581,7 +581,7 @@ L 316.644504 94.631977
       </g>
      </g>
      <g id="text_16">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="207.063537" y="27.662782" transform="rotate(-0, 207.063537, 27.662782)">10000</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="207.063537" y="27.662782" transform="rotate(-0, 207.063537, 27.662782)">10000</text>
      </g>
     </g>
    </g>
@@ -712,7 +712,7 @@ L 316.644504 23.465696
     </g>
    </g>
    <g id="text_17">
-    <text style="font: 9px 'sans-serif'; text-anchor: middle" x="274.405283" y="13.751719" transform="rotate(-0, 274.405283, 13.751719)">Lotka Volterra</text>
+    <text style="font: 9px 'Arial'; text-anchor: middle" x="274.405283" y="13.751719" transform="rotate(-0, 274.405283, 13.751719)">Lotka Volterra</text>
    </g>
    <g id="line2d_83">
     <path d="M 234.177452 97.733874 
@@ -890,7 +890,7 @@ L 479.072213 91.73563
      </g>
     </g>
     <g id="text_21">
-     <text style="font: 9px 'sans-serif'; text-anchor: middle" x="436.832992" y="129.97125" transform="rotate(-0, 436.832992, 129.97125)">Number of simulations</text>
+     <text style="font: 9px 'Arial'; text-anchor: middle" x="436.832992" y="129.97125" transform="rotate(-0, 436.832992, 129.97125)">Number of simulations</text>
     </g>
    </g>
    <g id="matplotlib.axis_6">
@@ -901,7 +901,7 @@ L 479.072213 91.73563
       </g>
      </g>
      <g id="text_22">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="369.491247" y="101.00825" transform="rotate(-0, 369.491247, 101.00825)">0</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="369.491247" y="101.00825" transform="rotate(-0, 369.491247, 101.00825)">0</text>
      </g>
     </g>
     <g id="ytick_8">
@@ -911,7 +911,7 @@ L 479.072213 91.73563
       </g>
      </g>
      <g id="text_23">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="369.491247" y="76.115457" transform="rotate(-0, 369.491247, 76.115457)">2000</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="369.491247" y="76.115457" transform="rotate(-0, 369.491247, 76.115457)">2000</text>
      </g>
     </g>
     <g id="ytick_9">
@@ -921,7 +921,7 @@ L 479.072213 91.73563
       </g>
      </g>
      <g id="text_24">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="369.491247" y="51.222663" transform="rotate(-0, 369.491247, 51.222663)">4000</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="369.491247" y="51.222663" transform="rotate(-0, 369.491247, 51.222663)">4000</text>
      </g>
     </g>
     <g id="ytick_10">
@@ -931,7 +931,7 @@ L 479.072213 91.73563
       </g>
      </g>
      <g id="text_25">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="369.491247" y="26.329869" transform="rotate(-0, 369.491247, 26.329869)">6000</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="369.491247" y="26.329869" transform="rotate(-0, 369.491247, 26.329869)">6000</text>
      </g>
     </g>
    </g>
@@ -1062,7 +1062,7 @@ L 479.072213 23.465696
     </g>
    </g>
    <g id="text_26">
-    <text style="font: 9px 'sans-serif'; text-anchor: middle" x="436.832992" y="13.751719" transform="rotate(-0, 436.832992, 13.751719)">VAE</text>
+    <text style="font: 9px 'Arial'; text-anchor: middle" x="436.832992" y="13.751719" transform="rotate(-0, 436.832992, 13.751719)">VAE</text>
    </g>
    <g id="line2d_130">
     <path d="M 396.605162 97.722844 
@@ -1240,7 +1240,7 @@ L 641.499922 91.781431
      </g>
     </g>
     <g id="text_30">
-     <text style="font: 9px 'sans-serif'; text-anchor: middle" x="599.260701" y="129.97125" transform="rotate(-0, 599.260701, 129.97125)">Number of simulations</text>
+     <text style="font: 9px 'Arial'; text-anchor: middle" x="599.260701" y="129.97125" transform="rotate(-0, 599.260701, 129.97125)">Number of simulations</text>
     </g>
    </g>
    <g id="matplotlib.axis_8">
@@ -1251,7 +1251,7 @@ L 641.499922 91.781431
       </g>
      </g>
      <g id="text_31">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="531.918956" y="100.990183" transform="rotate(-0, 531.918956, 100.990183)">0</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="531.918956" y="100.990183" transform="rotate(-0, 531.918956, 100.990183)">0</text>
      </g>
     </g>
     <g id="ytick_12">
@@ -1261,7 +1261,7 @@ L 641.499922 91.781431
       </g>
      </g>
      <g id="text_32">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="531.918956" y="64.224092" transform="rotate(-0, 531.918956, 64.224092)">5000</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="531.918956" y="64.224092" transform="rotate(-0, 531.918956, 64.224092)">5000</text>
      </g>
     </g>
     <g id="ytick_13">
@@ -1271,7 +1271,7 @@ L 641.499922 91.781431
       </g>
      </g>
      <g id="text_33">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="531.918956" y="27.458001" transform="rotate(-0, 531.918956, 27.458001)">10000</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="531.918956" y="27.458001" transform="rotate(-0, 531.918956, 27.458001)">10000</text>
      </g>
     </g>
    </g>
@@ -1402,7 +1402,7 @@ L 641.499922 23.465696
     </g>
    </g>
    <g id="text_34">
-    <text style="font: 9px 'sans-serif'; text-anchor: middle" x="599.260701" y="13.751719" transform="rotate(-0, 599.260701, 13.751719)">Hodgkin Huxley</text>
+    <text style="font: 9px 'Arial'; text-anchor: middle" x="599.260701" y="13.751719" transform="rotate(-0, 599.260701, 13.751719)">Hodgkin Huxley</text>
    </g>
    <g id="line2d_176">
     <path d="M 559.032871 97.730929 
@@ -1580,7 +1580,7 @@ L 803.927631 94.241965
      </g>
     </g>
     <g id="text_38">
-     <text style="font: 9px 'sans-serif'; text-anchor: middle" x="761.68841" y="129.97125" transform="rotate(-0, 761.68841, 129.97125)">Number of simulations</text>
+     <text style="font: 9px 'Arial'; text-anchor: middle" x="761.68841" y="129.97125" transform="rotate(-0, 761.68841, 129.97125)">Number of simulations</text>
     </g>
    </g>
    <g id="matplotlib.axis_10">
@@ -1591,7 +1591,7 @@ L 803.927631 94.241965
       </g>
      </g>
      <g id="text_39">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="694.346665" y="101.000602" transform="rotate(-0, 694.346665, 101.000602)">0</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="694.346665" y="101.000602" transform="rotate(-0, 694.346665, 101.000602)">0</text>
      </g>
     </g>
     <g id="ytick_15">
@@ -1601,7 +1601,7 @@ L 803.927631 94.241965
       </g>
      </g>
      <g id="text_40">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="694.346665" y="70.581093" transform="rotate(-0, 694.346665, 70.581093)">2000</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="694.346665" y="70.581093" transform="rotate(-0, 694.346665, 70.581093)">2000</text>
      </g>
     </g>
     <g id="ytick_16">
@@ -1611,7 +1611,7 @@ L 803.927631 94.241965
       </g>
      </g>
      <g id="text_41">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="694.346665" y="40.161584" transform="rotate(-0, 694.346665, 40.161584)">4000</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="694.346665" y="40.161584" transform="rotate(-0, 694.346665, 40.161584)">4000</text>
      </g>
     </g>
    </g>
@@ -1742,7 +1742,7 @@ L 803.927631 23.465696
     </g>
    </g>
    <g id="text_42">
-    <text style="font: 9px 'sans-serif'; text-anchor: middle" x="761.68841" y="13.751719" transform="rotate(-0, 761.68841, 13.751719)">SIR</text>
+    <text style="font: 9px 'Arial'; text-anchor: middle" x="761.68841" y="13.751719" transform="rotate(-0, 761.68841, 13.751719)">SIR</text>
    </g>
    <g id="line2d_222">
     <path d="M 721.46058 97.724428 
@@ -1920,7 +1920,7 @@ L 966.355341 90.434861
      </g>
     </g>
     <g id="text_46">
-     <text style="font: 9px 'sans-serif'; text-anchor: middle" x="924.116119" y="129.97125" transform="rotate(-0, 924.116119, 129.97125)">Number of simulations</text>
+     <text style="font: 9px 'Arial'; text-anchor: middle" x="924.116119" y="129.97125" transform="rotate(-0, 924.116119, 129.97125)">Number of simulations</text>
     </g>
    </g>
    <g id="matplotlib.axis_12">
@@ -1931,7 +1931,7 @@ L 966.355341 90.434861
       </g>
      </g>
      <g id="text_47">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="856.774374" y="101.020577" transform="rotate(-0, 856.774374, 101.020577)">0</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="856.774374" y="101.020577" transform="rotate(-0, 856.774374, 101.020577)">0</text>
      </g>
     </g>
     <g id="ytick_18">
@@ -1941,7 +1941,7 @@ L 966.355341 90.434861
       </g>
      </g>
      <g id="text_48">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="856.774374" y="66.567282" transform="rotate(-0, 856.774374, 66.567282)">2000</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="856.774374" y="66.567282" transform="rotate(-0, 856.774374, 66.567282)">2000</text>
      </g>
     </g>
     <g id="ytick_19">
@@ -1951,7 +1951,7 @@ L 966.355341 90.434861
       </g>
      </g>
      <g id="text_49">
-      <text style="font: 9px 'sans-serif'; text-anchor: end" x="856.774374" y="32.113987" transform="rotate(-0, 856.774374, 32.113987)">4000</text>
+      <text style="font: 9px 'Arial'; text-anchor: end" x="856.774374" y="32.113987" transform="rotate(-0, 856.774374, 32.113987)">4000</text>
      </g>
     </g>
    </g>
@@ -2082,7 +2082,7 @@ L 966.355341 23.465696
     </g>
    </g>
    <g id="text_50">
-    <text style="font: 9px 'sans-serif'; text-anchor: middle" x="924.116119" y="13.751719" transform="rotate(-0, 924.116119, 13.751719)">Spatial SIR</text>
+    <text style="font: 9px 'Arial'; text-anchor: middle" x="924.116119" y="13.751719" transform="rotate(-0, 924.116119, 13.751719)">Spatial SIR</text>
    </g>
    <g id="line2d_268">
     <path d="M 883.888289 97.724077 
@@ -2163,7 +2163,7 @@ z
     </g>
    </g>
    <g id="text_51">
-    <text style="font: 9px 'sans-serif'; text-anchor: start" x="365.650911" y="145.885781" transform="rotate(-0, 365.650911, 145.885781)">FIM regularizer</text>
+    <text style="font: 9px 'Arial'; text-anchor: start" x="365.650911" y="145.885781" transform="rotate(-0, 365.650911, 145.885781)">FIM regularizer</text>
    </g>
    <g id="PathCollection_26">
     <defs>
@@ -2184,7 +2184,7 @@ z
     </g>
    </g>
    <g id="text_52">
-    <text style="font: 9px 'sans-serif'; text-anchor: start" x="469.359036" y="145.885781" transform="rotate(-0, 469.359036, 145.885781)">Adv. training</text>
+    <text style="font: 9px 'Arial'; text-anchor: start" x="469.359036" y="145.885781" transform="rotate(-0, 469.359036, 145.885781)">Adv. training</text>
    </g>
    <g id="PathCollection_27">
     <defs>
@@ -2205,7 +2205,7 @@ z
     </g>
    </g>
    <g id="text_53">
-    <text style="font: 9px 'sans-serif'; text-anchor: start" x="561.919817" y="145.885781" transform="rotate(-0, 561.919817, 145.885781)">Trades</text>
+    <text style="font: 9px 'Arial'; text-anchor: start" x="561.919817" y="145.885781" transform="rotate(-0, 561.919817, 145.885781)">Trades</text>
    </g>
    <g id="PathCollection_28">
     <defs>
@@ -2226,7 +2226,7 @@ z
     </g>
    </g>
    <g id="text_54">
-    <text style="font: 9px 'sans-serif'; text-anchor: start" x="632.790598" y="145.885781" transform="rotate(-0, 632.790598, 145.885781)">None</text>
+    <text style="font: 9px 'Arial'; text-anchor: start" x="632.790598" y="145.885781" transform="rotate(-0, 632.790598, 145.885781)">None</text>
    </g>
   </g>
  </g>
