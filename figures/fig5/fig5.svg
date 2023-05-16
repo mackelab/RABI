@@ -5,7 +5,7 @@
    viewBox="0 0 30.5cm 9cm"
    height="9cm"
    id="svg3156"
-   sodipodi:docname="fig5_update.svg"
+   sodipodi:docname="fig5.svg"
    inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -30,14 +30,14 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="1.0331762"
-     inkscape:cx="429.25881"
-     inkscape:cy="288.43095"
+     inkscape:cx="492.1716"
+     inkscape:cy="200.35304"
      inkscape:window-width="2560"
      inkscape:window-height="1369"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g3146">
+     inkscape:current-layer="g2802">
     <sodipodi:guide
        position="57.756025,313.96811"
        orientation="1,0"
@@ -71,7 +71,7 @@
        orientation="1,0"
        id="guide3176" />
     <sodipodi:guide
-       position="1133.8821,261.75846"
+       position="1145.0128,401.13449"
        orientation="1,0"
        id="guide3178" />
   </sodipodi:namedview>
@@ -5557,7 +5557,8 @@
            id="style2447">*{stroke-linejoin: round; stroke-linecap: butt}</style>
       </defs>
       <g
-         id="g2795">
+         id="g2795"
+         transform="translate(7.5000022)">
         <g
            id="g2453">
           <path
@@ -6369,7 +6370,7 @@
       </defs>
     </g>
     <g
-       transform="matrix(1.333333,0,0,1.333333,832.24,142.08)"
+       transform="matrix(1.333333,0,0,1.333333,842.24,142.08)"
        id="g3144">
       <metadata
          id="metadata2804">
