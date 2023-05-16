@@ -14,20 +14,21 @@ hydra-core==1.3.2
 omegaconf==2.2.2
 chardet==5.1.0
 pandas==1.4.0
-pyloric==0.0.1
 PyYAML==6.0
-svgutil==0.3.1
 paretoset
 sbi==0.21.0
 scikit_learn==1.2.1
 scipy==1.8.0
 seaborn==0.11.2
-torch==1.13.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+torch==1.13.1 --extra-index-url https://download.pytorch.org/whl/cu116 
 functorch==1.13.1
 torchdiffeq==0.2.2
-torchvision==0.14.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+torchvision==0.14.1 --extra-index-url https://download.pytorch.org/whl/cu116 
 tueplots==0.0.4
-jupyter
 
 git+https://github.com/BorealisAI/advertorch.git 
+
 git+https://github.com/mackelab/pyloric.git
+
+jupyter
+svgutils==0.3.1

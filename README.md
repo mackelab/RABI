@@ -6,7 +6,8 @@ This package contains the code to reproduce results from the paper: TODO LINK
 
 Installation of all dependencies should work by just running
 ```bash
-python src/install.py v1
+conda create -n rbi1 python=3.9
+python src/install.py -r
 ```
 
 This should also install a script  **rbibm** to your command line (tested on Linux and Windows), which serves as main interface to run experiments on large scales.

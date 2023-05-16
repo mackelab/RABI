@@ -1,9 +1,5 @@
 
-# Custom
-examples/data
-examples/sbi-logs
-None/
-experimental
+
 # Editors
 .tags
 .vscode
