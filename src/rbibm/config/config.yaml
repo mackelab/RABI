@@ -15,7 +15,7 @@ store_simulations: True
 device: cpu 
 verbose: True
 
-data_path: C:\Users\manug\Desktop\AMI\robustness_ai\robustness_ai\src\rbibm
+data_path: /mnt/qb/macke/mgloeckler90/RBI_paper_final
 
 
 hydra:
