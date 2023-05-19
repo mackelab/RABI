@@ -12,12 +12,12 @@ sep = os.sep
 
 
 def install():
-    os.system(f"pip install -e {here}{sep}rbi")
-    os.system(f"pip install -e {here}{sep}rbibm")
+    os.system(f"pip install -e {here}{sep}rbi --user")
+    os.system(f"pip install -e {here}{sep}rbibm --user")
 
 
 def install_r():
-    os.system(f"pip install -r {here}{sep}requirements.txt")
+    os.system(f"pip install -r {here}{sep}requirements.txt --user")
 
 
 if __name__ == "__main__":

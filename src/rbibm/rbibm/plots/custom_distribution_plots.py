@@ -213,6 +213,8 @@ def custom_2d_joint_plot(
     labels: Optional[tuple[str,str]]=None,
     figsize: tuple[int, int]=(5, 5),
     colors: Optional[list[str]]=None,
+    xlim: Optional[list[float]]=None,
+    ylim: Optional[list[float]]=None,
     ratio: int =5,
     levels: int = 5,
 ):
@@ -338,6 +340,11 @@ def custom_2d_joint_plot(
         if point is not None:
             ax_joint.scatter(point[...,0], point[...,1], color=colors[c])    # type: ignore
     
+    if xlim is not None:
+        ax_joint.set_xlim(xlim)
+    
+    if ylim is not None:
+        ax_joint.set_ylim(ylim)
 
     return fig, [ax_joint, ax_marg_x, ax_marg_y]
 
