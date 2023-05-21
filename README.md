@@ -1,4 +1,4 @@
-# **R**obustness of **A**mortized **B**ayesian **I**nference
+# **R**obustness of **A**mortized **B**ayesian **I**nference (RABI)
 
 This package contains the code to reproduce results from the paper: TODO LINK
 
