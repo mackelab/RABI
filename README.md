@@ -52,4 +52,6 @@ In the [figures](https://github.com/mackelab/robustness_ai/tree/main/figures) fo
 
 ## Extending the work
 
-TODO
+There are some ...
+
+To add new content there are two packages to orientate. First, [RBI](https://github.com/mackelab/RABI/tree/main/src/rbi) which serves as interface to implement models, attacks or defense methods that then can be analyzed in [RBIBM](https://github.com/mackelab/RABI/tree/main/src/rbibm) on a large scale (designed to run on a SLURM cluster).
