@@ -87,3 +87,7 @@ This can be used to select certain partitions and other SLURM-related parameters
 ## 10) Sweeper
 
 Typically the "sweeping" mode is set to "none," i.e., no sweeps. Then the script is executed once, and all results are saved to the database. In sweeping mode, it instead does not save all results but only runs the script, evaluates a loss, and saves the configurations that minimize/maximize the loss. Several Bayesian optimization algorithms are available,  also "multi-objective" optimization is possible. For example, this allows minimizing both an **approximation** and a **robustness** metric.
+
+## 11) Experiments
+
+This parameterizes several *experiments*, which is typically a composition of several hyperparameters that can be all be execute in parallel.

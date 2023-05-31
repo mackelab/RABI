@@ -1,6 +1,6 @@
 # **R**obustness of **A**mortized **B**ayesian **I**nference (RABI)
 
-This package contains the code to reproduce results from the paper: [Adversarial robustness of amortized Bayesian Inference](link)
+This package contains the code to reproduce results from the paper: [Adversarial robustness of amortized Bayesian Inference](https://arxiv.org/abs/2305.14984)
 
 ## Installation
 
@@ -48,10 +48,25 @@ By default all results are stored in a database (by default a "data" folder is c
 
 ### Reproducing results
 
-In the [figures](https://github.com/mackelab/robustness_ai/tree/main/figures) folder you typically find a "run_****_experiment.sh" file (which runs the necessary experiments to create the figure) as well as one or two notebook which creates the plots.
+In the [figures](https://github.com/mackelab/robustness_ai/tree/main/figures) folder you typically find a "run_****_experiment.sh" file (which runs the necessary experiments to create the figure) as well as one or two notebook which creates the plots (sometimes individual figures manually composed via Inkscaped).
 
 ## Extending the work
 
-There are some ...
+There are quite alot of different configuration which we did not fully explore in our work, which already can be easily evaluated by just changing the configuration file (i.e. using l1 or linf attack instead of l2 attacks and many other stuff). More details [here](https://github.com/mackelab/RABI/tree/main/src/rbibm/config). This also describes how to your own "model" or "defense" to the evaluation by just adding a new config-file.
 
 To add new content there are two packages to orientate. First, [RBI](https://github.com/mackelab/RABI/tree/main/src/rbi) which serves as interface to implement models, attacks or defense methods that then can be analyzed in [RBIBM](https://github.com/mackelab/RABI/tree/main/src/rbibm) on a large scale (designed to run on a SLURM cluster).
+
+
+## Cite
+
+If you found this useful for your research, please cite:
+```
+@misc{glöckler2023adversarial,
+      title={Adversarial robustness of amortized Bayesian inference}, 
+      author={Manuel Glöckler and Michael Deistler and Jakob H. Macke},
+      year={2023},
+      eprint={2305.14984},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
