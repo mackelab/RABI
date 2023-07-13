@@ -18,7 +18,7 @@ PyYAML==6.0
 paretoset
 sbi==0.21.0
 scikit_learn==1.2.1
-scipy==1.8.0
+scipy==1.10.0
 seaborn==0.11.2
 torch==1.13.1 --extra-index-url https://download.pytorch.org/whl/cu116 
 functorch==1.13.1
