@@ -6,7 +6,7 @@ pyparsing==3.0.7
 pyro_ppl==1.8.4
 pytest==7.0.0
 pytest-cov==4.0.0
-setuptools==63.4.1
+setuptools==65.5.1
 tqdm==4.64.0
 zuko==0.0.5
 arviz==0.12.1
